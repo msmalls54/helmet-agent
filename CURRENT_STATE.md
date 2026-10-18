@@ -4,6 +4,16 @@ Last reconciled: **October 17, 2026**. Start here before changing hardware or
 adding demo features. [setup.json](setup.json) is the machine-readable companion;
 dated receipts are snapshots, not a claim that a device is connected now.
 
+**Public GitHub release:** [msmalls54/helmet-agent](https://github.com/msmalls54/helmet-agent)
+is public on `main`. Anonymous reads verified the README, both featured images,
+firmware, server entry point and both widget sources against the release copy.
+The initial public commit is `5dba35c`; it contains a clean 240-file snapshot of
+the working project, with account/messaging setup values replaced. The full
+local development history and ignored runtime credentials remain on this laptop.
+The running helmet/server were not changed or restarted for publication.
+See [publication receipt](evidence/github-publication.json) and
+[release maintenance](docs/GITHUB_RELEASE.md) before updating GitHub.
+
 **Product documentation:** the user requested the product README skill. The
 README now leads with the trainer's player/reason/evidence handoff, the real
 44.65 g held-tap receipt and confirmed phone arrival, then the #72 practice
@@ -14,7 +24,7 @@ to preserve the user's existing unsent strategy draft. Alert selectivity, shell
 reading, provider delivery timing, sample-source separation and different peer
 roles remain explicit. [Copy-pass receipt](evidence/readme-value-pass.json).
 No runtime behavior changed, no phone messages were sent and no physical tests
-were requested. This checkout has no configured Git remote; changes are local.
+were requested. The README and engineering notes are now in the public release.
 
 **Hackathon readiness assessment (October 17):** supported for demonstrating
 helmet events over Wi-Fi, recorded history, MCP visuals and selective trainer

@@ -6,6 +6,7 @@ connection check run **Check Helmet.cmd**. Historical filenames stay unchanged.
 
 | Question | Receipt / visual |
 | --- | --- |
+| Can judges read the project on GitHub? | [Public repository](https://github.com/msmalls54/helmet-agent), [publication receipt](github-publication.json). Anonymous access verified README, featured images, firmware/server and both widget sources; local setup details replaced and runtime unchanged. |
 | Does the README lead with the demonstrated value? | [Copy-pass checks](readme-value-pass.json), [Claude positioning review](readme-value-claude-review.jpg). Real event/history/phone receipt first, practice pattern next, actual visuals and setup links; documentation-only, no new physical inputs or trainer texts. |
 | Is the software path working now? | [Latest read-only preflight](demo-preflight.json) — overwritten by each check, includes timestamp and scope |
 | Did the full back/front tap comparison establish hardness ranking? | [Readable results](tap-comparison-results.html), [full receipt](tap-comparison-final-result.json), [restored normal status](tap-comparison-restored-health.json), [final Claude review](tap-comparison-final-claude.png). Nine attempts per site completed: 17 waveforms, 13 clean, four settling flags and one uncaptured front light tap. Neither primary quality criterion passed; live peak-g/alerts unchanged. Original timeout and canceled window retained. [Installation](tap-comparison-installation.json) and [earlier preparation](tap-comparison-software.json) remain historical. |

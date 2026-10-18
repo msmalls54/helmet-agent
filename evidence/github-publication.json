@@ -1,0 +1,81 @@
+{
+  "checked_at_utc": "2026-10-18T06:34:10.901504+00:00",
+  "repository": "https://github.com/msmalls54/helmet-agent",
+  "visibility": "public",
+  "default_branch": "main",
+  "initial_public_commit": "5dba35c",
+  "source_development_commit": "a983bb24889b01aa6718a84921a22c8cdc34fb70",
+  "initial_project_files": 240,
+  "publication_history": "New public release snapshot; original working history retained locally",
+  "history_blob_scan_count": 576,
+  "forbidden_secret_paths_ever_committed": 0,
+  "known_live_local_credentials_in_release": 0,
+  "nonempty_json_credential_fields_in_release": 0,
+  "public_placeholder_files": [
+    "evidence/inkbox-outbound-test-request.json",
+    "evidence/inkbox-outbound-test-status.json",
+    "evidence/inkbox-phone-connection-status.json",
+    "evidence/inkbox-setup-status.json",
+    "server/.env.example",
+    "server/INKBOX_SETUP.md"
+  ],
+  "anonymous_repository_metadata_read": true,
+  "anonymous_file_checks": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 7129,
+      "sha256": "9029695853d7e94daf9826318ce4b00812b8a96e6e6d2989dcf1f88ee7377e53"
+    },
+    {
+      "path": "evidence/cumulative-map-claude.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 59347,
+      "sha256": "001641dee7fcc87ea743440fbf88c0a6308fce62ff8ada604b903afbddb0c4a2"
+    },
+    {
+      "path": "evidence/practice-resource-repaired.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 58529,
+      "sha256": "950d166d70a31808b3fe8530e9fb6c4b3252b9357765ceea7d238ce351a98c1c"
+    },
+    {
+      "path": "firmware/helmet_impact/helmet_impact.ino",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 44125,
+      "sha256": "ef8bdda115489610b2e99f64dab016b806e3870397eb67466dec49156f65a5ae"
+    },
+    {
+      "path": "server/index.ts",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 3600,
+      "sha256": "daeea3fcd49ca95568c552b06afb363890e3274b165220a03d5c0797cb273ed7"
+    },
+    {
+      "path": "server/resources/helmet/widget.tsx",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 9080,
+      "sha256": "bfb077aa9f6af7bb38acfc3d87ec7ffc0748f6ebe4e009e89bdc33ba31d44c18"
+    },
+    {
+      "path": "server/resources/practice/widget.tsx",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 9030,
+      "sha256": "fcb9e657be5903d953df033d503360e13075c9b8a5db7874b9b14539f9db8588"
+    }
+  ],
+  "public_git_author_uses_github_noreply": true,
+  "runtime_changed": false,
+  "firmware_flashed": false,
+  "server_restarted": false,
+  "new_physical_tests": 0,
+  "trainer_messages_sent": 0,
+  "release_maintenance": "docs/GITHUB_RELEASE.md"
+}
