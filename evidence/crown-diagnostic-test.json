@@ -1,0 +1,259 @@
+{
+  "checked_at_utc": "2026-10-17T21:36:23.726488+00:00",
+  "test": "One crown tap in explicit raw-pulse probe mode",
+  "user_report": "Done \u2014 one crown tap while held clear",
+  "support_condition": "User reports empty helmet upright, held by facemask clear of table",
+  "association": "Single diagnostic pulse observed after tap instruction and before Done response; tap force and exact contact time were not independently measured",
+  "boot_id": "efca8567ce11151a",
+  "pulse": {
+    "type": "diagnostic_pulse",
+    "id": 1,
+    "ms": 237029,
+    "peak_g": 6.910004,
+    "raw_axis_peak_g": 3.234,
+    "span_above_5g_ms": 2.161,
+    "longest_raw_axis_above_shock_ms": 0,
+    "hardware_shock_observed": false,
+    "near_miss": true,
+    "sampled_estimate": true,
+    "max_gap_ms": 2.161,
+    "accel_clipped": false,
+    "hardware_association_window_ms": 20,
+    "samples": 6,
+    "trace_truncated": false,
+    "impact_detection_paused": true,
+    "threshold_g": 10.14,
+    "max_duration_ms": 50,
+    "baseline_ax": 1.051203,
+    "baseline_ay": -1.385016,
+    "baseline_az": 0.120969
+  },
+  "raw_trace": [
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -19140,
+      "ax": 1.078,
+      "ay": -1.47,
+      "az": 0
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -17010,
+      "ax": 0.98,
+      "ay": -1.47,
+      "az": 0.49
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -14885,
+      "ax": 1.176,
+      "ay": -1.47,
+      "az": 0
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -12758,
+      "ax": 1.274,
+      "ay": -2.156,
+      "az": 0.392
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -10624,
+      "ax": 0.882,
+      "ay": -1.568,
+      "az": 0.196
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -8500,
+      "ax": 1.274,
+      "ay": -1.47,
+      "az": 0
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -6376,
+      "ax": 1.078,
+      "ay": -1.666,
+      "az": 0
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -4250,
+      "ax": 0.98,
+      "ay": -1.568,
+      "az": 0
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": -2125,
+      "ax": -0.294,
+      "ay": 1.078,
+      "az": -1.372
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 0,
+      "ax": -1.372,
+      "ay": 2.842,
+      "az": 1.666
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 2161,
+      "ax": -2.842,
+      "ay": 3.234,
+      "az": -3.234
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 4310,
+      "ax": -0.686,
+      "ay": 2.058,
+      "az": -1.47
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 6438,
+      "ax": -0.49,
+      "ay": 2.058,
+      "az": -1.274
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 8574,
+      "ax": -0.294,
+      "ay": 2.45,
+      "az": -0.686
+    },
+    {
+      "type": "diagnostic_sample",
+      "pulse_id": 1,
+      "relative_us": 10712,
+      "ax": 0.588,
+      "ay": 0,
+      "az": -0.686
+    }
+  ],
+  "network_near_miss_received": {
+    "received_at": "2026-10-17T21:35:15.344Z",
+    "boot_id": "efca8567ce11151a",
+    "calibrated": true,
+    "diagnostic_mode": "raw_pulse_probe",
+    "diagnostic_window_peak_g": 0.854118,
+    "dropped_hits": 0,
+    "helmet_id": "helmet-1",
+    "impact_detection_paused": true,
+    "near_miss": {
+      "accel_clipped": false,
+      "age_ms": 15315,
+      "hardware_shock_observed": false,
+      "id": 1,
+      "longest_raw_axis_above_shock_ms": 0,
+      "max_gap_ms": 2.161,
+      "ms": 237029,
+      "peak_g": 6.910004,
+      "sampled_estimate": true,
+      "samples": 6,
+      "span_above_5g_ms": 2.161
+    },
+    "near_miss_observation": "explicit_probe_only",
+    "player": "#44",
+    "queued_hits": 0,
+    "rssi": -31,
+    "type": "heartbeat",
+    "uptime_ms": 252344
+  },
+  "network_after_timeout": {
+    "received_at": "2026-10-17T21:35:45.353Z",
+    "boot_id": "efca8567ce11151a",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "diagnostic_window_peak_g": 0.861379,
+    "dropped_hits": 0,
+    "helmet_id": "helmet-1",
+    "impact_detection_paused": false,
+    "near_miss": {
+      "accel_clipped": false,
+      "age_ms": 45358,
+      "hardware_shock_observed": false,
+      "id": 1,
+      "longest_raw_axis_above_shock_ms": 0,
+      "max_gap_ms": 2.161,
+      "ms": 237029,
+      "peak_g": 6.910004,
+      "sampled_estimate": true,
+      "samples": 6,
+      "span_above_5g_ms": 2.161
+    },
+    "near_miss_observation": "explicit_probe_only",
+    "player": "#44",
+    "queued_hits": 0,
+    "rssi": -32,
+    "type": "heartbeat",
+    "uptime_ms": 282387
+  },
+  "serial_after_timeout": {
+    "type": "heartbeat",
+    "ms": 277713,
+    "rest_accel_g": 1.809686,
+    "rest_ax_g": 1.176,
+    "rest_ay_g": -1.372,
+    "rest_az_g": 0.098,
+    "gyro_dps": 0.626099,
+    "gyro_read_hz": 792.6,
+    "i2c_errors": 0,
+    "calibrated": true,
+    "armed": true,
+    "cal_step": -1,
+    "shock_threshold_g": 10.14,
+    "shock_max_duration_ms": 50,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "near_miss": {
+      "id": 1,
+      "peak_g": 6.910004,
+      "span_above_5g_ms": 2.161,
+      "longest_raw_axis_above_shock_ms": 0,
+      "sampled_estimate": true
+    },
+    "calibration_method": "five_static_gravity_positions"
+  },
+  "normal_impact_event_created": false,
+  "normal_impacts_paused_during_probe": true,
+  "impact_count_unchanged": 7,
+  "calibration_retained": true,
+  "i2c_errors": 0,
+  "interpretation": {
+    "supported": "The diagnostic recorded a pulse and its near-miss summary reached the laptop over Wi-Fi. The sampled raw-axis peak of 3.234 g was below the configured 10.14 g shock threshold. No hardware shock flag was observed.",
+    "inference": "A below-threshold pulse is consistent with this non-triggering tap.",
+    "not_established": [
+      "Cause of the earlier crown misses",
+      "Rejection because of maximum duration",
+      "The full internal detector waveform or true maximum peak",
+      "Normal crown impact delivery after the update",
+      "Improved contact-side accuracy"
+    ]
+  },
+  "sampling_limit": "Probe sampled about 469 Hz on the 100 kHz bus; hardware detector uses its internal 3200 Hz samples, so short unobserved peaks cannot be excluded.",
+  "reference": "https://www.analog.com/en/resources/app-notes/an-1266.html",
+  "returned_to_normal": true,
+  "serial_capture_closed": true,
+  "threshold_changed_for_test": false,
+  "glue_or_sensor_repositioning_during_test": false
+}

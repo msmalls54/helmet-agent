@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-18T03:47:20.305Z",
+  "started_at_utc": "2026-10-18T03:46:29.144Z",
+  "baseline_impact_id": 31,
+  "source": "one intentional held empty-helmet knuckle tap",
+  "release_drop": false,
+  "user_report": "Done — one controlled back tap",
+  "user_reported_physical_taps": 1,
+  "events": [
+    {
+      "impact_id": 32,
+      "received_at": "2026-10-18T03:47:01.930Z",
+      "boot_id": "867fef4991b7c027",
+      "device_ms": 1473664,
+      "peak_g": 44.64918,
+      "location": "unknown",
+      "location_confidence": 0,
+      "fifo_samples": 32,
+      "gyro_window_complete": true,
+      "accel_clipped": false,
+      "gyro_clipped": false,
+      "accel_window_left_censored": false,
+      "worker_state": "delivered",
+      "worker_detail": "provider status: delivered",
+      "policy": {
+        "eligible": true,
+        "reason": "large_reading",
+        "thresholds": {
+          "singleG": 40,
+          "clusterCount": 3,
+          "clusterWindowMs": 90000,
+          "clusterMinG": 10,
+          "clusterCooldownMs": 300000
+        },
+        "recent_usable_count": 1,
+        "evidence_ids": [
+          32
+        ],
+        "summary": "44.6 g meets the configured 40 g demo review setting.",
+        "time_basis": "same-boot device milliseconds, through this event; no inferred drill participation",
+        "peer_comparison": "unavailable: this live helmet has no team observation/drill schedule",
+        "interpretation": "Configurable empty-helmet demo review rules, not injury thresholds or a diagnosis. A human trainer decides."
+      },
+      "model_read_history": true,
+      "delivery_status": "delivered",
+      "message_text": "Check #44.\nHelmet impact recorded at 8:47 PM.\nReading: 44.6 g. Sensor direction: not determined.\nReason: Empty-helmet demo. Relative helmet reading reached the 40 g review setting. 6 recorded hits in the past hour. Please check #44.\nRelative helmet-impact telemetry.",
+      "delivery_receipt": {
+        "created_at": "2026-10-18T03:47:05.569Z",
+        "updated_at": "2026-10-18T03:47:10.984Z",
+        "status": "delivered",
+        "review_requested_at": "2026-10-18T03:47:05.566Z",
+        "ingestion_to_saved_delivery_seconds": 9.054
+      }
+    }
+  ],
+  "phone_receipt_confirmed": true,
+  "drop_survival_test": false,
+  "widget_inspector_verified": true,
+  "widget_screenshot": "evidence/controlled-held-inspector.jpg",
+  "phone_confirmation_user_report": "Yes — new 44.6 g text arrived",
+  "automatic_selective_phone_gate_passed": true,
+  "actual_chatgpt_retrieval_verified": true,
+  "actual_chatgpt_new_widget_render_verified": true,
+  "client_visual_status": "Saved event 32 rendered in inspector, actual ChatGPT and actual Claude after initial host preview retries; optional unknown-direction section omitted.",
+  "latest_widget_screenshot": "evidence/optional-side-chatgpt.jpg",
+  "actual_claude_new_widget_render_verified": true
+}

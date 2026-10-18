@@ -1,0 +1,171 @@
+{
+  "checked_at_utc": "2026-10-17T20:32:50.935233+00:00",
+  "test_type": "real physical tap on supported empty helmet",
+  "impact_id": 3,
+  "peak_g": 30.34116,
+  "player": "#44",
+  "sensor_direction": "back",
+  "location_validated": false,
+  "public_origin": "https://duke-textiles-repairs-dealer.trycloudflare.com",
+  "public_application_paths": [
+    "/mcp"
+  ],
+  "clients": {
+    "chatgpt": {
+      "plugin_id": "plugin_asdk_app_6ad3da861d1481919aa512251e978164",
+      "get_impacts_verified": true,
+      "widget_visual_size_verified": true,
+      "chat_url": "https://chatgpt.com/c/6ad3dadf-a9c0-83e8-9288-18a689c1aebe",
+      "name": "Helmet Agent Live Demo",
+      "show_last_hit_called": true,
+      "first_sandbox_load_needed_retry": true,
+      "widget_dom_loaded": true,
+      "widget_height_px": 397.890625,
+      "widget_width_px": 720,
+      "widget_screenshot": "evidence/widget-chatgpt-final.png"
+    },
+    "claude": {
+      "connector_id": "c2c63d25-bf1e-4a8c-9a68-141ee3a88c9a",
+      "connector_name": "Helmet Agent Live Demo",
+      "get_impacts_verified": true,
+      "chat_url": "https://claude.ai/chat/3e0aea50-22d2-4113-adb5-da5e38947c0d",
+      "flag_for_review_verified": true,
+      "existing_review_reconciled_after_final_restart": true,
+      "no_duplicate_text": true
+    }
+  },
+  "review": {
+    "impact_id": 3,
+    "message_id": "9f0656d2-23c2-4bff-8164-472efe4f1729",
+    "provider_status": "delivered",
+    "message_text": "Check #44.\nHelmet impact recorded at 1:06 PM.\nReading: 30.3 g. Sensor direction: BACK.\nReason: Empty-helmet demo tap; please review the recorded back-side impact.\nRelative helmet-impact telemetry.",
+    "user_confirmed_phone_receipt": true,
+    "confirmation": "Yes — new 30.3 g text arrived"
+  },
+  "repair": {
+    "initial_stateful_requests_timed_out": true,
+    "stateless_json_requests_restored_live_clients": true,
+    "optional_sse_get_hangs_locally": true,
+    "gateway_get_405_fix_pending_restart": false,
+    "widget_height_root_cause": "SVG maxHeight used iframe viewport height; host initially sized frame near zero. Replace viewport-dependent dimensions with intrinsic sizing.",
+    "manufact_address_changed_during_run": true,
+    "manufact_replacement_origin": "https://disappointed-apricot.tunnel.mcp-use.run",
+    "cloudflare_fallback_installed": "2026.10.1",
+    "cloudflare_official_windows_binary_sha256": "4d2490e74082c5d48dbfedaf92576fa5bd1702379ab88eb7faa0cfbe8dc891b6",
+    "gateway_get_405_verified": true,
+    "preview_store_body_limit_fixed": true
+  },
+  "remaining": [],
+  "gemini": "User marked low priority; documented CLI MCP support only, not installed or connected.",
+  "previous_test": {
+    "impact_id": 2,
+    "peak_g": 22.18394,
+    "sensor_direction": "unknown",
+    "clients": {
+      "chatgpt": {
+        "plugin_id": "plugin_asdk_app_6ad3cf2c87108191bfbaf477c8e88ce1",
+        "chat_url": "https://chatgpt.com/c/6ad3cfcd-ded0-83e8-9f87-f73eb31c481c",
+        "get_impacts_verified": true,
+        "show_last_hit_called": true,
+        "widget_dom_loaded": true,
+        "widget_visual_size_verified": false,
+        "widget_initial_height_px": 5.2734375,
+        "widget_initial_width_px": 768
+      },
+      "claude": {
+        "connector_id": "9cccc2e2-4a08-4694-b92b-aebb0f719766",
+        "chat_url": "https://claude.ai/chat/9f57bb85-45db-49b1-a717-b1d9d67c30d9",
+        "get_impacts_verified": true,
+        "flag_for_review_verified": true
+      }
+    },
+    "review": {
+      "impact_id": 2,
+      "message_id": "3c5fe2f8-aefc-445a-a6c4-1555b9549ab0",
+      "provider_status": "delivered",
+      "message_text": "Check #44.\nHelmet impact recorded at 12:41 PM.\nReading: 22.2 g. Sensor direction: UNKNOWN.\nReason: Empty-helmet demo tap; please check this recorded impact.\nRelative helmet-impact telemetry.",
+      "user_confirmed_phone_receipt": true,
+      "confirmation": "got text"
+    }
+  },
+  "transport_provider": "Cloudflare Quick Tunnel",
+  "framework": "mcp-use by Manufact",
+  "widget": {
+    "design": "minimal five-zone top-down helmet",
+    "real_impact_id": 3,
+    "only_active_zone": "back",
+    "active_fill": "#E5484D",
+    "intrinsic_canvas": [
+      760,
+      420
+    ],
+    "rendered_size": [
+      720,
+      397.890625
+    ],
+    "inspector_viewport_height": 400,
+    "inspector_scroll_height": 400,
+    "inspector_themes_verified": [
+      "light",
+      "dark"
+    ],
+    "unknown_state_no_active_zone_verified": true,
+    "all_five_zone_mappings_verified": true,
+    "screenshots": [
+      "evidence/widget-inspector-light.png",
+      "evidence/widget-inspector-dark.png"
+    ],
+    "commit": "2e12a17",
+    "chatgpt_verified": true,
+    "chatgpt_first_load_retry_required": true
+  },
+  "known_client_behavior": "A newly installed ChatGPT plugin needed Try again on its initial sandbox load; the retry rendered the complete widget. Inspector renders directly.",
+  "record_scope": "Historical physical tap and phone gate; current transport verification is under current_transport_restart below.",
+  "current_transport_restart": {
+    "checked_at_utc": "2026-10-17T21:15:48.864524+00:00",
+    "provider": "ngrok static domain",
+    "public_origin": "https://doornail-crudeness-hemlock.ngrok-free.dev",
+    "same_private_connection_url_after_full_restart": true,
+    "clients": {
+      "chatgpt": {
+        "name": "Helmet Agent Live Demo",
+        "plugin_id": "plugin_asdk_app_6ad3e368cfc881919301d26c03f9be8a",
+        "chat_url": "https://chatgpt.com/c/6ad3e398-408c-83e8-b4ee-dbee1afca10f",
+        "get_impacts_after_restart": true,
+        "show_last_hit_after_restart": true,
+        "heartbeat_received_at": "2026-10-17T21:11:57.198Z",
+        "latest_impact_id": 7,
+        "peak_g": 13.38256,
+        "player": "#44",
+        "sensor_direction": "right",
+        "connector_readded_after_restart": false,
+        "connector_reconnected_after_restart": false,
+        "widget_rendered": true,
+        "widget_height_px": 397.890625,
+        "widget_scroll_height": 398,
+        "widget_viewport_height": 398,
+        "widget_active_zone": "right",
+        "preview_retry_needed_on_initial_install": true,
+        "preview_retry_needed_after_rebuild": true,
+        "screenshot": "evidence/ngrok-chatgpt-after-restart.png"
+      },
+      "claude": {
+        "name": "Helmet Agent Live Demo",
+        "connector_id": "51280e12-f375-4b3e-b81a-fb656b64b5b6",
+        "chat_url": "https://claude.ai/chat/212032f1-beb4-48cb-b6d8-d7db23d35155",
+        "get_impacts_after_restart": true,
+        "heartbeat_displayed_utc": "2026-10-17 21:11:37 UTC",
+        "latest_impact_id": 7,
+        "peak_g": 13.38256,
+        "player": "#44",
+        "sensor_direction": "right",
+        "connector_readded_after_restart": false,
+        "connector_reconnected_after_restart": false,
+        "tool_permissions": "Needs approval preserved",
+        "screenshot": "evidence/ngrok-claude-after-restart.png"
+      }
+    },
+    "messages_sent_by_restart_check": 0,
+    "receipt": "evidence/ngrok-migration-status.json"
+  }
+}

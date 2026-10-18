@@ -1,0 +1,87 @@
+{
+  "started_at_utc": "2026-10-17T21:18:28.996912+00:00",
+  "power_source": "User-confirmed INIU Carry 10000mAh 45W power bank, known working USB cable",
+  "model_suffix_confirmed": false,
+  "electrical_current_ma_measured": false,
+  "status": "passed_3_minute_power_and_wifi_check",
+  "observations": [
+    {
+      "checked_at_utc": "2026-10-17T21:18:28.996912+00:00",
+      "heartbeat_age_seconds": 4.22,
+      "received_at": "2026-10-17T21:18:24.779Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 52770,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:18:59.063279+00:00",
+      "heartbeat_age_seconds": 4.18,
+      "received_at": "2026-10-17T21:18:54.883Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 82812,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:19:29.068369+00:00",
+      "heartbeat_age_seconds": 4.24,
+      "received_at": "2026-10-17T21:19:24.832Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 112836,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:19:59.085263+00:00",
+      "heartbeat_age_seconds": 4.2,
+      "received_at": "2026-10-17T21:19:54.885Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 142856,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:20:29.102895+00:00",
+      "heartbeat_age_seconds": 4.21,
+      "received_at": "2026-10-17T21:20:24.892Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 172887,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:20:59.134650+00:00",
+      "heartbeat_age_seconds": 3.61,
+      "received_at": "2026-10-17T21:20:55.527Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 202912,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    },
+    {
+      "checked_at_utc": "2026-10-17T21:21:29.151866+00:00",
+      "heartbeat_age_seconds": 4.16,
+      "received_at": "2026-10-17T21:21:24.995Z",
+      "boot_id": "ab448d41129f812f",
+      "uptime_ms": 232950,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0,
+      "laptop_serial_ports": []
+    }
+  ],
+  "completed_at_utc": "2026-10-17T21:21:29.151866+00:00"
+}

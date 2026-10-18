@@ -1,0 +1,12 @@
+﻿{
+    "laptop_listener_ip":  "192.168.137.1",
+    "idle_auto_off":  false,
+    "connected_clients":  1,
+    "interface_alias":  "Local Area Connection* 4",
+    "band":  "TwoPointFourGigahertz",
+    "state":  "On",
+    "success":  true,
+    "helmet_ssid":  "Helmet-Agent",
+    "upstream_profile":  "Y Combinator",
+    "checked_at_utc":  "2026-10-18T04:33:43.5796132Z"
+}

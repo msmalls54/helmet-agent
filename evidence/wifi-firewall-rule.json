@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-17T18:54:36.4457920Z",
+  "interface": "Local Area Connection* 4",
+  "local_ip": "192.168.137.1",
+  "program": "C:\\Users\\Small\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "rule_name": "HelmetAgent-Temporary-3000",
+  "remote_address": "LocalSubnet",
+  "port": 3000,
+  "success": true
+}

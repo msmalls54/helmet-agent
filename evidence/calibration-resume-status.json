@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-17T03:30:05Z",
+  "stage": "Calibration incomplete; user repositioning the USB board before retrying",
+  "application_port": "COM3",
+  "usb_connection": {
+    "initial_capture_disconnected": true,
+    "subsequent_monitor_recovered": true,
+    "sensor_i2c_errors_after_reconnect": 0,
+    "monitor_closed_before_repositioning": true
+  },
+  "helmet_calibration_attempt": {
+    "earlier_front_event_discarded_at_user_request": true,
+    "light_front_tap_registered": false,
+    "firmer_front_event_id": 2,
+    "firmer_front_peak_g": 1.249637,
+    "front_incoming_signed_axis": 2,
+    "back_event_id": 3,
+    "back_peak_g": 1.324387,
+    "back_measured_incoming_signed_axis": 2,
+    "back_accepted": false,
+    "back_rejection_reason": "Measured direction matched front instead of its opposite",
+    "both_recorded_events_fifo_samples": 32,
+    "both_recorded_events_gyro_window_complete": true,
+    "rocking_against_table_is_unverified_possible_cause": true,
+    "new_mapping_saved": false,
+    "pending_mapping_discarded": true
+  },
+  "stopping_point": {
+    "user_requested_time_to_reposition": true,
+    "cancel_command_acknowledged": true,
+    "cancel_message": "Calibration cancelled. Previous saved mapping kept.",
+    "last_observed_calibrated": false,
+    "post_cancel_heartbeat_observed": false,
+    "serial_monitor_closed": true,
+    "next_action": "Wait for the user's mounting photo. Reconnect USB, verify sensor readings and a stable connection, then restart all four calibration sides on the fixed mounting. Verify side labels, top, and mapping persistence after reboot before declaring calibration complete."
+  }
+}

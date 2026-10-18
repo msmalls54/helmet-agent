@@ -1,0 +1,123 @@
+{
+  "started_at_utc": "2026-10-17T18:38:18.249878-07:00",
+  "prior_public_origin": "https://doornail-crudeness-hemlock.ngrok-free.dev",
+  "private_mcp_url_sha256_before": "69e0c309f44d96bbd3d6164ad7b98b1f1ee28ebf8ee437d314150ed0ecc54b96",
+  "prior_heartbeat": {
+    "received_at": "2026-10-18T01:38:17.009Z",
+    "boot_id": "38886c45cf560502",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "diagnostic_window_peak_g": 0,
+    "dropped_hits": 0,
+    "helmet_id": "helmet-1",
+    "impact_detection_paused": false,
+    "near_miss_observation": "explicit_probe_only",
+    "player": "#44",
+    "queued_hits": 0,
+    "rssi": -45,
+    "type": "heartbeat",
+    "uptime_ms": 1374669
+  },
+  "prior_policy_description": "empty-helmet demo: review each eligible fresh hit after reading own history; no medical threshold",
+  "new_policy_parameters": {
+    "single_g": 40,
+    "cluster_count": 3,
+    "cluster_seconds": 90,
+    "cluster_min_g": 10,
+    "cluster_cooldown_seconds": 300
+  },
+  "main_database_synthetic_records_inserted": false,
+  "new_test_phone_messages_sent": 0,
+  "after_restart_verified": true,
+  "verified_at_utc": "2026-10-18T01:50:05.3646700+00:00",
+  "same_private_url_after_restart": true,
+  "private_mcp_url_sha256_after": "69e0c309f44d96bbd3d6164ad7b98b1f1ee28ebf8ee437d314150ed0ecc54b96",
+  "new_runtime_policy": {
+    "mode": "live",
+    "armed": true,
+    "model": "grok-4.20-0309-non-reasoning",
+    "blocked_reason": null,
+    "policy": "selective empty-helmet demo: configured single reading or recent cluster; agent reads history before review; no injury threshold",
+    "review_rules": {
+      "singleG": 40,
+      "clusterCount": 3,
+      "clusterWindowMs": 90000,
+      "clusterMinG": 10,
+      "clusterCooldownMs": 300000
+    },
+    "helmet_id": "helmet-1",
+    "player": "#44",
+    "cooldown_seconds": 30,
+    "max_reviews_per_24h": 20,
+    "max_event_age_seconds": 60,
+    "counts": [
+      {
+        "state": "delivered",
+        "count": 13
+      },
+      {
+        "state": "suppressed",
+        "count": 6
+      }
+    ],
+    "latest": [
+      {
+        "impact_id": 26,
+        "state": "delivered",
+        "attempts": 2,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T01:24:58.396Z"
+      },
+      {
+        "impact_id": 25,
+        "state": "delivered",
+        "attempts": 1,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T01:12:55.036Z"
+      },
+      {
+        "impact_id": 24,
+        "state": "delivered",
+        "attempts": 1,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T01:12:06.688Z"
+      },
+      {
+        "impact_id": 23,
+        "state": "delivered",
+        "attempts": 1,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T01:11:11.694Z"
+      },
+      {
+        "impact_id": 22,
+        "state": "suppressed",
+        "attempts": 0,
+        "delivery_attempts": 0,
+        "detail": "player notification cooldown; hit retained in history",
+        "updated_at": "2026-10-18T01:09:45.483Z"
+      }
+    ]
+  },
+  "post_restart_heartbeat": {
+    "received_at": "2026-10-18T01:49:57.523Z",
+    "boot_id": "38886c45cf560502",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "diagnostic_window_peak_g": 0,
+    "dropped_hits": 0,
+    "helmet_id": "helmet-1",
+    "impact_detection_paused": false,
+    "near_miss_observation": "explicit_probe_only",
+    "player": "#44",
+    "queued_hits": 0,
+    "rssi": -46,
+    "type": "heartbeat",
+    "uptime_ms": 2075244
+  },
+  "final_build_activated": true
+}

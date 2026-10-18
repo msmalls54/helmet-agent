@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-17T19:16:22.773Z",
+  "tools": [
+    {
+      "name": "get_impacts",
+      "description": "Retrieve recent impacts, peak magnitude, estimated side and capture quality. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    },
+    {
+      "name": "flag_for_review",
+      "description": "Send one iMessage review request for a saved impact to the configured connected conversation. Repeated calls return its delivery status without another message; the first note is retained. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    }
+  ],
+  "result": {
+    "_meta": {
+      "mimeType": "application/json"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"summary\": \"0 hits in last 60 min.\",\n  \"count\": 0,\n  \"hits\": [],\n  \"truncated\": false,\n  \"time_basis\": \"server_received_at; buffered delivery can arrive later than the hit\",\n  \"last_heartbeats\": [\n    {\n      \"received_at\": \"2026-10-17T19:16:20.608Z\",\n      \"boot_id\": \"674e023dcffb64a0\",\n      \"calibrated\": true,\n      \"dropped_hits\": 0,\n      \"helmet_id\": \"helmet-1\",\n      \"player\": \"#44\",\n      \"queued_hits\": 0,\n      \"rssi\": -38,\n      \"type\": \"heartbeat\",\n      \"uptime_ms\": 1230970\n    }\n  ],\n  \"notice\": \"Relative helmet-impact telemetry, not a diagnosis; a human trainer decides.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "summary": "0 hits in last 60 min.",
+      "count": 0,
+      "hits": [],
+      "truncated": false,
+      "time_basis": "server_received_at; buffered delivery can arrive later than the hit",
+      "last_heartbeats": [
+        {
+          "received_at": "2026-10-17T19:16:20.608Z",
+          "boot_id": "674e023dcffb64a0",
+          "calibrated": true,
+          "dropped_hits": 0,
+          "helmet_id": "helmet-1",
+          "player": "#44",
+          "queued_hits": 0,
+          "rssi": -38,
+          "type": "heartbeat",
+          "uptime_ms": 1230970
+        }
+      ],
+      "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    }
+  }
+}

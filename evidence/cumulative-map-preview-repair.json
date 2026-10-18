@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-10-18T04:38:29.545942+00:00",
+  "scope": "Cumulative map, resource loading, dark green/white/red presentation and footer copy. Read-only live checks; isolated test databases.",
+  "resource_failure": {
+    "request_path": "/inspector/api/mcp-apps/widget/store",
+    "error": "net::ERR_CONNECTION_RESET",
+    "request_characters": 2533316,
+    "old_cap_bytes": 2097152,
+    "observed_duplicate_fields": [
+      "toolOutput",
+      "resourceData"
+    ],
+    "characters_each": 1266383
+  },
+  "fix": {
+    "preview_store_cap_bytes": 4194304,
+    "loopback_socket_peer_check_retained": true,
+    "origin_check_retained": true,
+    "other_request_body_limit_bytes": 4096,
+    "public_paths_unchanged": "/mcp only"
+  },
+  "map": {
+    "window_minutes": 60,
+    "time_basis": "server receipt time, rolling",
+    "player_and_helmet_scoped": true,
+    "undirected_counted_once": true,
+    "undirected_shades_all_zones": true,
+    "directed_shades_only_named_zone": true,
+    "visual_scale_fixed": true,
+    "new_readings_monotonically_add_color": true,
+    "old_readings_age_out": true,
+    "excludes": [
+      "calibration",
+      "incomplete FIFO/gyro",
+      "clipped",
+      "left-censored",
+      "sample flags"
+    ],
+    "raw_records_unchanged": true,
+    "assumed_front_location": false,
+    "visible_refresh_seconds": 10
+  },
+  "style": {
+    "dark_surface": "#10271f",
+    "white_helmet": "#f7f7f2",
+    "heat_red": "#E5484D",
+    "visible_diagnosis_footer_removed": true
+  },
+  "practice": {
+    "single_provenance_badge": "Sample practice",
+    "raw_provenance_retained": true,
+    "direct_resource_autoload_verified": true,
+    "day_navigation_verified": [
+      "Mon",
+      "Thu"
+    ],
+    "thursday_inside_run": {
+      "player": "#72",
+      "hits": 8,
+      "minutes": 20,
+      "prior_hits": 7,
+      "prior_minutes": 60,
+      "own_rate_ratio": 3.43,
+      "highest_peer_rate_ratio": 2.67
+    }
+  },
+  "unit_tests_passed": 34,
+  "additional_sample_exclusion_test_passed": true,
+  "typecheck_build_passed": true,
+  "read_only_preflight_checks_passed": 6,
+  "helmet_resource_loaded": true,
+  "helmet_tool_loaded": true,
+  "practice_resource_loaded": true,
+  "latest_live_impact_id": 32,
+  "live_map_complete_readings_at_check": 6,
+  "actual_chatgpt_current_map_render_verified": true,
+  "actual_claude_current_map_render_verified": true,
+  "chatgpt_chat": "https://chatgpt.com/c/6ad44cc4-123c-83e8-8bd2-6d997e0a1997",
+  "claude_chat": "https://claude.ai/chat/6abd8fe2-0f4e-4899-a864-371b2c78c648",
+  "initial_host_preview_retry_required_both_clients": true,
+  "connections_tools_refreshed_in_place": true,
+  "new_connections_created": false,
+  "messages_sent_by_ui_checks": 0,
+  "live_hits_inserted_by_ui_checks": 0,
+  "new_physical_input_requested": false,
+  "screenshots": [
+    "evidence/cumulative-helmet-resource.jpg",
+    "evidence/cumulative-helmet-inspector.jpg",
+    "evidence/practice-resource-repaired.jpg",
+    "evidence/cumulative-map-chatgpt.jpg",
+    "evidence/cumulative-map-claude.jpg"
+  ],
+  "earlier_resource_screenshot_note": "The first resource screenshot verifies loading before the later green/white palette and footer revision. Inspector screenshot is the final map presentation.",
+  "claude_design_review": "https://claude.ai/chat/586b9d01-a5f4-4197-b018-5b9c3dcdd8ab"
+}

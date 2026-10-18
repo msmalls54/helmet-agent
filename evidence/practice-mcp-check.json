@@ -1,0 +1,180 @@
+{
+  "checked_at_utc": "2026-10-18T03:01:18.614Z",
+  "checks": [
+    {
+      "endpoint": "http://localhost:3000",
+      "tools": [
+        "get_impacts",
+        "flag_for_review",
+        "show_last_hit",
+        "exposure_load",
+        "show_practice_week"
+      ],
+      "live_count": 26,
+      "simulated_focus": {
+        "player": "#72",
+        "day": "Thu",
+        "drill": "inside_run",
+        "period_id": "sim-72-thu-inside_run",
+        "count": 8,
+        "observed_minutes": 20,
+        "impacts_per_10_minutes": 4,
+        "prior_periods": 3,
+        "prior_count": 7,
+        "prior_observed_minutes": 60,
+        "prior_impacts_per_10_minutes": 1.17,
+        "rate_ratio": 3.43,
+        "event_ids": [
+          "sim-72-thu-inside_run-1",
+          "sim-72-thu-inside_run-2",
+          "sim-72-thu-inside_run-3",
+          "sim-72-thu-inside_run-4",
+          "sim-72-thu-inside_run-5",
+          "sim-72-thu-inside_run-6",
+          "sim-72-thu-inside_run-7",
+          "sim-72-thu-inside_run-8"
+        ],
+        "reason": "8 recorded impacts in 20 observed minutes; 3.43x this player's earlier same-drill rate.",
+        "follow_up": "Trainer: check the player. Coach: review this practice period and its video if available; confirm participation and sensor mounting before changing the drill."
+      },
+      "same_period_peer_comparison": {
+        "player": "#72",
+        "period_id": "sim-72-thu-inside_run",
+        "day": "Thu",
+        "drill": "inside_run",
+        "drill_label": "Inside run",
+        "count": 8,
+        "observed_minutes": 20,
+        "impacts_per_10_minutes": 4,
+        "event_ids": [
+          "sim-72-thu-inside_run-1",
+          "sim-72-thu-inside_run-2",
+          "sim-72-thu-inside_run-3",
+          "sim-72-thu-inside_run-4",
+          "sim-72-thu-inside_run-5",
+          "sim-72-thu-inside_run-6",
+          "sim-72-thu-inside_run-7",
+          "sim-72-thu-inside_run-8"
+        ],
+        "peers": [
+          {
+            "player": "#44",
+            "position": "LB",
+            "practice_role": "Starting defense; faces scout offense",
+            "count": 3,
+            "observed_minutes": 20,
+            "impacts_per_10_minutes": 1.5
+          },
+          {
+            "player": "#21",
+            "position": "RB",
+            "practice_role": "Second-team running back; scout offense vs starting defense",
+            "count": 2,
+            "observed_minutes": 20,
+            "impacts_per_10_minutes": 1
+          }
+        ],
+        "peer_count": 2,
+        "ratio_to_highest_peer": 2.67,
+        "highest_peer_impacts_per_10_minutes": 1.5,
+        "notable": true,
+        "rule": "At least 5 usable events and 2.5x the highest same-period peer rate, with at least 2 fully observed peers; all-zero peers are reported without division.",
+        "scope": "Fictional same-drill descriptive comparison across different playing roles; not an injury score or a position-matched norm."
+      },
+      "pattern_period_max_g": 24,
+      "live_peer_comparisons_available": false,
+      "widget_result_bytes": 15344,
+      "widget_resource_uri": "ui://widget/practice-af1a395a6f9625b4.html",
+      "inline_widget_bytes": 1282186,
+      "messages_sent": 0
+    },
+    {
+      "endpoint": "https://doornail-crudeness-hemlock.ngrok-free.dev",
+      "tools": [
+        "get_impacts",
+        "flag_for_review",
+        "show_last_hit",
+        "exposure_load",
+        "show_practice_week"
+      ],
+      "live_count": 26,
+      "simulated_focus": {
+        "player": "#72",
+        "day": "Thu",
+        "drill": "inside_run",
+        "period_id": "sim-72-thu-inside_run",
+        "count": 8,
+        "observed_minutes": 20,
+        "impacts_per_10_minutes": 4,
+        "prior_periods": 3,
+        "prior_count": 7,
+        "prior_observed_minutes": 60,
+        "prior_impacts_per_10_minutes": 1.17,
+        "rate_ratio": 3.43,
+        "event_ids": [
+          "sim-72-thu-inside_run-1",
+          "sim-72-thu-inside_run-2",
+          "sim-72-thu-inside_run-3",
+          "sim-72-thu-inside_run-4",
+          "sim-72-thu-inside_run-5",
+          "sim-72-thu-inside_run-6",
+          "sim-72-thu-inside_run-7",
+          "sim-72-thu-inside_run-8"
+        ],
+        "reason": "8 recorded impacts in 20 observed minutes; 3.43x this player's earlier same-drill rate.",
+        "follow_up": "Trainer: check the player. Coach: review this practice period and its video if available; confirm participation and sensor mounting before changing the drill."
+      },
+      "same_period_peer_comparison": {
+        "player": "#72",
+        "period_id": "sim-72-thu-inside_run",
+        "day": "Thu",
+        "drill": "inside_run",
+        "drill_label": "Inside run",
+        "count": 8,
+        "observed_minutes": 20,
+        "impacts_per_10_minutes": 4,
+        "event_ids": [
+          "sim-72-thu-inside_run-1",
+          "sim-72-thu-inside_run-2",
+          "sim-72-thu-inside_run-3",
+          "sim-72-thu-inside_run-4",
+          "sim-72-thu-inside_run-5",
+          "sim-72-thu-inside_run-6",
+          "sim-72-thu-inside_run-7",
+          "sim-72-thu-inside_run-8"
+        ],
+        "peers": [
+          {
+            "player": "#44",
+            "position": "LB",
+            "practice_role": "Starting defense; faces scout offense",
+            "count": 3,
+            "observed_minutes": 20,
+            "impacts_per_10_minutes": 1.5
+          },
+          {
+            "player": "#21",
+            "position": "RB",
+            "practice_role": "Second-team running back; scout offense vs starting defense",
+            "count": 2,
+            "observed_minutes": 20,
+            "impacts_per_10_minutes": 1
+          }
+        ],
+        "peer_count": 2,
+        "ratio_to_highest_peer": 2.67,
+        "highest_peer_impacts_per_10_minutes": 1.5,
+        "notable": true,
+        "rule": "At least 5 usable events and 2.5x the highest same-period peer rate, with at least 2 fully observed peers; all-zero peers are reported without division.",
+        "scope": "Fictional same-drill descriptive comparison across different playing roles; not an injury score or a position-matched norm."
+      },
+      "pattern_period_max_g": 24,
+      "live_peer_comparisons_available": false,
+      "widget_result_bytes": 15344,
+      "widget_resource_uri": "ui://widget/practice-af1a395a6f9625b4.html",
+      "inline_widget_bytes": 1282186,
+      "messages_sent": 0
+    }
+  ],
+  "messages_sent": 0
+}

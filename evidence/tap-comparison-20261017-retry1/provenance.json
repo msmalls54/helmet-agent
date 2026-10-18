@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-18T05:39:14.685678+00:00",
+  "prior_incomplete_session": "../tap-comparison-20261017-2234",
+  "prior_attempt_retained": true,
+  "restart_reason": "timed-out recording and disclosed prompt timing problem",
+  "restart_user_authorized": true,
+  "physical_tap_reports_across_sessions_so_far": 18,
+  "user_requested_resume_and_separate_front_sequence": true,
+  "numeric_feedback_disclosed_before_resume": true,
+  "local_baseline_reestablished_on_resume": true,
+  "quality_guard_unchanged": true
+}

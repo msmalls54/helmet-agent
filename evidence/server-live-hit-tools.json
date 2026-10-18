@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-10-17T19:18:52.608Z",
+  "tools": [
+    {
+      "name": "get_impacts",
+      "description": "Retrieve recent impacts, peak magnitude, estimated side and capture quality. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    },
+    {
+      "name": "flag_for_review",
+      "description": "Send one iMessage review request for a saved impact to the configured connected conversation. Repeated calls return its delivery status without another message; the first note is retained. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    },
+    {
+      "name": "show_last_hit",
+      "description": "Draw the latest saved hit on a top-down helmet with peak magnitude, player and estimated side. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    }
+  ],
+  "result": {
+    "_meta": {
+      "mimeType": "application/json"
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"summary\": \"1 hit in last 60 min, max 20.72 g on #44, estimated back side.\",\n  \"count\": 1,\n  \"hits\": [\n    {\n      \"impact_id\": 1,\n      \"received_at\": \"2026-10-17T19:18:43.755Z\",\n      \"helmet_id\": \"helmet-1\",\n      \"player\": \"#44\",\n      \"peak_g\": 20.71599,\n      \"peak_rot_rads\": 1.857477,\n      \"peak_rot_dps\": 106.4256,\n      \"location\": \"back\",\n      \"location_validated\": false,\n      \"quality\": {\n        \"fifo_samples\": 32,\n        \"gyro_window_complete\": true,\n        \"accel_clipped\": false,\n        \"gyro_clipped\": false,\n        \"calibration_capture\": false\n      }\n    }\n  ],\n  \"truncated\": false,\n  \"time_basis\": \"server_received_at; buffered delivery can arrive later than the hit\",\n  \"last_heartbeats\": [\n    {\n      \"received_at\": \"2026-10-17T19:18:50.714Z\",\n      \"boot_id\": \"674e023dcffb64a0\",\n      \"calibrated\": true,\n      \"dropped_hits\": 0,\n      \"helmet_id\": \"helmet-1\",\n      \"player\": \"#44\",\n      \"queued_hits\": 0,\n      \"rssi\": -35,\n      \"type\": \"heartbeat\",\n      \"uptime_ms\": 1381090\n    }\n  ],\n  \"notice\": \"Relative helmet-impact telemetry, not a diagnosis; a human trainer decides.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "summary": "1 hit in last 60 min, max 20.72 g on #44, estimated back side.",
+      "count": 1,
+      "hits": [
+        {
+          "impact_id": 1,
+          "received_at": "2026-10-17T19:18:43.755Z",
+          "helmet_id": "helmet-1",
+          "player": "#44",
+          "peak_g": 20.71599,
+          "peak_rot_rads": 1.857477,
+          "peak_rot_dps": 106.4256,
+          "location": "back",
+          "location_validated": false,
+          "quality": {
+            "fifo_samples": 32,
+            "gyro_window_complete": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          }
+        }
+      ],
+      "truncated": false,
+      "time_basis": "server_received_at; buffered delivery can arrive later than the hit",
+      "last_heartbeats": [
+        {
+          "received_at": "2026-10-17T19:18:50.714Z",
+          "boot_id": "674e023dcffb64a0",
+          "calibrated": true,
+          "dropped_hits": 0,
+          "helmet_id": "helmet-1",
+          "player": "#44",
+          "queued_hits": 0,
+          "rssi": -35,
+          "type": "heartbeat",
+          "uptime_ms": 1381090
+        }
+      ],
+      "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    }
+  },
+  "widget": {
+    "content": [
+      {
+        "type": "text",
+        "text": "#44: 20.72 g, estimated back side; impact 1. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+      }
+    ],
+    "structuredContent": {
+      "hit": {
+        "impact_id": 1,
+        "received_at": "2026-10-17T19:18:43.755Z",
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "peak_g": 20.71599,
+        "peak_rot_rads": 1.857477,
+        "peak_rot_dps": 106.4256,
+        "location": "back",
+        "location_validated": false,
+        "quality": {
+          "fifo_samples": 32,
+          "gyro_window_complete": true,
+          "accel_clipped": false,
+          "gyro_clipped": false,
+          "calibration_capture": false
+        }
+      },
+      "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+    }
+  }
+}

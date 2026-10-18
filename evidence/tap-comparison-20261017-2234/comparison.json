@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-18T06:04:14.886335+00:00",
+  "primary_metric": "raw peak_g",
+  "site": "back",
+  "verdict": "incomplete",
+  "all_nine_usable": false,
+  "group_medians_increase": false,
+  "groups_do_not_overlap": false,
+  "groups": {
+    "light": {
+      "usable": 0,
+      "raw_peak_g": [],
+      "median_peak_g": null,
+      "median_peak_5ms_g": null,
+      "min_g": null,
+      "max_g": null
+    },
+    "medium": {
+      "usable": 0,
+      "raw_peak_g": [],
+      "median_peak_g": null,
+      "median_peak_5ms_g": null,
+      "min_g": null,
+      "max_g": null
+    },
+    "firm": {
+      "usable": 0,
+      "raw_peak_g": [],
+      "median_peak_g": null,
+      "median_peak_5ms_g": null,
+      "min_g": null,
+      "max_g": null
+    }
+  },
+  "attempts": [
+    {
+      "level": "light",
+      "repeat": 1,
+      "peak_g": null,
+      "peak_5ms_g": null,
+      "span_ms": null,
+      "gyro_peak_dps": null,
+      "observed_window_peak_g": 0.771649,
+      "gyro_complete": false,
+      "problems": [
+        "incomplete acceleration capture",
+        "missing waveform samples",
+        "no settled pulse detected above 2 g",
+        "timed_out"
+      ]
+    }
+  ],
+  "problems": [
+    "('light', 1): incomplete acceleration capture",
+    "('light', 1): missing waveform samples",
+    "('light', 1): no settled pulse detected above 2 g",
+    "('light', 1): timed_out",
+    "missing planned trial: ('medium', 1)",
+    "missing planned trial: ('firm', 1)",
+    "missing planned trial: ('firm', 2)",
+    "missing planned trial: ('light', 2)",
+    "missing planned trial: ('medium', 2)",
+    "missing planned trial: ('medium', 3)",
+    "missing planned trial: ('firm', 3)",
+    "missing planned trial: ('light', 3)",
+    "expected 9 attempts, found 1"
+  ],
+  "scope": "User-labeled hand taps, one empty helmet, fixed table/support and contact point. No force reference, injury score or calibration factor.",
+  "secondary_metrics": "5 ms mean peak, sampled duration and gyro are shown separately; never substituted to make the primary result pass.",
+  "normal_detection_restore_acknowledged": true,
+  "all_nine_attempts_recorded": false
+}

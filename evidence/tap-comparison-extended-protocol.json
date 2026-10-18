@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-10-18T05:47:56.658362+00:00",
+  "authorization": "User: no we need to do full 9 test can we in the front also; then Ready same back setup.",
+  "policy": "Finish nine planned attempts at each site; settling-only flags remain excluded, but next attempt may proceed. Clipping/read/missing-data faults still stop.",
+  "sites_kept_separate": true,
+  "original_attempts_overwritten": false,
+  "firmware_changed": false,
+  "settling_guard_changed": false,
+  "regression_tests_passed": 23,
+  "resume_live_verified": "Skipped first four immutable files and saved clean back light 2 as trial 5.",
+  "protocol_deviations": [
+    "Original timed-out attempt retained.",
+    "First triplet values disclosed before user requested resume; later sequence is not fully blinded.",
+    "Fresh local bench baseline on resumed entry; interrupted run."
+  ],
+  "claude_review": {
+    "url": "https://claude.ai/chat/a56fe569-e079-4f28-9912-351e7bb1bf61",
+    "screenshot": "evidence/tap-comparison-result-claude.png",
+    "scope": "Reviewed partial first four captures, before user requested full sequences.",
+    "adopted": [
+      "Single triplet has ordered readings, not repeatability proof.",
+      "Tail guard cannot distinguish residual motion from changed resting pose.",
+      "Preserve timeout and flagged waveform.",
+      "Bench and normal capture have different bandwidths."
+    ],
+    "not_adopted": [
+      "Chance probability claim lacks an established stochastic model.",
+      "20 ms pulse span is not 20 ms time above threshold; actual firm 1 time above 2 g is 16.25 ms.",
+      "Exact physical timing of the first tap is unknown; timeout cause is not proven."
+    ]
+  },
+  "source_sha256": {
+    "tools/tap_comparison.py": "7b9a2c617b3085ffe6a6ac9df6b085a81355450434b33083b52228d0d45590c3",
+    "tools/test_tap_comparison.py": "ff89bff3b61d23001354c5436894646f438fdbbddc7ee703b547dd5ccf509c03"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "authenticated": true,
+  "status": "active",
+  "scoped_identity_id": "5f9720d4-a819-4865-b8c0-b1aedb8a4261",
+  "agent_handle": "your-helmet-agent",
+  "identity_status": "active",
+  "email_address": "your-helmet-agent@inkboxmail.com",
+  "mailbox_status": "active",
+  "shared_messaging_enabled": true,
+  "router_number": "[router-discovered-at-runtime]",
+  "connect_command": "connect @your-helmet-agent",
+  "active_recipient_connections": 0,
+  "dedicated_phone_numbers": 0,
+  "delivery_tested": false,
+  "checked_at_utc": "2026-10-17T00:11:10.1665793Z",
+  "messages_sent": 0,
+  "calls_placed": 0
+}

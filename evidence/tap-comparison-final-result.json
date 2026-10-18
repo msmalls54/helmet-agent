@@ -1,0 +1,236 @@
+{
+  "recorded_at_utc": "2026-10-18T06:03:15.170017+00:00",
+  "status": "both_requested_nine_attempt_sequences_completed; predeclared quality criterion not passed",
+  "firmware_revision": "tap-bench-v1",
+  "sites": {
+    "back": {
+      "attempts_recorded": 9,
+      "waveforms_captured": 9,
+      "accepted_recordings": 7,
+      "settling_flags": 2,
+      "no_waveform_attempts": 0,
+      "all_nine_usable": false,
+      "primary_comparison_passed": false,
+      "groups": {
+        "light": {
+          "attempts": 3,
+          "captured": 3,
+          "accepted": 3,
+          "all_captured_peaks_g": [
+            3.916512,
+            7.904847,
+            16.98213
+          ],
+          "median_all_captured_peak_g": 7.904847,
+          "accepted_median_peak_g": 7.904847,
+          "median_all_captured_5ms_g": 3.717586
+        },
+        "medium": {
+          "attempts": 3,
+          "captured": 3,
+          "accepted": 2,
+          "all_captured_peaks_g": [
+            6.967595,
+            9.35275,
+            5.974262
+          ],
+          "median_all_captured_peak_g": 6.967595,
+          "accepted_median_peak_g": 6.4709285,
+          "median_all_captured_5ms_g": 4.771846
+        },
+        "firm": {
+          "attempts": 3,
+          "captured": 3,
+          "accepted": 2,
+          "all_captured_peaks_g": [
+            16.1571,
+            18.34523,
+            41.51527
+          ],
+          "median_all_captured_peak_g": 18.34523,
+          "accepted_median_peak_g": 28.836185,
+          "median_all_captured_5ms_g": 15.11773
+        }
+      },
+      "flagged_attempts": [
+        {
+          "label": "firm",
+          "repeat": 2,
+          "reason": [
+            "incomplete acceleration capture",
+            "resting baseline shifted or unverified"
+          ],
+          "observed_window_peak_g": 18.34523,
+          "tail_mean_delta_g": 0.785672
+        },
+        {
+          "label": "medium",
+          "repeat": 2,
+          "reason": [
+            "incomplete acceleration capture",
+            "resting baseline shifted or unverified"
+          ],
+          "observed_window_peak_g": 9.35275,
+          "tail_mean_delta_g": 0.760926
+        }
+      ],
+      "normal_restore_acknowledged": true,
+      "raw_file_sha256": {
+        "firm-1.json": "d4e5f2c54d5c56c0f44d8b245eb50f0543eb42a639025f247dc0a86ee0511ef8",
+        "firm-2.json": "2857a5c25db242af9dd1ff205a4e7043a2181cb3b8bdb06c032ad4d7d4420ce0",
+        "firm-3.json": "1ed2efa4bca888d7482ecd6b95b905a0c1623be5261fe7a4bfa27b154c1c7089",
+        "light-1.json": "28b0ec42bccabf9946c5e9c4e292d70b1d18fb5d34eee765d397eaa1bb361807",
+        "light-2.json": "3c7eb0c7b64153bf7ac0a37135e5b37da795e22e9ad98a45624a781780bc4632",
+        "light-3.json": "9040e84e1755c7ed701f33a8696d7dbb77ab5c1f0a3ba25fe1301aaa55a6f5c4",
+        "medium-1.json": "af1bf5b5ca04c5ec2efc058ef3d6b0a7431b8f7683e450e65c05daba2de7f815",
+        "medium-2.json": "e6b3dd6febb5eb30b2e51db0414a0b89f09db680c9c4cd7340cbf0287aa95d91",
+        "medium-3.json": "95de4184debbde2e96a948281689ff604a5f84d93e89db5d767b511f9a335449"
+      }
+    },
+    "front": {
+      "attempts_recorded": 9,
+      "waveforms_captured": 8,
+      "accepted_recordings": 6,
+      "settling_flags": 2,
+      "no_waveform_attempts": 1,
+      "all_nine_usable": false,
+      "primary_comparison_passed": false,
+      "groups": {
+        "light": {
+          "attempts": 3,
+          "captured": 2,
+          "accepted": 2,
+          "all_captured_peaks_g": [
+            2.980316,
+            2.730771
+          ],
+          "median_all_captured_peak_g": 2.8555435,
+          "accepted_median_peak_g": 2.8555435,
+          "median_all_captured_5ms_g": 2.515336
+        },
+        "medium": {
+          "attempts": 3,
+          "captured": 3,
+          "accepted": 3,
+          "all_captured_peaks_g": [
+            4.736226,
+            6.824609,
+            9.08074
+          ],
+          "median_all_captured_peak_g": 6.824609,
+          "accepted_median_peak_g": 6.824609,
+          "median_all_captured_5ms_g": 5.905956
+        },
+        "firm": {
+          "attempts": 3,
+          "captured": 3,
+          "accepted": 1,
+          "all_captured_peaks_g": [
+            8.154275,
+            7.118391,
+            13.88312
+          ],
+          "median_all_captured_peak_g": 8.154275,
+          "accepted_median_peak_g": 13.88312,
+          "median_all_captured_5ms_g": 7.386622
+        }
+      },
+      "flagged_attempts": [
+        {
+          "label": "firm",
+          "repeat": 1,
+          "reason": [
+            "incomplete acceleration capture",
+            "resting baseline shifted or unverified"
+          ],
+          "observed_window_peak_g": 8.154275,
+          "tail_mean_delta_g": 0.697176
+        },
+        {
+          "label": "firm",
+          "repeat": 2,
+          "reason": [
+            "incomplete acceleration capture",
+            "resting baseline shifted or unverified"
+          ],
+          "observed_window_peak_g": 7.118391,
+          "tail_mean_delta_g": 0.670322
+        },
+        {
+          "label": "light",
+          "repeat": 3,
+          "reason": [
+            "incomplete acceleration capture",
+            "missing waveform samples",
+            "no settled pulse detected above 2 g",
+            "timed_out"
+          ],
+          "observed_window_peak_g": 1.85493,
+          "tail_mean_delta_g": 0
+        }
+      ],
+      "normal_restore_acknowledged": true,
+      "raw_file_sha256": {
+        "firm-1.json": "9d4d5d94773d7ff0ede0841c8625f8325f18f7bf5b0237c7a41583d0113b1b02",
+        "firm-2.json": "da84d1929c1d66c40b9c3b565f8790e74306fc05a6fe1324542077e5182aac56",
+        "firm-3.json": "7e0e5671bdc9894fcc510087d952028bf9726b216d07004dff7d200339e1ad1c",
+        "light-1.json": "9a1320add42b5e94bb1093c888594b1fe00f7033e12b3b2a210a061a94b9fa3f",
+        "light-2.json": "2c3bde0d88ad5dbb0f83d763934eec202a46dea84233a6cb2134cacbc120cd0f",
+        "light-3.json": "9a98fe57a89fa465f1d07515fab9bb947eab7f332460abd08309e58e441c7540",
+        "medium-1.json": "f20ab5ac72323c37c4cc32e5c40f594a8efb740980b34e48ee21cfcc8a9383ef",
+        "medium-2.json": "0d0edaf1494f89887081be2acbb7c92f085421d7ab7a2561fbe3aefa48300a6d",
+        "medium-3.json": "c509be35e0bd558c8f9b6e0d8af5e3af43a7c862adb7df979cf3a45e0e0e5c9e"
+      }
+    }
+  },
+  "physical_contacts_reported_in_planned_sequences": 18,
+  "earlier_reported_timed_out_attempts": 1,
+  "cancelled_windows_without_reported_contact": 1,
+  "head_force_reference_used": false,
+  "site_pooling": false,
+  "normal_capture_changed_by_host_extension": false,
+  "force_or_injury_score_created": false,
+  "protocol_deviations": [
+    "User requested continuation after first settling rejection. All flagged contacts retained.",
+    "Back first-triplet magnitudes disclosed before user requested resume.",
+    "Bench local baseline re-established on back and front resumes; runs interrupted.",
+    "Front slot 5 explicitly canceled with no reported hit, archived unchanged and rescheduled with user authorization.",
+    "No-waveform attempts are not zero-g contact measurements."
+  ],
+  "interpretation": {
+    "supported": "The streamed capture recorded seventeen physical waveforms on the installed hardware. Usable front group medians increase; back light/medium readings overlap.",
+    "not_established": "Reliable ranking of manually labeled impact hardness, repeatability across sites, normal-mode ordering, contact force or player head acceleration.",
+    "secondary": "Predeclared 5 ms means have ordered medians across captured groups, but correlated secondary metrics do not replace the failed/incomplete raw-peak primary criterion."
+  },
+  "restored_health_receipt": "evidence/tap-comparison-restored-health.json",
+  "host_tests_passed": 24,
+  "front_cancellation_snapshot": "evidence/tap-comparison-front-20261017/aborted/light-2-cancelled.json",
+  "test_live_impact_rows": 0,
+  "normal_detection_restored": true,
+  "claude_review": {
+    "url": "https://claude.ai/chat/a56fe569-e079-4f28-9912-351e7bb1bf61",
+    "screenshot": "evidence/tap-comparison-final-claude.png",
+    "adopted": [
+      "Report descriptive all-captured medians separately from accepted-only medians and their counts.",
+      "Three of four settling flags are on firm taps; exclusions are not neutral.",
+      "Do not call the no-onset window a zero-g contact.",
+      "Peak ordering and actual input force remain unestablished."
+    ],
+    "not_adopted": [
+      "No chance probabilities or significance claim without an established input/randomization model.",
+      "No imputed exact tap peak from the subthreshold whole-window maximum.",
+      "No claim that actual legacy firmware lost these peaks without same-rate detector and baseline information."
+    ]
+  },
+  "raw_waveform_capture_checks": {
+    "captured_waveforms": 17,
+    "all_numbered_samples_match_reported_peaks": true,
+    "no_clipping_read_gaps_fifo_overflow_or_censoring_in_captured_waveforms": true,
+    "all_captured_gyro_windows_complete": true
+  },
+  "live_metric_improvement_established": false,
+  "host_source_sha256": {
+    "tools/tap_comparison.py": "b9f412792870b5ede61f480918b98e5daf04fe9a483cb200745f691e4cb96ae4",
+    "tools/test_tap_comparison.py": "1d116f83c4c2f58f9c366a6d12091158db66bf024a5137184af12825e3062975"
+  }
+}

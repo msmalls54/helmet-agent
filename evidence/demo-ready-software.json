@@ -1,0 +1,248 @@
+{
+  "checked_at_utc": "2026-10-18T03:04:47.893417+00:00",
+  "scope": "Software and actual-client rehearsal while user away. No new phone sends, physical taps, firmware uploads or live test-row inserts.",
+  "tests": {
+    "unit_passed": 31,
+    "unit_failed": 0,
+    "typecheck_and_inline_production_build": "passed",
+    "read_only_preflight": {
+      "checked_at_utc": "2026-10-18T03:01:03.305Z",
+      "software_preflight_passed": true,
+      "checks": [
+        {
+          "name": "Helmet connection",
+          "ok": true,
+          "detail": "#44, heartbeat 4.3s old, calibrated, normal detection, queue 0, drops 0"
+        },
+        {
+          "name": "Automatic trainer reviews",
+          "ok": true,
+          "detail": "Live worker armed. Single-hit alert: ready. Cluster alert: ready. 7 reviews available in the rolling 24h budget."
+        },
+        {
+          "name": "Saved public connection",
+          "ok": true,
+          "detail": "Private HTTPS connection is saved; key remains hidden."
+        },
+        {
+          "name": "Local MCP",
+          "ok": true,
+          "detail": "5 tools, live history, both inline widgets, fictional OL pattern 8/20 min vs 7/60 min (3.43x)."
+        },
+        {
+          "name": "Public MCP",
+          "ok": true,
+          "detail": "5 tools, live history, both inline widgets, fictional OL pattern 8/20 min vs 7/60 min (3.43x)."
+        },
+        {
+          "name": "Public receiver isolation",
+          "ok": true,
+          "detail": "Receiver/health/inspector blocked; MCP key and origin checks enforced."
+        }
+      ],
+      "heartbeat": {
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "boot_id": "38886c45cf560502",
+        "received_at": "2026-10-18T03:00:51.794Z",
+        "age_seconds": 4.3,
+        "calibrated": true,
+        "diagnostic_mode": "normal",
+        "impact_detection_paused": false,
+        "queued_hits": 0,
+        "dropped_hits": 0,
+        "rssi": -45
+      },
+      "automatic_alerts": {
+        "mode": "live",
+        "armed": true,
+        "model": "grok-4.20-0309-non-reasoning",
+        "blocked_reason": null,
+        "policy": "selective empty-helmet demo: configured single reading or recent cluster; agent reads history before review; no injury threshold",
+        "review_rules": {
+          "singleG": 40,
+          "clusterCount": 3,
+          "clusterWindowMs": 90000,
+          "clusterMinG": 10,
+          "clusterCooldownMs": 300000
+        },
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "review_readiness": {
+          "single_cooldown_seconds_remaining": 0,
+          "cluster_cooldown_seconds_remaining": 0,
+          "review_jobs_remaining_24h": 7
+        },
+        "cooldown_seconds": 30,
+        "max_reviews_per_24h": 20,
+        "max_event_age_seconds": 60,
+        "counts": [
+          {
+            "state": "delivered",
+            "count": 13
+          },
+          {
+            "state": "suppressed",
+            "count": 6
+          }
+        ],
+        "latest": [
+          {
+            "impact_id": 26,
+            "state": "delivered",
+            "attempts": 2,
+            "delivery_attempts": 1,
+            "detail": "provider status: delivered",
+            "updated_at": "2026-10-18T01:24:58.396Z"
+          },
+          {
+            "impact_id": 25,
+            "state": "delivered",
+            "attempts": 1,
+            "delivery_attempts": 1,
+            "detail": "provider status: delivered",
+            "updated_at": "2026-10-18T01:12:55.036Z"
+          },
+          {
+            "impact_id": 24,
+            "state": "delivered",
+            "attempts": 1,
+            "delivery_attempts": 1,
+            "detail": "provider status: delivered",
+            "updated_at": "2026-10-18T01:12:06.688Z"
+          },
+          {
+            "impact_id": 23,
+            "state": "delivered",
+            "attempts": 1,
+            "delivery_attempts": 1,
+            "detail": "provider status: delivered",
+            "updated_at": "2026-10-18T01:11:11.694Z"
+          },
+          {
+            "impact_id": 22,
+            "state": "suppressed",
+            "attempts": 0,
+            "delivery_attempts": 0,
+            "detail": "player notification cooldown; hit retained in history",
+            "updated_at": "2026-10-18T01:09:45.483Z"
+          }
+        ]
+      },
+      "messages_sent": 0,
+      "telemetry_rows_inserted": 0,
+      "scope": "Read-only connection/tool/widget-resource rehearsal. Does not qualify physical mounting, new impacts, actual client rendering or phone delivery.",
+      "not_verified_by_this_check": [
+        "normal impact after latest firmware",
+        "mounting and controlled drop qualification",
+        "actual-client rendering",
+        "phone delivery or autonomous alert loop"
+      ]
+    },
+    "local_and_public_practice_protocol": "passed",
+    "real_grok_cluster_fake_messenger_receipt": "evidence/selective-cluster-model-test.json"
+  },
+  "restart": {
+    "server_and_tunnel_fully_restarted": true,
+    "same_private_connection_url": true,
+    "private_url_sha256": "69e0c309f44d96bbd3d6164ad7b98b1f1ee28ebf8ee437d314150ed0ecc54b96",
+    "widget_content_hash": "af1a395a6f9625b4",
+    "content_hash_identical_across_rebuilds": true,
+    "resource_uri": "ui://widget/practice-af1a395a6f9625b4.html",
+    "connections_readded": false,
+    "permissions_expanded": false
+  },
+  "mcp": {
+    "tools": [
+      "get_impacts",
+      "show_last_hit",
+      "flag_for_review",
+      "exposure_load",
+      "show_practice_week"
+    ],
+    "tool_names_and_argument_schemas_unchanged": true,
+    "live_impact_count": 26,
+    "simulated_events": 143,
+    "simulated_players": 3,
+    "observed_player_periods": 87,
+    "simulation_default": false,
+    "public_paths": [
+      "/mcp"
+    ],
+    "renderer_payload_bytes": 15344,
+    "payload_change": "Removed repeated event lists and narrative fields from display-only props; exposure_load retains full evidence."
+  },
+  "client_rehearsals": {
+    "chatgpt": {
+      "url": "https://chatgpt.com/c/6ad433ac-58b0-83e8-8a29-4f597d7d2263",
+      "natural_interview_question_answered": true,
+      "own_rate_ratio": 3.43,
+      "peer_counts": [
+        3,
+        2
+      ],
+      "post_restart_practice_render": true,
+      "initial_host_retry_required": true,
+      "screenshot": "evidence/demo-ready-chatgpt-practice.png"
+    },
+    "claude": {
+      "url": "https://claude.ai/chat/b9e21df4-70b4-41b1-8645-1f43e6dffff9",
+      "practice_investigation": true,
+      "updated_practice_render": true,
+      "live_widget_render": true,
+      "live_saved_impact_id": 26,
+      "initial_host_retry_required": true,
+      "practice_screenshot": "evidence/demo-ready-claude-practice.png",
+      "live_screenshot": "evidence/demo-ready-claude-live.png"
+    },
+    "sizing_fix": {
+      "provider": "McpUseProvider autoSize",
+      "claude_previous_iframe_px": 150,
+      "claude_measured_practice_iframe_px": 376,
+      "measured_body_client_height_equals_scroll_height": true,
+      "svg_uses_intrinsic_height": true
+    },
+    "known_host_issue": "Some first loads require Retry/Try again. Loaded views are prepared; do not claim this host issue is fixed."
+  },
+  "story": {
+    "primary_case": "#72 OL: Thursday inside run 8/20 minutes versus earlier 7/60, 3.43x; highest fictional same-period peer 3/20, 2.67x.",
+    "pattern_reading_range_g": [
+      14,
+      24
+    ],
+    "week_largest_reading": {
+      "player": "#21",
+      "peak_g": 76,
+      "session": "Friday game"
+    },
+    "medical_history": "Fictional staff context retained in investigation record; no risk ranking and not foregrounded in widget.",
+    "guide": "docs/AGENT_VALUE.md"
+  },
+  "second_review": {
+    "reviewer": "Claude in existing Hackathon project strategy browser chat",
+    "areas": [
+      "agent value",
+      "plain-language copy",
+      "practice versus game comparison",
+      "medical-history framing",
+      "widget size reporting",
+      "template cache",
+      "payload size"
+    ],
+    "accepted": "Clarify game maximum; remove medical counts from main view; retain relative helmet label; use verified counts in texts; read-only cooldown/budget; provider sizing and stable content-hashed templates; smaller display payload.",
+    "rejected_unsupported_claims": [
+      "records every hit",
+      "80-helmet scale",
+      "fixed 11-second delivery guarantee",
+      "a rule cannot detect repeated contact"
+    ]
+  },
+  "physical_gates_open": [
+    "Board/cable retention under drops",
+    "Protected power arrangement for releases",
+    "Reliable qualifying stage input under selective settings",
+    "Contact-side accuracy beyond one fresh FRONT spot check"
+  ],
+  "messages_sent": 0,
+  "new_live_test_rows": 0
+}

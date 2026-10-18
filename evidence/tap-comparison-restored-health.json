@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-10-18T06:03:15.238310+00:00",
+  "saved_mapping": {
+    "type": "calibration",
+    "saved": true,
+    "method": "five_static_gravity_positions",
+    "impact_location_validated": false,
+    "front": -1,
+    "back": 1,
+    "left": 2,
+    "right": -2,
+    "top": -3,
+    "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+  },
+  "serial_heartbeat": {
+    "type": "heartbeat",
+    "ms": 1761741,
+    "firmware_revision": "tap-bench-v1",
+    "rest_accel_g": 0.898185,
+    "rest_ax_g": 0.196,
+    "rest_ay_g": -0.392,
+    "rest_az_g": -0.784,
+    "gyro_dps": 1.501333,
+    "gyro_read_hz": 790.8303,
+    "i2c_errors": 0,
+    "calibrated": true,
+    "armed": true,
+    "cal_step": -1,
+    "shock_threshold_g": 10.14,
+    "shock_max_duration_ms": 50,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "calibration_method": "five_static_gravity_positions"
+  },
+  "network": {
+    "age_seconds": 6.1,
+    "received_at": "2026-10-18T06:03:09.189Z",
+    "boot_id": "548074738ece83b9",
+    "firmware_revision": "tap-bench-v1",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "queued_hits": 0,
+    "dropped_hits": 0
+  },
+  "live_impact_rows_during_test_window": 0,
+  "scope": "Read-only post-test status and SQLite count. No new physical test, fake impact or trainer send."
+}

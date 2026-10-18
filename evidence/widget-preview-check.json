@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-18T02:56:00.106Z",
+  "preview_stores": [
+    {
+      "protocol": "resources",
+      "request_bytes": 1285223,
+      "status": 200
+    },
+    {
+      "protocol": "mcp-apps",
+      "request_bytes": 1285219,
+      "status": 200
+    }
+  ],
+  "firmware_oversized_status": 413,
+  "foreign_origin_status": 403,
+  "messages_sent": 0
+}

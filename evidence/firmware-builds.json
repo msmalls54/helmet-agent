@@ -1,0 +1,30 @@
+{
+  "arduino_cli": "1.5.1",
+  "esp32_core": "3.3.12",
+  "fqbn": "esp32:esp32:adafruit_feather_esp32s3_nopsram:CDCOnBoot=cdc",
+  "source_hashes": [
+    {
+      "path": "firmware\\i2c_scanner\\i2c_scanner.ino",
+      "sha256": "70f0dafbdd3c7f874718453ca1843d08039c6808d28b10f97907f27131aea85c"
+    },
+    {
+      "path": "firmware\\helmet_impact\\helmet_impact.ino",
+      "sha256": "7b3421c7f977ec3d3027cb5b191fa6758500f31906fd75b1c480efb099150d73"
+    },
+    {
+      "path": "firmware\\helmet_impact\\ImpactMath.h",
+      "sha256": "f130ce3b40999aae014a80268ac02b0c973279ef3fc0314952a56030b8250f46"
+    }
+  ],
+  "scanner": {
+    "program_bytes": 383754,
+    "global_ram_bytes": 55880,
+    "binary_sha256": "56cb70ae1c7f32ddbc9a13c92ec06437fbc2cf820c64c378a3b6ea2f8b566223"
+  },
+  "impact": {
+    "program_bytes": 420242,
+    "global_ram_bytes": 60112,
+    "binary_sha256": "4ff3bc04361ed81b07711aa8fb51a9c8b131e819ad2b34cf56e83e055371d5b2",
+    "runtime_tested": true
+  }
+}

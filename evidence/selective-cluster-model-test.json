@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-10-18T02:37:05.231Z",
+  "input_source": "invented software fixture in an isolated temporary database",
+  "physical_hit_test": false,
+  "production_database_written": false,
+  "real_inkbox_send_requested": false,
+  "passed": true,
+  "mode": "real xAI + fake messenger",
+  "model": "grok-4.20-0309-non-reasoning",
+  "tool_sequence": [
+    {
+      "tool": "get_impacts",
+      "args": {
+        "player": "#TEST",
+        "since_minutes": 60
+      },
+      "result_count": 4,
+      "response_id": "d2457a85-2456-965c-8096-e10f1eab4cec"
+    },
+    {
+      "tool": "flag_for_review",
+      "args": {
+        "impact_id": 4,
+        "reason": "recent_cluster",
+        "evidence_ids": [
+          4,
+          3,
+          2
+        ],
+        "observation": "Demo cluster of 3 identical low-g test impacts within 39s. Trainer to evaluate."
+      },
+      "response_id": "0242c3f1-9f35-9141-bf97-7187360bec21"
+    }
+  ],
+  "model_usage": {
+    "input_tokens": 2623,
+    "output_tokens": 121
+  },
+  "history_count": 4,
+  "review_basis": "recent_cluster",
+  "provider_receipt": {
+    "ok": true,
+    "impact_id": 4,
+    "already_flagged": false,
+    "note": "AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 3 helmet hits at or above 10 g in 90 seconds. 4 recorded hits in the past hour. Please check the player.",
+    "status": "delivered",
+    "delivery": {
+      "message_id": "fake-test",
+      "conversation_id": "fake-test-conversation",
+      "status": "delivered",
+      "service": "fake",
+      "recipient_delivery_status": "delivered",
+      "delivered_at": "2026-10-18T02:37:08.304Z"
+    },
+    "message": "Review requested in the connected Inkbox conversation.",
+    "handset_receipt_confirmed": false,
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+  },
+  "text": "AUTOMATIC LOOP TEST — SIMULATED DATA\nCheck #TEST.\nHelmet impact recorded at 7:37 PM.\nReading: 14 g. Sensor direction: RIGHT.\nReason: AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 3 helmet hits at or above 10 g in 90 seconds. 4 recorded hits in the past hour. Please check the player.\nRelative helmet-impact telemetry.",
+  "message_send_attempts": 1,
+  "model_investigations": 1,
+  "duplicate_ingest_and_worker_restart_no_resend": true,
+  "live_impact_count_unchanged_by_test": true
+}

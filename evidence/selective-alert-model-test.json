@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-10-18T01:36:55.413Z",
+  "input_source": "invented software fixture in an isolated temporary database",
+  "physical_hit_test": false,
+  "production_database_written": false,
+  "real_inkbox_send_requested": false,
+  "passed": true,
+  "mode": "real xAI + fake messenger",
+  "model": "grok-4.20-0309-non-reasoning",
+  "tool_sequence": [
+    {
+      "tool": "get_impacts",
+      "args": {
+        "player": "#TEST",
+        "since_minutes": 60
+      },
+      "result_count": 2,
+      "response_id": "3e925dd9-732a-9ae5-96d1-b4093a057704"
+    },
+    {
+      "tool": "flag_for_review",
+      "args": {
+        "impact_id": 2,
+        "reason": "large_reading",
+        "evidence_ids": [
+          2
+        ],
+        "observation": "Isolated test hit; prior impact 1 was 40min earlier outside the 90s cluster window."
+      },
+      "response_id": "bd790a31-f6dd-93e3-b793-a1ca8e104fcb"
+    }
+  ],
+  "model_usage": {
+    "input_tokens": 2314,
+    "output_tokens": 118
+  },
+  "history_count": 2,
+  "review_basis": "large_reading",
+  "provider_receipt": {
+    "ok": true,
+    "impact_id": 2,
+    "already_flagged": false,
+    "note": "AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 42.0 g meets the configured 40 g demo review setting. 2 recorded hits in the preceding 60 minutes. Please check the player.",
+    "status": "delivered",
+    "delivery": {
+      "message_id": "fake-test",
+      "conversation_id": "fake-test-conversation",
+      "status": "delivered",
+      "service": "fake",
+      "recipient_delivery_status": "delivered",
+      "delivered_at": "2026-10-18T01:36:59.565Z"
+    },
+    "message": "Review requested in the connected Inkbox conversation.",
+    "handset_receipt_confirmed": false,
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+  },
+  "text": "AUTOMATIC LOOP TEST — SIMULATED DATA\nCheck #TEST.\nHelmet impact recorded at 6:36 PM.\nReading: 42 g. Sensor direction: RIGHT.\nReason: AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 42.0 g meets the configured 40 g demo review setting. 2 recorded hits in the preceding 60 minutes. Please check the player.\nRelative helmet-impact telemetry.",
+  "message_send_attempts": 1,
+  "model_investigations": 1,
+  "duplicate_ingest_and_worker_restart_no_resend": true,
+  "live_impact_count_unchanged_by_test": true
+}

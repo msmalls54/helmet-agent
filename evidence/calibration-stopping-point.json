@@ -1,0 +1,53 @@
+{
+  "source": "Real USB Serial immediately before user-requested stopping point",
+  "calibration_messages": [
+    "# CAL 1/4: steady the mounting, then type next and press Enter. After TAP appears, tap the front side once.",
+    "# CAL 1/4: steady the mounting, then type next and press Enter. After TAP appears, tap the front side once.",
+    "# CAL TAP the front side once now.",
+    "# CAL recorded front: incoming signed axis 3.",
+    "# CAL 2/4: steady the mounting, then type next and press Enter. After TAP appears, tap the back side once."
+  ],
+  "calibration_impacts": [
+    {
+      "type": "impact",
+      "id": 3,
+      "ms": 199378,
+      "peak_g": 24.15387,
+      "peak_rot_rads": 10.35229,
+      "peak_rot_dps": 593.1428,
+      "location": "uncalibrated",
+      "ax": 2.650594,
+      "ay": 1.871187,
+      "az": -23.93497,
+      "accel_basis": "rest_baseline_subtracted_g",
+      "raw_peak_sample_g": 23.59868,
+      "fifo_samples": 32,
+      "gyro_samples": 41,
+      "gyro_window_complete": true,
+      "gyro_max_gap_ms": 2.724,
+      "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+      "timing_estimated": true,
+      "accel_clipped": false,
+      "gyro_clipped": false,
+      "calibration_capture": true
+    }
+  ],
+  "latest_heartbeat": [
+    {
+      "type": "heartbeat",
+      "ms": 278165,
+      "rest_accel_g": 1.055492,
+      "rest_ax_g": 0,
+      "rest_ay_g": -0.98,
+      "rest_az_g": 0.392,
+      "gyro_dps": 1.413931,
+      "gyro_read_hz": 976.4,
+      "i2c_errors": 0,
+      "calibrated": false,
+      "armed": false,
+      "cal_step": 1,
+      "shock_threshold_g": 3.12
+    }
+  ],
+  "user_request": "Find a stopping point; do not continue physical calibration tonight"
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-17T19:23:28.2849364Z",
+  "startup_command": ".\\tools\\Start-Helmet.ps1",
+  "one_listener": true,
+  "process_name": "node.exe",
+  "process_command": "\"C:\\Program Files\\nodejs\\node.exe\" dist/index.js",
+  "health": {
+    "ok": true,
+    "service": "helmet-agent",
+    "heartbeats": [
+      {
+        "received_at": "2026-10-17T19:23:21.018Z",
+        "boot_id": "674e023dcffb64a0",
+        "calibrated": true,
+        "dropped_hits": 0,
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "queued_hits": 0,
+        "rssi": -52,
+        "type": "heartbeat",
+        "uptime_ms": 1651333
+      }
+    ],
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+  },
+  "access_checks": [
+    {
+      "name": "foreign_origin",
+      "status": 403
+    },
+    {
+      "name": "private_lan_mcp",
+      "status": 403
+    }
+  ],
+  "persisted_hit_and_delivery_after_restart": true,
+  "handset_confirmed_by_user": true,
+  "all_tools_tested_in_inspector": true
+}

@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-10-18T03:46:29.143Z",
+  "source": "real hardware",
+  "context": "assembly_handling_user_reported",
+  "user_report": "yea i was messing with it",
+  "distinct_contacts_established": false,
+  "deliberate_rehearsal": false,
+  "events": [
+    {
+      "impact_id": 27,
+      "received_at": "2026-10-18T03:43:42.462Z",
+      "peak_g": 21.40972,
+      "location": "unknown",
+      "boot_id": "867fef4991b7c027",
+      "device_ms": 1274201,
+      "quality": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "accel_window_left_censored": false
+      },
+      "worker_state": "observed",
+      "model_history_read": false,
+      "provider_status": null,
+      "message_text": null
+    },
+    {
+      "impact_id": 28,
+      "received_at": "2026-10-18T03:43:42.855Z",
+      "peak_g": 14.81372,
+      "location": "unknown",
+      "boot_id": "867fef4991b7c027",
+      "device_ms": 1274593,
+      "quality": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "accel_window_left_censored": false
+      },
+      "worker_state": "observed",
+      "model_history_read": false,
+      "provider_status": null,
+      "message_text": null
+    },
+    {
+      "impact_id": 29,
+      "received_at": "2026-10-18T03:43:43.266Z",
+      "peak_g": 19.33132,
+      "location": "unknown",
+      "boot_id": "867fef4991b7c027",
+      "device_ms": 1274936,
+      "quality": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "accel_window_left_censored": false
+      },
+      "worker_state": "delivered",
+      "model_history_read": true,
+      "provider_status": "delivered",
+      "message_text": "Check #44.\nHelmet impact recorded at 8:43 PM.\nReading: 19.3 g. Sensor direction: not determined.\nReason: Empty-helmet demo. 3 helmet hits at or above 10 g in 90 seconds. 3 recorded hits in the past hour. Please check #44.\nRelative helmet-impact telemetry."
+    },
+    {
+      "impact_id": 30,
+      "received_at": "2026-10-18T03:43:43.599Z",
+      "peak_g": 20.45584,
+      "location": "unknown",
+      "boot_id": "867fef4991b7c027",
+      "device_ms": 1275311,
+      "quality": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "accel_window_left_censored": false
+      },
+      "worker_state": "suppressed",
+      "model_history_read": false,
+      "provider_status": null,
+      "message_text": null
+    }
+  ],
+  "phone_receipt_confirmed": false,
+  "notes": "Handling satisfied current demo cluster rule. Do not count these records as four separate football contacts or as a controlled impact rehearsal. No rows deleted or relabeled in the immutable live payloads."
+}

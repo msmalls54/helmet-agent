@@ -1,0 +1,11 @@
+{
+  "agent_handle": "your-helmet-agent",
+  "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+  "idempotency_key": "7b4908a1-6859-4600-9e93-a4d18f88e1b0",
+  "text": "Helmet Agent test: I received your START message. This is a messaging test only.",
+  "prepared_at_utc": "2026-10-17T02:28:31.8556670Z",
+  "purpose": "Single outbound connectivity test explicitly requested by the user.",
+  "message_id": "846a9739-13ba-4a2f-8ab9-3828f7718a05",
+  "accepted_at_utc": "2026-10-17T02:28:48.822019Z",
+  "state": "provider confirmed delivered; do not resend"
+}

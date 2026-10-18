@@ -1,0 +1,123 @@
+{
+  "checked_at_utc": "2026-10-17T21:15:48.864524+00:00",
+  "status": "live_migration_and_full_restart_verified",
+  "code_prepared": true,
+  "ngrok_version": "3.39.11",
+  "ngrok_executable": "C:/Users/Small/AppData/Local/Programs/Ngrok/ngrok.exe",
+  "ngrok_executable_sha256": "d339bcbd0713233337e860163f5249eea679cf26750a5700510dbc241d201748",
+  "official_download": "https://ngrok.com/download/windows",
+  "authenticode_status": "Valid",
+  "secret_store": "CurrentUser DPAPI outside repository",
+  "secret_setup_script": "tools/Set-HelmetNgrok.ps1",
+  "secret_loader": "server/scripts/Load-Ngrok.ps1",
+  "tests_passed": 8,
+  "typecheck_passed": true,
+  "build_passed": true,
+  "windows_powershell_51_dpapi_round_trip_passed": true,
+  "secret_file_user_only_acl_verified": true,
+  "agent_config_validated_by_installed_ngrok": true,
+  "only_public_application_path": "/mcp",
+  "private_access_key_preserved": true,
+  "traffic_inspection_enabled": false,
+  "inspection_web_api_enabled": false,
+  "remote_management_enabled": false,
+  "helper_receives_inkbox_credentials": false,
+  "helper_receives_mcp_access_key": false,
+  "live_migration_completed": true,
+  "live_restart_verified": true,
+  "chatgpt_after_restart_verified": true,
+  "claude_after_restart_verified": true,
+  "missing_inputs": [],
+  "current_live_tunnel_preserved": false,
+  "current_live_origin": "https://doornail-crudeness-hemlock.ngrok-free.dev",
+  "messages_sent_by_this_step": 0,
+  "static_domain": "doornail-crudeness-hemlock.ngrok-free.dev",
+  "current_cloudflare_fallback_running": false,
+  "same_private_connection_url_after_restart": true,
+  "both_processes_replaced": {
+    "verified_at_utc": "2026-10-17T21:11:50.4837272Z",
+    "before": {
+      "node_pid": 23072,
+      "node_parent_pid": 33356,
+      "ngrok_helper_pids": [
+        31608
+      ],
+      "ngrok_parent_pids": [
+        23072
+      ]
+    },
+    "after": {
+      "node_parent_pid": 6080,
+      "ngrok_helper_pids": [
+        12300
+      ],
+      "ngrok_parent_pids": [
+        19788
+      ],
+      "node_pid": 19788
+    },
+    "server_and_helper_processes_replaced": true
+  },
+  "clients": {
+    "chatgpt": {
+      "name": "Helmet Agent Live Demo",
+      "plugin_id": "plugin_asdk_app_6ad3e368cfc881919301d26c03f9be8a",
+      "chat_url": "https://chatgpt.com/c/6ad3e398-408c-83e8-b4ee-dbee1afca10f",
+      "get_impacts_after_restart": true,
+      "show_last_hit_after_restart": true,
+      "heartbeat_received_at": "2026-10-17T21:11:57.198Z",
+      "latest_impact_id": 7,
+      "peak_g": 13.38256,
+      "player": "#44",
+      "sensor_direction": "right",
+      "connector_readded_after_restart": false,
+      "connector_reconnected_after_restart": false,
+      "widget_rendered": true,
+      "widget_height_px": 397.890625,
+      "widget_scroll_height": 398,
+      "widget_viewport_height": 398,
+      "widget_active_zone": "right",
+      "preview_retry_needed_on_initial_install": true,
+      "preview_retry_needed_after_rebuild": true,
+      "screenshot": "evidence/ngrok-chatgpt-after-restart.png"
+    },
+    "claude": {
+      "name": "Helmet Agent Live Demo",
+      "connector_id": "51280e12-f375-4b3e-b81a-fb656b64b5b6",
+      "chat_url": "https://claude.ai/chat/212032f1-beb4-48cb-b6d8-d7db23d35155",
+      "get_impacts_after_restart": true,
+      "heartbeat_displayed_utc": "2026-10-17 21:11:37 UTC",
+      "latest_impact_id": 7,
+      "peak_g": 13.38256,
+      "player": "#44",
+      "sensor_direction": "right",
+      "connector_readded_after_restart": false,
+      "connector_reconnected_after_restart": false,
+      "tool_permissions": "Needs approval preserved",
+      "screenshot": "evidence/ngrok-claude-after-restart.png"
+    }
+  },
+  "provider_browser_warning": {
+    "browser_style_html_get_status": 200,
+    "provider_error_code": "ERR_NGROK_6024",
+    "application_data_exposed": false,
+    "gateway_browser_gets_after_vendor_warning_skipped": 404,
+    "real_mcp_clients_passed": true
+  },
+  "prior_phone_gate_repeated": false,
+  "last_helmet_heartbeat_at_checkpoint": [
+    {
+      "received_at": "2026-10-17T21:12:37.339Z",
+      "boot_id": "674e023dcffb64a0",
+      "calibrated": true,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -36,
+      "type": "heartbeat",
+      "uptime_ms": 8207552
+    }
+  ],
+  "helmet_power_status": "Separate power-bank test is in progress; a stored heartbeat is not proof of current board power."
+}

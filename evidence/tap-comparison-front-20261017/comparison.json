@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-10-18T06:04:14.886335+00:00",
+  "primary_metric": "raw peak_g",
+  "site": "front",
+  "verdict": "incomplete",
+  "all_nine_usable": false,
+  "group_medians_increase": false,
+  "groups_do_not_overlap": false,
+  "groups": {
+    "light": {
+      "usable": 2,
+      "raw_peak_g": [
+        2.980316,
+        2.730771
+      ],
+      "median_peak_g": 2.8555435,
+      "median_peak_5ms_g": 2.515336,
+      "min_g": 2.730771,
+      "max_g": 2.980316
+    },
+    "medium": {
+      "usable": 3,
+      "raw_peak_g": [
+        4.736226,
+        6.824609,
+        9.08074
+      ],
+      "median_peak_g": 6.824609,
+      "median_peak_5ms_g": 5.905956,
+      "min_g": 4.736226,
+      "max_g": 9.08074
+    },
+    "firm": {
+      "usable": 1,
+      "raw_peak_g": [
+        13.88312
+      ],
+      "median_peak_g": 13.88312,
+      "median_peak_5ms_g": 11.91734,
+      "min_g": 13.88312,
+      "max_g": 13.88312
+    }
+  },
+  "attempts": [
+    {
+      "level": "firm",
+      "repeat": 1,
+      "peak_g": 8.154275,
+      "peak_5ms_g": 7.386622,
+      "span_ms": 18.75,
+      "gyro_peak_dps": 83.85112,
+      "observed_window_peak_g": 8.154275,
+      "gyro_complete": true,
+      "problems": [
+        "incomplete acceleration capture",
+        "resting baseline shifted or unverified"
+      ]
+    },
+    {
+      "level": "firm",
+      "repeat": 2,
+      "peak_g": 7.118391,
+      "peak_5ms_g": 6.032028,
+      "span_ms": 21.25,
+      "gyro_peak_dps": 103.3354,
+      "observed_window_peak_g": 7.118391,
+      "gyro_complete": true,
+      "problems": [
+        "incomplete acceleration capture",
+        "resting baseline shifted or unverified"
+      ]
+    },
+    {
+      "level": "firm",
+      "repeat": 3,
+      "peak_g": 13.88312,
+      "peak_5ms_g": 11.91734,
+      "span_ms": 20,
+      "gyro_peak_dps": 184.0188,
+      "observed_window_peak_g": 13.88312,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 1,
+      "peak_g": 2.980316,
+      "peak_5ms_g": 2.496224,
+      "span_ms": 13.75,
+      "gyro_peak_dps": 31.35688,
+      "observed_window_peak_g": 2.980316,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 2,
+      "peak_g": 2.730771,
+      "peak_5ms_g": 2.534448,
+      "span_ms": 8.75,
+      "gyro_peak_dps": 43.08681,
+      "observed_window_peak_g": 2.730771,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 3,
+      "peak_g": null,
+      "peak_5ms_g": null,
+      "span_ms": null,
+      "gyro_peak_dps": null,
+      "observed_window_peak_g": 1.85493,
+      "gyro_complete": false,
+      "problems": [
+        "incomplete acceleration capture",
+        "missing waveform samples",
+        "no settled pulse detected above 2 g",
+        "timed_out"
+      ]
+    },
+    {
+      "level": "medium",
+      "repeat": 1,
+      "peak_g": 4.736226,
+      "peak_5ms_g": 3.903946,
+      "span_ms": 17.5,
+      "gyro_peak_dps": 75.8499,
+      "observed_window_peak_g": 4.736226,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "medium",
+      "repeat": 2,
+      "peak_g": 6.824609,
+      "peak_5ms_g": 5.905956,
+      "span_ms": 20,
+      "gyro_peak_dps": 150.6081,
+      "observed_window_peak_g": 6.824609,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "medium",
+      "repeat": 3,
+      "peak_g": 9.08074,
+      "peak_5ms_g": 6.364995,
+      "span_ms": 17.5,
+      "gyro_peak_dps": 144.5238,
+      "observed_window_peak_g": 9.08074,
+      "gyro_complete": true,
+      "problems": []
+    }
+  ],
+  "problems": [
+    "('firm', 1): incomplete acceleration capture",
+    "('firm', 1): resting baseline shifted or unverified",
+    "('firm', 2): incomplete acceleration capture",
+    "('firm', 2): resting baseline shifted or unverified",
+    "('light', 3): incomplete acceleration capture",
+    "('light', 3): missing waveform samples",
+    "('light', 3): no settled pulse detected above 2 g",
+    "('light', 3): timed_out"
+  ],
+  "scope": "User-labeled hand taps, one empty helmet, fixed table/support and contact point. No force reference, injury score or calibration factor.",
+  "secondary_metrics": "5 ms mean peak, sampled duration and gyro are shown separately; never substituted to make the primary result pass.",
+  "normal_detection_restore_acknowledged": true,
+  "settling_flags_retained_and_sequence_continued": true,
+  "all_nine_attempts_recorded": true
+}

@@ -1,0 +1,87 @@
+{
+  "stage": "Prompt 1 - user-requested stopping point; live hits working; side calibration unfinished",
+  "checked_at_utc": "2026-10-16T03:52:16.7290405+00:00",
+  "scanner": {
+    "compiled": true,
+    "uploaded": true,
+    "upload_port": "COM4",
+    "flash_hash_verified": true,
+    "addresses_observed": [
+      "0x36",
+      "0x53",
+      "0x6A",
+      "0x7E"
+    ],
+    "application_port": "COM3"
+  },
+  "impact_firmware": {
+    "compiled": true,
+    "uploaded": true,
+    "math_selftest_verified": true,
+    "resting_readings_verified": true,
+    "tap_test_verified": true,
+    "harder_tap_comparison_verified": false,
+    "calibration_saved_verified": false,
+    "calibration_reboot_verified": false,
+    "observed_gyro_read_hz": [
+      795.6,
+      795
+    ],
+    "observed_i2c_errors": 0,
+    "post_repair_taps_reported": 3,
+    "post_repair_events_observed": 2,
+    "post_repair_capture_errors": 0,
+    "post_repair_gyro_windows_complete": [
+      true,
+      true
+    ]
+  },
+  "usb_recovery": {
+    "initial_port": "COM3",
+    "initial_error": "Cannot configure port: A device attached to the system is not functioning",
+    "user_completed_boot_reset": true,
+    "bootloader_port": "COM4",
+    "resolved": true
+  },
+  "current_limit": "Real relative mounting-impact telemetry is verified. Two of three retest taps were logged; the missed event cause and controlled harder-tap comparison remain unconfirmed. Only the front calibration step was captured; it was discarded on cancel. Side mapping and NVS reboot persistence remain unverified.",
+  "next_action": "At the user request, resume four-side calibration from cal on a fixed mounting, check real labels and mapping persistence after reset. Wait for the user before any next stage.",
+  "stopping_point": {
+    "requested_by_user": true,
+    "partial_calibration_cancelled": true,
+    "final_usb_records": [
+      {
+        "type": "heartbeat",
+        "ms": 283165,
+        "rest_accel_g": 0.92971,
+        "rest_ax_g": 0,
+        "rest_ay_g": -0.882,
+        "rest_az_g": 0.294,
+        "gyro_dps": 0.863018,
+        "gyro_read_hz": 953,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": -1,
+        "shock_threshold_g": 10.14
+      },
+      {
+        "type": "heartbeat",
+        "ms": 288165,
+        "rest_accel_g": 0.882,
+        "rest_ax_g": 0.098,
+        "rest_ay_g": -0.784,
+        "rest_az_g": 0.392,
+        "gyro_dps": 0.907304,
+        "gyro_read_hz": 795.4,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": -1,
+        "shock_threshold_g": 10.14
+      }
+    ],
+    "monitor_closed": true,
+    "firmware_saved_in_flash": true,
+    "complete_calibration_saved": false
+  }
+}

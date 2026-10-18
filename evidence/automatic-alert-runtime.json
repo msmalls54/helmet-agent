@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-10-17T22:44:00.640916+00:00",
+  "worker_armed": true,
+  "automatic_alerts": {
+    "mode": "live",
+    "armed": true,
+    "model": "grok-4.20-0309-non-reasoning",
+    "blocked_reason": null,
+    "policy": "empty-helmet demo: review each eligible fresh hit after reading own history; no medical threshold",
+    "helmet_id": "helmet-1",
+    "player": "#44",
+    "cooldown_seconds": 30,
+    "max_reviews_per_24h": 20,
+    "max_event_age_seconds": 60,
+    "counts": [],
+    "latest": []
+  },
+  "heartbeat": {
+    "received_at": "2026-10-17T22:43:51.059Z",
+    "boot_id": "efca8567ce11151a",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "diagnostic_window_peak_g": 0.861379,
+    "dropped_hits": 0,
+    "helmet_id": "helmet-1",
+    "impact_detection_paused": false,
+    "near_miss": {
+      "accel_clipped": false,
+      "age_ms": 4131073,
+      "hardware_shock_observed": false,
+      "id": 1,
+      "longest_raw_axis_above_shock_ms": 0,
+      "max_gap_ms": 2.161,
+      "ms": 237029,
+      "peak_g": 6.910004,
+      "sampled_estimate": true,
+      "samples": 6,
+      "span_above_5g_ms": 2.161
+    },
+    "near_miss_observation": "explicit_probe_only",
+    "player": "#44",
+    "queued_hits": 0,
+    "rssi": -38,
+    "type": "heartbeat",
+    "uptime_ms": 4368102
+  },
+  "database_counts": {
+    "impacts": 7,
+    "reviews": 3,
+    "automatic_jobs": 0,
+    "activation_cursor": 7
+  },
+  "startup_historical_backlog_messages_sent": 0,
+  "private_url_sha256": "69e0c309f44d96bbd3d6164ad7b98b1f1ee28ebf8ee437d314150ed0ecc54b96",
+  "same_private_url_after_restart": true,
+  "software_tests_passed": 24,
+  "build_passed": true,
+  "fresh_physical_impact_after_activation_verified": false,
+  "isolated_real_integration_receipt": "evidence/automatic-alert-loop-test.json",
+  "model_key_storage": "Windows user DPAPI outside repository; not printed",
+  "firmware_changed": false
+}

@@ -1,0 +1,138 @@
+{
+  "checked_at_utc": "2026-10-18T04:34:21.401Z",
+  "software_preflight_passed": true,
+  "checks": [
+    {
+      "name": "Helmet connection",
+      "ok": true,
+      "detail": "#44, heartbeat 0.2s old, calibrated, normal detection, queue 0, drops 0"
+    },
+    {
+      "name": "Automatic trainer reviews",
+      "ok": true,
+      "detail": "Live worker armed. Single-hit alert: ready. Cluster alert: ready. 5 reviews available in the rolling 24h budget."
+    },
+    {
+      "name": "Saved public connection",
+      "ok": true,
+      "detail": "Private HTTPS connection is saved; key remains hidden."
+    },
+    {
+      "name": "Local MCP",
+      "ok": true,
+      "detail": "5 tools, live history, both inline widgets, fictional OL pattern 8/20 min vs 7/60 min (3.43x)."
+    },
+    {
+      "name": "Public MCP",
+      "ok": true,
+      "detail": "5 tools, live history, both inline widgets, fictional OL pattern 8/20 min vs 7/60 min (3.43x)."
+    },
+    {
+      "name": "Public receiver isolation",
+      "ok": true,
+      "detail": "Receiver/health/inspector blocked; MCP key and origin checks enforced."
+    }
+  ],
+  "heartbeat": {
+    "helmet_id": "helmet-1",
+    "player": "#44",
+    "boot_id": "4dd35bf8b76fbfb9",
+    "received_at": "2026-10-18T04:34:18.801Z",
+    "age_seconds": 0.2,
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "queued_hits": 0,
+    "dropped_hits": 0,
+    "rssi": -34
+  },
+  "automatic_alerts": {
+    "mode": "live",
+    "armed": true,
+    "model": "grok-4.20-0309-non-reasoning",
+    "blocked_reason": null,
+    "policy": "selective empty-helmet demo: configured single reading or recent cluster; agent reads history before review; no injury threshold",
+    "review_rules": {
+      "singleG": 40,
+      "clusterCount": 3,
+      "clusterWindowMs": 90000,
+      "clusterMinG": 10,
+      "clusterCooldownMs": 300000
+    },
+    "helmet_id": "helmet-1",
+    "player": "#44",
+    "review_readiness": {
+      "single_cooldown_seconds_remaining": 0,
+      "cluster_cooldown_seconds_remaining": 0,
+      "review_jobs_remaining_24h": 5
+    },
+    "cooldown_seconds": 30,
+    "max_reviews_per_24h": 20,
+    "max_event_age_seconds": 60,
+    "counts": [
+      {
+        "state": "delivered",
+        "count": 15
+      },
+      {
+        "state": "observed",
+        "count": 2
+      },
+      {
+        "state": "suppressed",
+        "count": 8
+      }
+    ],
+    "latest": [
+      {
+        "impact_id": 32,
+        "state": "delivered",
+        "attempts": 1,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T03:47:10.985Z"
+      },
+      {
+        "impact_id": 31,
+        "state": "suppressed",
+        "attempts": 0,
+        "delivery_attempts": 0,
+        "detail": "recent_cluster notification cooldown; hit retained in history",
+        "updated_at": "2026-10-18T03:45:13.183Z"
+      },
+      {
+        "impact_id": 30,
+        "state": "suppressed",
+        "attempts": 0,
+        "delivery_attempts": 0,
+        "detail": "recent_cluster notification cooldown; hit retained in history",
+        "updated_at": "2026-10-18T03:43:56.779Z"
+      },
+      {
+        "impact_id": 29,
+        "state": "delivered",
+        "attempts": 1,
+        "delivery_attempts": 1,
+        "detail": "provider status: delivered",
+        "updated_at": "2026-10-18T03:43:56.463Z"
+      },
+      {
+        "impact_id": 28,
+        "state": "observed",
+        "attempts": 0,
+        "delivery_attempts": 0,
+        "detail": "below configured review rules; saved in history, no model call or text",
+        "updated_at": "2026-10-18T03:43:43.046Z"
+      }
+    ]
+  },
+  "messages_sent": 0,
+  "telemetry_rows_inserted": 0,
+  "scope": "Read-only connection/tool/widget-resource rehearsal. Does not qualify physical mounting, new impacts, actual client rendering or phone delivery.",
+  "not_verified_by_this_check": [
+    "normal impact after latest firmware",
+    "mounting and controlled drop qualification",
+    "actual-client rendering",
+    "phone delivery or autonomous alert loop"
+  ]
+}

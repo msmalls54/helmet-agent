@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-18T05:57:43.627695+00:00",
+  "slot": "front light 2 / tap 5",
+  "user_cancelled_before_reporting_a_tap": true,
+  "physical_contact_reported": false,
+  "record_file": "aborted/light-2-cancelled.json",
+  "device_result": null,
+  "normal_restore_acknowledged": true,
+  "historical_validation_warning": "Missing result was reported as many unverified flag names by the older host checker; those names are not evidence of clipping or bus failure. The corrected checker reports no device result only.",
+  "prior_four_front_hits_preserved": true,
+  "future_resume": "Keep this canceled snapshot and its hash separately before rescheduling slot 5; never overwrite it.",
+  "sha256": "ee752706c7558f9a7e762cf5b5d74777c40a995315047b4940d51d26a25ab6e9",
+  "reschedule_authorization": "User: ok fine w me lets keep going then onto 5",
+  "rescheduled_at_utc": "2026-10-18T05:58:07.695351+00:00"
+}

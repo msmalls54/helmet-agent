@@ -1,0 +1,484 @@
+{
+  "session": "tap-comparison-front-20261017",
+  "level": "medium",
+  "repeat": 2,
+  "started_at": "2026-10-18T05:59:22.398152+00:00",
+  "input": "user_labeled_hand_tap",
+  "support": "same table and orientation",
+  "site": "front",
+  "contact": "same marked front-shell spot",
+  "result": {
+    "type": "bench_result",
+    "trial_id": 17,
+    "ms": 1542520,
+    "detected": true,
+    "complete": true,
+    "peak_g": 6.824609,
+    "peak_5ms_g": 5.905956,
+    "smoothing": "trailing_mean_of_4_magnitudes",
+    "rest_shift_g": 0.279852,
+    "observed_window_peak_g": 6.824609,
+    "span_above_2g_ms": 20,
+    "time_above_2g_ms": 20,
+    "accel_area_g_ms": 88.66529,
+    "area_is_force_impulse": false,
+    "samples": 48,
+    "sample_period_us": 1250,
+    "accel_hz": 800,
+    "i2c_hz": 400000,
+    "threshold_g": 2,
+    "sample_rate_basis": "sensor_setting_nominal",
+    "peak_index": 25,
+    "accel_clipped": false,
+    "fifo_overrun": false,
+    "i2c_gap": false,
+    "left_censored": false,
+    "right_censored": false,
+    "capture_limited": false,
+    "timed_out": false,
+    "timing_estimated": true,
+    "live_impacts_posted": false,
+    "gyro_peak_dps": 150.6081,
+    "gyro_window_complete": true,
+    "gyro_clipped": false,
+    "gyro_window_ms": 60,
+    "gyro_max_gap_ms": 1.062
+  },
+  "samples": [
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 0,
+      "relative_us": -20000,
+      "ax": -0.153125,
+      "ay": 0.263758,
+      "az": 0.022203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 1,
+      "relative_us": -18750,
+      "ax": 0.091875,
+      "ay": 0.018758,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 2,
+      "relative_us": -17500,
+      "ax": -0.006125,
+      "ay": 0.067758,
+      "az": -0.173797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 3,
+      "relative_us": -16250,
+      "ax": 0.238875,
+      "ay": 0.312758,
+      "az": -0.320797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 4,
+      "relative_us": -15000,
+      "ax": -0.055125,
+      "ay": 0.018758,
+      "az": -0.026797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 5,
+      "relative_us": -13750,
+      "ax": -0.006125,
+      "ay": 0.116758,
+      "az": -0.026797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 6,
+      "relative_us": -12500,
+      "ax": 0.140875,
+      "ay": -0.079242,
+      "az": -0.026797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 7,
+      "relative_us": -11250,
+      "ax": 0.091875,
+      "ay": -0.030242,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 8,
+      "relative_us": -10000,
+      "ax": 0.140875,
+      "ay": -0.079242,
+      "az": 0.169203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 9,
+      "relative_us": -8750,
+      "ax": 0.189875,
+      "ay": 0.018758,
+      "az": -0.026797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 10,
+      "relative_us": -7500,
+      "ax": 0.091875,
+      "ay": 0.018758,
+      "az": -0.026797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 11,
+      "relative_us": -6250,
+      "ax": -0.006125,
+      "ay": 0.018758,
+      "az": 0.120203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 12,
+      "relative_us": -5000,
+      "ax": 0.042875,
+      "ay": -0.079242,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 13,
+      "relative_us": -3750,
+      "ax": 0.091875,
+      "ay": -0.030242,
+      "az": 0.316203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 14,
+      "relative_us": -2500,
+      "ax": -0.006125,
+      "ay": 0.263758,
+      "az": 0.169203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 15,
+      "relative_us": -1250,
+      "ax": 0.042875,
+      "ay": 0.018758,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 16,
+      "relative_us": 0,
+      "ax": 2.051875,
+      "ay": 0.018758,
+      "az": -0.271797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 17,
+      "relative_us": 1250,
+      "ax": 0.924875,
+      "ay": -0.226242,
+      "az": 4.334203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 18,
+      "relative_us": 2500,
+      "ax": 1.316875,
+      "ay": 0.606758,
+      "az": 5.314203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 19,
+      "relative_us": 3750,
+      "ax": 2.198875,
+      "ay": 0.214758,
+      "az": 3.452203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 20,
+      "relative_us": 5000,
+      "ax": 2.394875,
+      "ay": -1.157242,
+      "az": -0.565797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 21,
+      "relative_us": 6250,
+      "ax": 3.962875,
+      "ay": -1.206242,
+      "az": -0.614797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 22,
+      "relative_us": 7500,
+      "ax": 4.501875,
+      "ay": -0.520242,
+      "az": -3.652797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 23,
+      "relative_us": 8750,
+      "ax": 1.659875,
+      "ay": -0.226242,
+      "az": -4.926796
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 24,
+      "relative_us": 10000,
+      "ax": 1.757875,
+      "ay": -0.618242,
+      "az": -5.465796
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 25,
+      "relative_us": 11250,
+      "ax": -1.231125,
+      "ay": -1.696242,
+      "az": -6.494796
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 26,
+      "relative_us": 12500,
+      "ax": -0.741125,
+      "ay": -0.324242,
+      "az": -4.485796
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 27,
+      "relative_us": 13750,
+      "ax": -2.260125,
+      "ay": 0.851758,
+      "az": -2.525797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 28,
+      "relative_us": 15000,
+      "ax": -4.171124,
+      "ay": -0.373242,
+      "az": -1.496797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 29,
+      "relative_us": 16250,
+      "ax": -5.102125,
+      "ay": 0.557758,
+      "az": 0.512203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 30,
+      "relative_us": 17500,
+      "ax": -3.436125,
+      "ay": 0.018758,
+      "az": -0.222797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 31,
+      "relative_us": 18750,
+      "ax": -2.603125,
+      "ay": 0.361758,
+      "az": -0.222797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 32,
+      "relative_us": 20000,
+      "ax": -0.839125,
+      "ay": 0.557758,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 33,
+      "relative_us": 21250,
+      "ax": -0.153125,
+      "ay": 0.606758,
+      "az": -0.712797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 34,
+      "relative_us": 22500,
+      "ax": 0.483875,
+      "ay": 0.312758,
+      "az": -0.369797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 35,
+      "relative_us": 23750,
+      "ax": 0.973875,
+      "ay": 0.263758,
+      "az": -0.663797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 36,
+      "relative_us": 25000,
+      "ax": 1.218875,
+      "ay": -0.030242,
+      "az": -0.810797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 37,
+      "relative_us": 26250,
+      "ax": 1.316875,
+      "ay": 0.410758,
+      "az": -1.300797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 38,
+      "relative_us": 27500,
+      "ax": 0.630875,
+      "ay": 0.312758,
+      "az": -0.810797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 39,
+      "relative_us": 28750,
+      "ax": 0.728875,
+      "ay": -0.030242,
+      "az": -0.516797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 40,
+      "relative_us": 30000,
+      "ax": 0.091875,
+      "ay": 0.018758,
+      "az": -0.173797
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 41,
+      "relative_us": 31250,
+      "ax": -0.055125,
+      "ay": 0.214758,
+      "az": 0.022203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 42,
+      "relative_us": 32500,
+      "ax": -0.447125,
+      "ay": -0.030242,
+      "az": 0.071203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 43,
+      "relative_us": 33750,
+      "ax": -0.496125,
+      "ay": 0.312758,
+      "az": 0.659203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 44,
+      "relative_us": 35000,
+      "ax": -0.594125,
+      "ay": 0.361758,
+      "az": 0.757203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 45,
+      "relative_us": 36250,
+      "ax": -0.741125,
+      "ay": 0.214758,
+      "az": 0.953203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 46,
+      "relative_us": 37500,
+      "ax": -0.202125,
+      "ay": -0.030242,
+      "az": 0.806203
+    },
+    {
+      "type": "bench_sample",
+      "trial_id": 17,
+      "index": 47,
+      "relative_us": 38750,
+      "ax": -0.300125,
+      "ay": 0.606758,
+      "az": 1.100203
+    }
+  ],
+  "end_received": true,
+  "finished_at": "2026-10-18T05:59:36.071810+00:00",
+  "validation_errors": []
+}

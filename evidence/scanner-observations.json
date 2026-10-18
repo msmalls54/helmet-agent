@@ -1,0 +1,28 @@
+{
+  "source": "USB Serial from uploaded scanner after user reseated STEMMA QT cables",
+  "port": "COM3",
+  "observations": [
+    {
+      "type": "i2c_scan",
+      "addresses": [
+        "0x36",
+        "0x53",
+        "0x6A",
+        "0x7E"
+      ],
+      "adxl375": true,
+      "ism330dhcx": true
+    },
+    {
+      "type": "i2c_scan",
+      "addresses": [
+        "0x36",
+        "0x53",
+        "0x6A",
+        "0x7E"
+      ],
+      "adxl375": true,
+      "ism330dhcx": true
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "checked_at_utc": "2026-10-17T21:36:23.726488+00:00",
+  "status": "uploaded_crown_diagnostic_captured_awaiting_normal_impact_retest",
+  "compiled": true,
+  "uploaded": true,
+  "on_device_math_selftest_run": true,
+  "physical_retest_done": true,
+  "runtime_probe_verified": true,
+  "board": "esp32:esp32:adafruit_feather_esp32s3_nopsram:CDCOnBoot=cdc",
+  "program_bytes": 1041697,
+  "global_ram_bytes": 97824,
+  "maximum_ram_bytes": 327680,
+  "maximum_application_bytes": 2097152,
+  "source_sha256": {
+    "firmware/helmet_impact/helmet_impact.ino": "eaf005412aa6adc4d13804f131515d21a0c4a290a0fcc3b4404d1b39d1873ce7",
+    "firmware/helmet_impact/ImpactMath.h": "9dd9dba59fe452c59b9755ef3bbc3e855dbb7d280b403b79551bc27420d90f22",
+    "firmware/helmet_impact/PulseProbe.h": "ee80fa3168ecdbc4f77b33b959b2826e92e11219217e4522ec3f0734008309b9",
+    "firmware/helmet_impact/WifiDelivery.h": "20cadb088ada03488f4175b87743abfbd1a59d58bbd02247ad1a9883e1f6c8ed",
+    "firmware/helmet_impact/WifiDelivery.cpp": "25c6e956f5631c6abcd4a8db43c5a25c42f0cc9dbb8ceabf295b89cd0e64d0fb"
+  },
+  "application_binary_sha256": "3ff8586b905d73a39db3e533bce7f79c1b13fd5d7eba3935a76e817eea7d279b",
+  "changes": [
+    "Maximum hardware shock duration 50 ms; unchanged 10.14 g quantized threshold.",
+    "Timed 60-second raw-pulse probe bypasses shock trigger; normal impacts paused explicitly; Wi-Fi heartbeats continue; stop or timeout restores normal capture.",
+    "Probe logs sampled pulse peaks, spans above 5 g, longest raw-axis span above hardware threshold, observed shock association, sampling gaps, clipping, and bounded XYZ traces to Serial.",
+    "Network heartbeats retain latest observed probe near-miss summary and explicit diagnostic mode. No near miss is sent as an impact or trainer message.",
+    "Experimental initial-pulse direction requires quiet onset context and coherent early samples. Missing onset or clipping gives unknown; confidence describes signal consistency, not location probability.",
+    "Gyro vector retained in its own unaligned sensor frame for context, not fused to infer contact side.",
+    "Preferences helmet/map-v1 namespace and gravity mapping unchanged."
+  ],
+  "tradeoffs": [
+    "50 ms accepts longer pulses and more handling motion; not a proven fix for crown misses.",
+    "The triggered FIFO still retains about 20 ms at 1600 Hz; long pulses can lose their onset or earlier peak and are explicitly flagged.",
+    "The 100 kHz bus limits raw probe sample rate; peaks/durations are sampled estimates, not the internal 3200 Hz detector waveform.",
+    "Diagnostic trace printing pauses further probe sampling, so tap once at a time."
+  ],
+  "remaining": [
+    "Confirm a real normal-mode impact after the update.",
+    "Repeat physical side checks before claiming direction or trigger improvement.",
+    "Recalibrate if glue changes sensor angle."
+  ],
+  "current_power_source": "Laptop USB for upload and Serial diagnostics; earlier power-bank operation independently verified",
+  "reference": "https://www.analog.com/en/resources/app-notes/an-1266.html",
+  "upload": {
+    "port_before": "COM3",
+    "bootloader_port": "COM4",
+    "port_after": "COM3",
+    "flash_hash_verified": true,
+    "preferences_erased": false,
+    "max_duration_register_readback_verified_on_startup": true
+  },
+  "runtime_verification": {
+    "boot_id": "efca8567ce11151a",
+    "saved_mapping": {
+      "front": 3,
+      "back": -3,
+      "left": -1,
+      "right": 1,
+      "top": -2
+    },
+    "mapping_preserved": true,
+    "on_device_selftest": {
+      "type": "selftest",
+      "passed": 28,
+      "failed": 0,
+      "synthetic_math_only": true
+    },
+    "serial_after_probe": {
+      "type": "heartbeat",
+      "ms": 107529,
+      "rest_accel_g": 1.711496,
+      "rest_ax_g": 0.98,
+      "rest_ay_g": -1.372,
+      "rest_az_g": 0.294,
+      "gyro_dps": 0.7,
+      "gyro_read_hz": 793.4,
+      "i2c_errors": 0,
+      "calibrated": true,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "shock_max_duration_ms": 50,
+      "diagnostic_mode": "normal",
+      "impact_detection_paused": false,
+      "calibration_method": "five_static_gravity_positions"
+    },
+    "network_while_probe": {
+      "received_at": "2026-10-17T21:31:55.272Z",
+      "boot_id": "efca8567ce11151a",
+      "calibrated": true,
+      "diagnostic_mode": "raw_pulse_probe",
+      "diagnostic_window_peak_g": 0.916987,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "impact_detection_paused": true,
+      "near_miss_observation": "explicit_probe_only",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -50,
+      "type": "heartbeat",
+      "uptime_ms": 52140
+    },
+    "network_after_probe": {
+      "received_at": "2026-10-17T21:33:05.093Z",
+      "boot_id": "efca8567ce11151a",
+      "calibrated": true,
+      "diagnostic_mode": "normal",
+      "diagnostic_window_peak_g": 1.058858,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "impact_detection_paused": false,
+      "near_miss_observation": "explicit_probe_only",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -45,
+      "type": "heartbeat",
+      "uptime_ms": 122184
+    },
+    "probe_windows": 59,
+    "probe_achieved_sample_hz_min": 461,
+    "probe_achieved_sample_hz_max": 469.5305,
+    "probe_max_observed_gap_ms": 3.282,
+    "probe_max_idle_window_peak_g": 1.370053,
+    "diagnostic_pulses_observed": 0,
+    "automatic_timeout_restored_normal": true,
+    "false_impacts_created": 0,
+    "impact_count_unchanged": 7,
+    "physical_taps_requested_during_check": false,
+    "physical_retest_done": true,
+    "near_miss_network_content_physically_verified": true,
+    "serial_logs": [
+      ".cache/shock-status-after-upload.log",
+      ".cache/shock-selftest-after-upload.log",
+      ".cache/shock-probe-idle-after-upload.log"
+    ],
+    "physical_retest_scope": "One crown tap in diagnostic mode only; not a normal impact/direction retest"
+  },
+  "full_five_side_retest_done": false,
+  "physical_diagnostic_receipt": "evidence/crown-diagnostic-test.json"
+}

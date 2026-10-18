@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-10-18T01:52:41.7304149+00:00",
+  "method": "Actual local mcp-use inspector browser controls and screenshots; fresh MCP calls to running build",
+  "inspector_url": "http://localhost:3000/inspector",
+  "practice": {
+    "source": "Explicit SIMULATED practice fixture, kept outside live DB",
+    "player": "#72",
+    "position": "OL",
+    "period": "Thursday inside run",
+    "own_count": 8,
+    "own_observed_minutes": 20,
+    "prior_count": 7,
+    "prior_minutes": 60,
+    "own_rate_ratio": 3.43,
+    "peers": [
+      {
+        "player": "#44",
+        "position": "LB",
+        "count": 3,
+        "minutes": 20
+      },
+      {
+        "player": "#21",
+        "position": "RB",
+        "count": 2,
+        "minutes": 20
+      }
+    ],
+    "ratio_to_highest_peer": 2.67,
+    "period_max_g": 24,
+    "pattern_readings_all_below_single_demo_setting": true,
+    "distinct_largest_single": {
+      "player": "#21",
+      "peak_g": 76
+    },
+    "controls_verified": [
+      "Monday/Thursday selection",
+      "Inside run/Team period selection",
+      "Enter key on period control"
+    ],
+    "neutral_state": "Monday inside run: own baseline unavailable, 0.67x highest peer rate, no practice-rate review rule met",
+    "themes_verified": [
+      "light",
+      "dark"
+    ],
+    "protocols_rendered": [
+      "MCP Apps",
+      "Apps SDK"
+    ],
+    "clipping_observed": false,
+    "maximum_height_at_800px_width": 416.67,
+    "screenshots": [
+      "practice-review-thursday-dark.jpg",
+      "practice-review-thursday-light.jpg",
+      "practice-review-monday-dark.jpg",
+      "practice-review-apps-sdk-light.jpg"
+    ]
+  },
+  "live_helmet": {
+    "source": "Latest actual saved live event",
+    "impact_id": 26,
+    "player": "#44",
+    "peak_g": 22.36718,
+    "location": "front",
+    "themes_verified": [
+      "light",
+      "dark"
+    ],
+    "displayed_status": "Earlier demo review: delivered",
+    "legacy_review_not_reclassified_by_new_policy": true,
+    "current_demo_settings_visible": true,
+    "screenshots": [
+      "helmet-review-light.jpg",
+      "helmet-review-dark.jpg"
+    ]
+  },
+  "software_checks": {
+    "automated_tests_passed": 31,
+    "automated_tests_failed": 0,
+    "last_status_edge_cases_targeted_test_passed": true,
+    "final_startup_build_and_typecheck_passed": true,
+    "local_and_public_mcp": "5 tools; fictional own-history and peer calculations passed; no live peer schedule invented",
+    "widget_store_boundaries": "MCP Apps and Apps SDK preview stores HTTP 200; oversized heartbeat 413; foreign origin 403",
+    "read_only_preflight": "All six checks passed after final restart",
+    "selective_real_model_tests": "Single reading and recent cluster passed with real Grok and fake messengers; isolated databases",
+    "software_test_phone_messages_sent": 0,
+    "synthetic_live_rows_created": 0,
+    "live_impact_count": 26,
+    "policy_receipt": "selective-policy-restart.json"
+  },
+  "limits": [
+    "Actual ChatGPT/Claude rendering of this latest redesign was not rehearsed in this round; inspector previews and public MCP are verified.",
+    "Only one actual helmet is connected: live teammate/drill comparisons remain unavailable.",
+    "Demo thresholds and fixture rate rules are not medical thresholds or injury predictions.",
+    "One fresh front-label test passed; other sides were not independently retested after the firmware update.",
+    "No additional physical tests requested; cable/power retention and controlled empty-helmet drop survival remain open."
+  ]
+}

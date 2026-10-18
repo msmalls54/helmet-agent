@@ -1,0 +1,42 @@
+{
+  "source": "USB Serial from real Feather running helmet_impact",
+  "port": "COM3",
+  "records": [
+    {
+      "type": "selftest",
+      "passed": 12,
+      "failed": 0,
+      "synthetic_math_only": true
+    },
+    {
+      "type": "heartbeat",
+      "ms": 13351,
+      "rest_accel_g": 1.147061,
+      "rest_ax_g": 0,
+      "rest_ay_g": -1.078,
+      "rest_az_g": 0.392,
+      "gyro_dps": 0.804239,
+      "gyro_read_hz": 795.6,
+      "i2c_errors": 0,
+      "calibrated": false,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14
+    },
+    {
+      "type": "heartbeat",
+      "ms": 18351,
+      "rest_accel_g": 0.784,
+      "rest_ax_g": 0,
+      "rest_ay_g": -0.784,
+      "rest_az_g": 0,
+      "gyro_dps": 2.95662,
+      "gyro_read_hz": 795,
+      "i2c_errors": 0,
+      "calibrated": false,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14
+    }
+  ]
+}

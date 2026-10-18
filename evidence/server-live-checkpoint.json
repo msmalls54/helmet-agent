@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-10-17T20:44:23.974Z",
+  "latest_impact": {
+    "impact_id": 3,
+    "received_at": "2026-10-17T20:06:51.481Z",
+    "helmet_id": "helmet-1",
+    "boot_id": "674e023dcffb64a0",
+    "device_id": 5,
+    "peak_g": 30.34116,
+    "player": "#44",
+    "location": "back",
+    "payload": "{\"accel_basis\":\"rest_baseline_subtracted_g\",\"accel_clipped\":false,\"ax\":1.511344,\"ay\":-1.257156,\"az\":30.2774,\"boot_id\":\"674e023dcffb64a0\",\"calibration_capture\":false,\"fifo_samples\":32,\"gyro_clipped\":false,\"gyro_max_gap_ms\":2.721,\"gyro_samples\":40,\"gyro_window_basis\":\"estimated_fifo_peak_plus_minus_30ms\",\"gyro_window_complete\":true,\"helmet_id\":\"helmet-1\",\"id\":5,\"location\":\"back\",\"location_method\":\"opposite_peak_acceleration_axis\",\"location_validated\":false,\"ms\":4261611,\"peak_g\":30.34116,\"peak_rot_dps\":1624.453,\"peak_rot_rads\":28.35205,\"player\":\"#44\",\"raw_peak_sample_g\":30.60127,\"timing_estimated\":true,\"type\":\"impact\"}"
+  },
+  "reviews": [
+    {
+      "impact_id": 1,
+      "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+      "idempotency_key": "helmet-review:89098846-ee2b-479b-be95-bfdab85b3b93",
+      "note": "Hackathon demo test: this was a knuckle tap on an empty helmet. Please confirm this review message arrived.",
+      "message_text": "Helmet Agent review request: #44, 20.72 g, estimated back side (unverified). Server received 2026-10-17T19:18:43.755Z (hit time may be earlier if queued). Impact 1. Note: Hackathon demo test: this was a knuckle tap on an empty helmet. Please confirm this review message arrived.. Relative helmet-impact telemetry, not a diagnosis; a human trainer decides.",
+      "message_id": "3de3f95d-8486-4980-89b5-773d17785494",
+      "status": "delivered",
+      "receipt": "{\"message_id\":\"3de3f95d-8486-4980-89b5-773d17785494\",\"conversation_id\":\"83f4af3d-1ae6-41db-96d7-10a90ae8236b\",\"status\":\"delivered\",\"service\":\"imessage\",\"recipient_delivery_status\":\"delivered\",\"delivered_at\":\"2026-10-17T19:20:09.134Z\"}",
+      "created_at": "2026-10-17T19:19:59.838Z",
+      "updated_at": "2026-10-17T19:23:10.894Z"
+    },
+    {
+      "impact_id": 2,
+      "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+      "idempotency_key": "helmet-review:7814a261-7ed3-4975-ba97-ceedf38f27ee",
+      "note": "Empty-helmet demo tap; please check this recorded impact.",
+      "message_text": "Check #44.\nHelmet impact recorded at 12:41 PM.\nReading: 22.2 g. Sensor direction: UNKNOWN.\nReason: Empty-helmet demo tap; please check this recorded impact.\nRelative helmet-impact telemetry.",
+      "message_id": "3c5fe2f8-aefc-445a-a6c4-1555b9549ab0",
+      "status": "delivered",
+      "receipt": "{\"message_id\":\"3c5fe2f8-aefc-445a-a6c4-1555b9549ab0\",\"conversation_id\":\"83f4af3d-1ae6-41db-96d7-10a90ae8236b\",\"status\":\"delivered\",\"service\":\"imessage\",\"recipient_delivery_status\":\"delivered\",\"delivered_at\":\"2026-10-17T19:49:30.857Z\"}",
+      "created_at": "2026-10-17T19:49:21.327Z",
+      "updated_at": "2026-10-17T20:00:45.478Z"
+    },
+    {
+      "impact_id": 3,
+      "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+      "idempotency_key": "helmet-review:ae71d370-eb94-4a38-86cd-7ec92458fa85",
+      "note": "Empty-helmet demo tap; please review the recorded back-side impact.",
+      "message_text": "Check #44.\nHelmet impact recorded at 1:06 PM.\nReading: 30.3 g. Sensor direction: BACK.\nReason: Empty-helmet demo tap; please review the recorded back-side impact.\nRelative helmet-impact telemetry.",
+      "message_id": "9f0656d2-23c2-4bff-8164-472efe4f1729",
+      "status": "delivered",
+      "receipt": "{\"message_id\":\"9f0656d2-23c2-4bff-8164-472efe4f1729\",\"conversation_id\":\"83f4af3d-1ae6-41db-96d7-10a90ae8236b\",\"status\":\"delivered\",\"service\":\"imessage\",\"recipient_delivery_status\":\"delivered\",\"delivered_at\":\"2026-10-17T20:08:07.450Z\"}",
+      "created_at": "2026-10-17T20:07:58.920Z",
+      "updated_at": "2026-10-17T20:30:47.924Z"
+    }
+  ],
+  "last_heartbeat": {
+    "received_at": "2026-10-17T20:44:15.663Z",
+    "payload": "{\"boot_id\":\"674e023dcffb64a0\",\"calibrated\":true,\"dropped_hits\":0,\"helmet_id\":\"helmet-1\",\"player\":\"#44\",\"queued_hits\":0,\"rssi\":-42,\"type\":\"heartbeat\",\"uptime_ms\":6505916}"
+  },
+  "inspector_tested": [
+    "get_impacts",
+    "show_last_hit",
+    "flag_for_review"
+  ],
+  "handset_receipt_confirmed": true,
+  "handset_confirmation_source": "User replied: Yes — new 30.3 g text arrived",
+  "messages_sent_by_export": 0
+}

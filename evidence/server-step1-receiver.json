@@ -1,0 +1,24 @@
+{
+  "stage": "1_receiver",
+  "checked_at_utc": "2026-10-17T19:13:03.0691265Z",
+  "framework": "mcp-use@1.34.8",
+  "scaffold": "create-mcp-use-app@2.0.10 blank --sdk-version 1.34.8",
+  "database": "better-sqlite3, WAL, local ignored data/helmet.sqlite",
+  "heartbeat": [
+    {
+      "received_at": "2026-10-17T19:13:00.508Z",
+      "boot_id": "674e023dcffb64a0",
+      "calibrated": true,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -38,
+      "type": "heartbeat",
+      "uptime_ms": 1030847
+    }
+  ],
+  "tests": "typecheck and receiver persistence/retry/validation tests passed",
+  "mcp_lan_status": 403,
+  "firmware_changed": false
+}

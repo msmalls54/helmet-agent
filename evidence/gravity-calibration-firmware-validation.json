@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-10-17T04:16:09.518421+00:00",
+  "method": "Five static gravity positions; two-second means; opposed-pose offset cancellation; preview before explicit save",
+  "compile": {
+    "succeeded": true,
+    "program_bytes": 424082,
+    "globals_bytes": 60224
+  },
+  "upload": {
+    "succeeded": true,
+    "hash_verified": true,
+    "application_port": "COM3"
+  },
+  "source_sha256": {
+    "firmware/helmet_impact/helmet_impact.ino": "e5e1ad963764cbc13a6c54acc813d5a07ec2a939d133c038f9d834d10d012da1",
+    "firmware/helmet_impact/ImpactMath.h": "35d07e55420d4b4b73a0031470daf4b1eb65365375ab36c149ae26710d2e8929"
+  },
+  "device_records": [
+    {
+      "type": "selftest",
+      "passed": 18,
+      "failed": 0,
+      "synthetic_math_only": true
+    },
+    {
+      "type": "calibration",
+      "saved": false,
+      "method": "five_static_gravity_positions",
+      "impact_location_validated": false,
+      "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+    },
+    {
+      "type": "heartbeat",
+      "ms": 11424,
+      "rest_accel_g": 1.725468,
+      "rest_ax_g": 0.882,
+      "rest_ay_g": -1.47,
+      "rest_az_g": 0.196,
+      "gyro_dps": 0.885438,
+      "gyro_read_hz": 790.6137,
+      "i2c_errors": 0,
+      "calibrated": false,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "calibration_method": "five_static_gravity_positions"
+    },
+    {
+      "type": "heartbeat",
+      "ms": 16424,
+      "rest_accel_g": 1.533943,
+      "rest_ax_g": 0.98,
+      "rest_ay_g": -1.176,
+      "rest_az_g": 0.098,
+      "gyro_dps": 0.766812,
+      "gyro_read_hz": 790.6,
+      "i2c_errors": 0,
+      "calibrated": false,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "calibration_method": "five_static_gravity_positions"
+    }
+  ],
+  "user_reported_mount": "Thin double-sided tape, held firmly",
+  "physical_calibration_complete": false,
+  "impact_location_validation": "Unverified; peak direction method retained with explicit JSON flag",
+  "limits": [
+    "Self-tests validate mathematics only",
+    "Static orientation is separate from dynamic impact contact location",
+    "First-pulse direction has not been implemented or validated"
+  ]
+}

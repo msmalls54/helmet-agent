@@ -1,0 +1,116 @@
+{
+  "checked_at_utc": "2026-10-17T22:49:48.763310+00:00",
+  "test": "First real normal impact through automatic background agent and connected phone",
+  "user_report": "Done \u2014 one back tap; Yes \u2014 new #44 / 70.4 g text arrived",
+  "input_source": "physical empty-helmet knuckle tap; not simulated",
+  "server_commit": "5596793",
+  "impact_id": 8,
+  "received_at": "2026-10-17T22:48:49.024Z",
+  "telemetry": {
+    "accel_basis": "rest_baseline_subtracted_g",
+    "accel_clipped": false,
+    "accel_window_left_censored": false,
+    "ax": -20.7492,
+    "ay": 12.36102,
+    "az": -66.17297,
+    "boot_id": "efca8567ce11151a",
+    "calibration_capture": false,
+    "fifo_samples": 32,
+    "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+    "gyro_clipped": false,
+    "gyro_max_gap_ms": 2.71,
+    "gyro_peak_sensor_dps": {
+      "x": 247.1,
+      "y": 41.58,
+      "z": 71.26
+    },
+    "gyro_samples": 41,
+    "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+    "gyro_window_complete": true,
+    "helmet_id": "helmet-1",
+    "id": 1,
+    "initial_ax_g": 0,
+    "initial_ay_g": 0,
+    "initial_az_g": 0,
+    "initial_pulse_samples": 4,
+    "location": "unknown",
+    "location_confidence": 0,
+    "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+    "location_method": "opposite_initial_pulse_axis",
+    "location_validated": false,
+    "ms": 4665986,
+    "peak_g": 70.44279,
+    "peak_g_scope": "captured_20ms_window",
+    "peak_rot_dps": 260.5097,
+    "peak_rot_rads": 4.546751,
+    "player": "#44",
+    "raw_peak_sample_g": 69.79506,
+    "timing_estimated": true,
+    "type": "impact"
+  },
+  "automatic_job_state": "delivered",
+  "model_attempts": 1,
+  "delivery_attempts": 1,
+  "agent_model": "grok-4.20-0309-non-reasoning",
+  "history_count": 1,
+  "history_window_minutes": 60,
+  "agent_decision": {
+    "impact_id": 8,
+    "reason": "new_demo_hit",
+    "evidence_ids": [
+      8
+    ],
+    "observation": "Single impact recorded for player #44; complete non-censored capture with no prior hits in history window."
+  },
+  "agent_trace": [
+    {
+      "tool": "get_impacts",
+      "args": {
+        "player": "#44",
+        "since_minutes": 60
+      },
+      "result_count": 1,
+      "response_id": "82048a72-d913-9cf2-9f68-8a21060b3697"
+    },
+    {
+      "tool": "flag_for_review",
+      "args": {
+        "impact_id": 8,
+        "reason": "new_demo_hit",
+        "evidence_ids": [
+          8
+        ],
+        "observation": "Single impact recorded for player #44; complete non-censored capture with no prior hits in history window."
+      },
+      "response_id": "38f4944c-1793-9a5b-b3f0-939e55202f14"
+    }
+  ],
+  "model_usage": {
+    "input_tokens": 1923,
+    "output_tokens": 113
+  },
+  "manual_flag_requested": false,
+  "message": "Check #44.\nHelmet impact recorded at 3:48 PM.\nReading: 70.4 g. Sensor direction: UNKNOWN.\nReason: Automatic empty-helmet demo review. 1 recorded hit for #44 in the preceding 60 minutes. New helmet event recorded; please check the player.\nRelative helmet-impact telemetry.",
+  "provider_receipt": {
+    "message_id": "319ad35a-387b-4b12-ba6f-0499c5c5b037",
+    "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+    "status": "delivered",
+    "service": "imessage",
+    "recipient_delivery_status": "delivered",
+    "delivered_at": "2026-10-17T22:48:59.929Z"
+  },
+  "handset_receipt_confirmed_by_user": true,
+  "provider_delivery_seconds_after_ingest": 10.905,
+  "database_counts_after": {
+    "impacts": 8,
+    "reviews": 4
+  },
+  "pass": true,
+  "scope": "One supported empty-helmet back tap through current normal firmware, Wi-Fi, SQLite, background model history lookup and Inkbox to user-confirmed handset.",
+  "remaining_limits": [
+    "Physical contact side was not determined; sensor reported unknown with confidence 0.",
+    "No drop-survival or adhesive/power-bank impact qualification was performed.",
+    "This is relative helmet-impact telemetry, not skull motion or a diagnosis."
+  ],
+  "firmware_verification_commit": "23f5f55"
+}

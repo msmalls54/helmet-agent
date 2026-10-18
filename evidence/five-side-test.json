@@ -1,0 +1,402 @@
+{
+  "started_at_utc": "2026-10-17T20:49:09.758724+00:00",
+  "test": "User-confirmed single taps on five sides of supported empty helmet",
+  "status": "completed_with_direction_and_detection_failures",
+  "order": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "top"
+  ],
+  "baseline_impact_id": 3,
+  "attempts": [
+    {
+      "expected_side": "front",
+      "user_report": "Done \u2014 one front tap",
+      "observed_hit": {
+        "impact_id": 4,
+        "received_at": "2026-10-17T20:49:29.831Z",
+        "player": "#44",
+        "peak_g": 10.95918,
+        "location": "front",
+        "payload": {
+          "accel_basis": "rest_baseline_subtracted_g",
+          "accel_clipped": false,
+          "ax": -2.702656,
+          "ay": 4.524844,
+          "az": -9.608593,
+          "boot_id": "674e023dcffb64a0",
+          "calibration_capture": false,
+          "fifo_samples": 32,
+          "gyro_clipped": false,
+          "gyro_max_gap_ms": 2.68,
+          "gyro_samples": 41,
+          "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+          "gyro_window_complete": true,
+          "helmet_id": "helmet-1",
+          "id": 6,
+          "location": "front",
+          "location_method": "opposite_peak_acceleration_axis",
+          "location_validated": false,
+          "ms": 6820038,
+          "peak_g": 10.95918,
+          "peak_rot_dps": 132.457,
+          "peak_rot_rads": 2.311811,
+          "player": "#44",
+          "raw_peak_sample_g": 10.14761,
+          "timing_estimated": true,
+          "type": "impact"
+        }
+      },
+      "direction_match": true,
+      "capture_complete_and_unclipped": true,
+      "recorded_at_utc": "2026-10-17T20:49:49.884829+00:00"
+    },
+    {
+      "expected_side": "back",
+      "user_report": "Done \u2014 one back tap",
+      "observed_hit": {
+        "impact_id": 5,
+        "received_at": "2026-10-17T20:50:04.028Z",
+        "player": "#44",
+        "peak_g": 30.614,
+        "location": "back",
+        "payload": {
+          "accel_basis": "rest_baseline_subtracted_g",
+          "accel_clipped": false,
+          "ax": -9.268656,
+          "ay": 11.87484,
+          "az": 26.65141,
+          "boot_id": "674e023dcffb64a0",
+          "calibration_capture": false,
+          "fifo_samples": 32,
+          "gyro_clipped": false,
+          "gyro_max_gap_ms": 2.693,
+          "gyro_samples": 41,
+          "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+          "gyro_window_complete": true,
+          "helmet_id": "helmet-1",
+          "id": 7,
+          "location": "back",
+          "location_method": "opposite_peak_acceleration_axis",
+          "location_validated": false,
+          "ms": 6854166,
+          "peak_g": 30.614,
+          "peak_rot_dps": 642.1942,
+          "peak_rot_rads": 11.2084,
+          "player": "#44",
+          "raw_peak_sample_g": 29.89145,
+          "timing_estimated": true,
+          "type": "impact"
+        }
+      },
+      "direction_match": true,
+      "capture_complete_and_unclipped": true,
+      "recorded_at_utc": "2026-10-17T20:50:22.976531+00:00"
+    },
+    {
+      "expected_side": "left",
+      "user_report": "Done \u2014 one wearer\u2019s-left tap",
+      "observed_hit": {
+        "impact_id": 6,
+        "received_at": "2026-10-17T20:50:44.069Z",
+        "player": "#44",
+        "peak_g": 14.54565,
+        "location": "top",
+        "payload": {
+          "accel_basis": "rest_baseline_subtracted_g",
+          "accel_clipped": false,
+          "ax": 8.469343,
+          "ay": 11.77684,
+          "az": 1.073406,
+          "boot_id": "674e023dcffb64a0",
+          "calibration_capture": false,
+          "fifo_samples": 32,
+          "gyro_clipped": false,
+          "gyro_max_gap_ms": 2.699,
+          "gyro_samples": 41,
+          "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+          "gyro_window_complete": true,
+          "helmet_id": "helmet-1",
+          "id": 8,
+          "location": "top",
+          "location_method": "opposite_peak_acceleration_axis",
+          "location_validated": false,
+          "ms": 6894230,
+          "peak_g": 14.54565,
+          "peak_rot_dps": 219.1069,
+          "peak_rot_rads": 3.824136,
+          "player": "#44",
+          "raw_peak_sample_g": 14.13002,
+          "timing_estimated": true,
+          "type": "impact"
+        }
+      },
+      "direction_match": false,
+      "capture_complete_and_unclipped": true,
+      "recorded_at_utc": "2026-10-17T20:51:39.649055+00:00"
+    },
+    {
+      "expected_side": "right",
+      "user_report": "Done \u2014 one wearer\u2019s-right tap",
+      "observed_hit": {
+        "impact_id": 7,
+        "received_at": "2026-10-17T20:53:20.431Z",
+        "player": "#44",
+        "peak_g": 13.38256,
+        "location": "right",
+        "payload": {
+          "accel_basis": "rest_baseline_subtracted_g",
+          "accel_clipped": false,
+          "ax": -12.40466,
+          "ay": -4.883156,
+          "az": 1.171406,
+          "boot_id": "674e023dcffb64a0",
+          "calibration_capture": false,
+          "fifo_samples": 32,
+          "gyro_clipped": false,
+          "gyro_max_gap_ms": 2.691,
+          "gyro_samples": 41,
+          "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+          "gyro_window_complete": true,
+          "helmet_id": "helmet-1",
+          "id": 9,
+          "location": "right",
+          "location_method": "opposite_peak_acceleration_axis",
+          "location_validated": false,
+          "ms": 7050646,
+          "peak_g": 13.38256,
+          "peak_rot_dps": 221.0975,
+          "peak_rot_rads": 3.858879,
+          "player": "#44",
+          "raw_peak_sample_g": 13.04578,
+          "timing_estimated": true,
+          "type": "impact"
+        }
+      },
+      "direction_match": true,
+      "capture_complete_and_unclipped": true,
+      "recorded_at_utc": "2026-10-17T20:53:39.156985+00:00"
+    },
+    {
+      "expected_side": "top",
+      "user_report": "Done \u2014 one crown tap",
+      "observed_hit": null,
+      "result": "no_triggered_event_received",
+      "recorded_at_utc": "2026-10-17T20:54:33.624597+00:00",
+      "user_confirmed_support_condition": "resting_on_table"
+    },
+    {
+      "expected_side": "top",
+      "attempt": 2,
+      "user_report": "Done \u2014 one crown retry",
+      "observed_hit": null,
+      "result": "no_triggered_event_received",
+      "recorded_at_utc": "2026-10-17T20:55:45.007170+00:00",
+      "user_confirmed_support_condition": "resting_on_table"
+    },
+    {
+      "expected_side": "top",
+      "attempt": 3,
+      "user_report": "Done \u2014 crown tap held off the table",
+      "user_confirmed_support_condition": "held_clear_of_table",
+      "observed_hit": null,
+      "result": "no_triggered_event_received",
+      "recorded_at_utc": "2026-10-17T21:00:10.229643+00:00"
+    }
+  ],
+  "awaiting": null,
+  "messages_sent": 0,
+  "interpretation": "Directional spot check of relative helmet-impact telemetry; not a medical test or general location validation.",
+  "user_observation": {
+    "front_tap_felt_harder_than_back": true,
+    "front_peak_g": 10.95918,
+    "back_peak_g": 30.614,
+    "meaning": "This pair does not establish that larger measured peak ranks applied tap force across sides.",
+    "exact_user_report": "thats concerning i hit the front objectively harder",
+    "applied_input_force_independently_measured": false
+  },
+  "diagnostic_observation": {
+    "left_tap_reported_as_top": true,
+    "peak_axes_g": {
+      "x": 8.469343,
+      "y": 11.77684,
+      "z": 1.073406
+    },
+    "direction_method": "opposite_peak_acceleration_axis",
+    "interpretation": "Buffer completeness and unclipped samples do not validate true input force, contact location, or entire shock waveform."
+  },
+  "mounting_check": {
+    "user_report": "they are as solid as they need to be before glue right now",
+    "checked_at_utc": "2026-10-17T20:52:51.041419+00:00",
+    "physical_mount_verified_by_assistant": false,
+    "mount_unchanged": true
+  },
+  "board_status_before_crown_retry": [
+    {
+      "type": "calibration",
+      "saved": true,
+      "method": "five_static_gravity_positions",
+      "impact_location_validated": false,
+      "front": 3,
+      "back": -3,
+      "left": -1,
+      "right": 1,
+      "top": -2,
+      "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+    },
+    {
+      "type": "heartbeat",
+      "ms": 7100606,
+      "rest_accel_g": 1.825538,
+      "rest_ax_g": 1.078,
+      "rest_ay_g": -1.47,
+      "rest_az_g": 0.098,
+      "gyro_dps": 0.816333,
+      "gyro_read_hz": 793.9878,
+      "i2c_errors": 0,
+      "calibrated": true,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "calibration_method": "five_static_gravity_positions"
+    },
+    {
+      "type": "heartbeat",
+      "ms": 7105606,
+      "rest_accel_g": 1.74759,
+      "rest_ax_g": 1.078,
+      "rest_ay_g": -1.372,
+      "rest_az_g": 0.098,
+      "gyro_dps": 7.856233,
+      "gyro_read_hz": 794.2,
+      "i2c_errors": 0,
+      "calibrated": true,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "calibration_method": "five_static_gravity_positions"
+    }
+  ],
+  "final_board_status": [
+    {
+      "type": "calibration",
+      "saved": true,
+      "method": "five_static_gravity_positions",
+      "impact_location_validated": false,
+      "front": 3,
+      "back": -3,
+      "left": -1,
+      "right": 1,
+      "top": -2,
+      "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+    },
+    {
+      "type": "heartbeat",
+      "ms": 7167928,
+      "rest_accel_g": 1.785645,
+      "rest_ax_g": 0.98,
+      "rest_ay_g": -1.372,
+      "rest_az_g": 0.588,
+      "gyro_dps": 0.949526,
+      "gyro_read_hz": 792.851,
+      "i2c_errors": 0,
+      "calibrated": true,
+      "armed": true,
+      "cal_step": -1,
+      "shock_threshold_g": 10.14,
+      "calibration_method": "five_static_gravity_positions"
+    }
+  ],
+  "final_wifi_heartbeat": {
+    "received_at": "2026-10-17T20:55:36.318Z",
+    "payload": {
+      "boot_id": "674e023dcffb64a0",
+      "calibrated": true,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -45,
+      "type": "heartbeat",
+      "uptime_ms": 7186531
+    }
+  },
+  "completed_at_utc": "2026-10-17T21:00:10.229643+00:00",
+  "summary": {
+    "tested_sides": 5,
+    "user_reported_taps": 7,
+    "received_impacts": 4,
+    "correctly_classified_received_impacts": 3,
+    "misclassified_received_impacts": 1,
+    "taps_without_received_event": 3,
+    "side_results": [
+      {
+        "tapped": "front",
+        "reported": "front",
+        "peak_g": 10.95918,
+        "impact_id": 4
+      },
+      {
+        "tapped": "back",
+        "reported": "back",
+        "peak_g": 30.614,
+        "impact_id": 5
+      },
+      {
+        "tapped": "left",
+        "reported": "top",
+        "peak_g": 14.54565,
+        "impact_id": 6
+      },
+      {
+        "tapped": "right",
+        "reported": "right",
+        "peak_g": 13.38256,
+        "impact_id": 7
+      },
+      {
+        "tapped": "top",
+        "reported": null,
+        "peak_g": null,
+        "attempts": 3,
+        "on_table_attempts": 2,
+        "held_clear_attempts": 1
+      }
+    ],
+    "all_received_impacts_have_32_fifo_samples_complete_gyro_and_no_clipping": true,
+    "five_side_check_passed": false,
+    "general_direction_accuracy_established": false,
+    "cross_side_input_strength_ranking_established": false
+  },
+  "firmware_changed_during_test": false,
+  "calibration_changed_during_test": false,
+  "findings": [
+    "Wi-Fi and SQLite received all four emitted test impacts.",
+    "Front, back and right each matched one user-reported tap.",
+    "The wearer-left tap was classified as top.",
+    "Two crown taps on the table and one user-confirmed tap held clear of the table generated no received impact. Before the held-clear comparison the board was armed, with zero I2C errors and no queued or dropped Wi-Fi hits.",
+    "Buffer completeness flags do not establish full-waveform peak accuracy, applied input force, physical contact side, or injury severity.",
+    "This spot check does not pass all five sides; do not mark location_validated true.",
+    "Lifting clear of the table did not resolve crown non-detection in one comparison. Pulse amplitude, duration, and waveform are not available for non-triggered taps; the root cause remains undetermined."
+  ],
+  "diagnostic_sources": [
+    "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL375.PDF",
+    "https://www.analog.com/en/resources/app-notes/an-1266.html"
+  ],
+  "support_condition_clarification": {
+    "user_confirmed": "Both initial crown taps were resting on the table",
+    "confirmed_at_utc": "2026-10-17T20:58:33.089020+00:00",
+    "initial_test_instructions_requested_held_clear": true,
+    "actual_front_back_left_right_support_condition": "Not independently confirmed"
+  },
+  "trigger_configuration": {
+    "threshold_g_read_back_in_status": 10.14,
+    "max_duration_ms_in_current_firmware_source": 10.0,
+    "odr_hz_in_current_firmware_source": 1600,
+    "fifo_pretrigger_samples_in_source": 31,
+    "nontriggered_waveform_recorded": false
+  },
+  "next_diagnostic": "Capture the crown acceleration waveform independently of the hardware shock trigger before changing detection thresholds or the saved direction mapping."
+}

@@ -1,0 +1,47 @@
+{
+  "recorded_at_utc": "2026-10-18T06:26:13.287017+00:00",
+  "scope": "Value-first README copy, existing actual screenshots, navigation and claims; no runtime changes",
+  "skill": "C:/Users/Small/.codex/skills/product-readme/SKILL.md",
+  "headline": "Give the trainer a player to check and the records behind it.",
+  "physical_input_hook_preserved": true,
+  "claims_checked_against": [
+    "evidence/controlled-held-rehearsal.json",
+    "docs/AGENT_VALUE.md",
+    "server/src/alert-agent.ts",
+    "server/src/impacts.ts",
+    "server/src/last-hit.ts",
+    "server/src/practice.ts",
+    "server/src/reviews.ts"
+  ],
+  "readme_sha256": "9029695853d7e94daf9826318ce4b00812b8a96e6e6d2989dcf1f88ee7377e53",
+  "local_links_checked": 18,
+  "all_five_tool_names_present": true,
+  "source_distinction_preserved": true,
+  "word_count": 1046,
+  "actual_screenshots_visually_inspected": [
+    "evidence/cumulative-map-claude.jpg",
+    "evidence/practice-resource-repaired.jpg"
+  ],
+  "review": {
+    "url": "https://claude.ai/chat/89c3b096-33f7-4b53-ac4d-4105ceb8785e",
+    "scope": "Proposed headline, opening, ordering, receipt and boundaries; not a final full-file review",
+    "proof": "evidence/readme-value-claude-review.jpg",
+    "adopted": [
+      "Explicit selective alert gate",
+      "Shell-sensor and empty-helmet scope for real capture",
+      "Provider timing separate from user phone confirmation",
+      "Raw counts before rounded 3.4x sample rate; distinct peer roles",
+      "Physical-input hook retained near the opening"
+    ],
+    "not_adopted": [
+      "Provider accepted wording: the actual saved receipt is delivered, so README says provider delivery recorded",
+      "Limitations box above the demonstration: detailed boundaries remain in linked engineering notes with concise interpretation beside setup"
+    ]
+  },
+  "firmware_changed": false,
+  "server_changed": false,
+  "phone_messages_sent": 0,
+  "physical_tests_requested": 0,
+  "runtime_tests": "Not rerun for documentation-only changes",
+  "git_remote_configured": false
+}

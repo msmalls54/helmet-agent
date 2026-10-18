@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-18T05:58:08.220784+00:00",
+  "site": "front",
+  "reason": "user requested full sequence and separate front sequence",
+  "continue_settling_flags": true,
+  "existing_attempt_sha256": {
+    "light-1.json": "9a1320add42b5e94bb1093c888594b1fe00f7033e12b3b2a210a061a94b9fa3f",
+    "medium-1.json": "f20ab5ac72323c37c4cc32e5c40f594a8efb740980b34e48ee21cfcc8a9383ef",
+    "firm-1.json": "9d4d5d94773d7ff0ede0841c8625f8325f18f7bf5b0237c7a41583d0113b1b02",
+    "firm-2.json": "da84d1929c1d66c40b9c3b565f8790e74306fc05a6fe1324542077e5182aac56"
+  },
+  "baseline_note": "Bench entry establishes a fresh local baseline after this interruption; prior captures remain unchanged."
+}

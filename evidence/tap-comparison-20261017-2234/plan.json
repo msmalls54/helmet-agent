@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-18T05:35:04.292899+00:00",
+  "trials": [
+    {
+      "level": "light",
+      "repeat": 1
+    },
+    {
+      "level": "medium",
+      "repeat": 1
+    },
+    {
+      "level": "firm",
+      "repeat": 1
+    },
+    {
+      "level": "firm",
+      "repeat": 2
+    },
+    {
+      "level": "light",
+      "repeat": 2
+    },
+    {
+      "level": "medium",
+      "repeat": 2
+    },
+    {
+      "level": "medium",
+      "repeat": 3
+    },
+    {
+      "level": "firm",
+      "repeat": 3
+    },
+    {
+      "level": "light",
+      "repeat": 3
+    }
+  ],
+  "primary": "raw peak_g",
+  "support": "same table",
+  "contact": "one marked back-shell spot"
+}

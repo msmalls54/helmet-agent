@@ -1,0 +1,116 @@
+{
+  "checked_at_utc": "2026-10-17T04:05:57.202827+00:00",
+  "change": "Raise calibration trigger and reject weak baseline-subtracted direction captures",
+  "settings": {
+    "calibration_trigger_g": 6.24,
+    "calibration_min_peak_g": 3.0,
+    "normal_trigger_g": 10.14
+  },
+  "compile_succeeded": true,
+  "upload_succeeded_and_hash_verified": true,
+  "application_port": "COM3",
+  "on_device_selftest": [
+    {
+      "type": "selftest",
+      "passed": 17,
+      "failed": 0,
+      "synthetic_math_only": true
+    }
+  ],
+  "hands_off_repeat": {
+    "capture_header": "# USB capture UTC: 2026-10-17T04:01:48.133690+00:00",
+    "user_reported_condition": "Helmet upright, hands off, no taps",
+    "requested_window_seconds": 22,
+    "impact_count": 0,
+    "calibration_acceptance_count": 0,
+    "heartbeat_count": 5,
+    "sensor_i2c_errors": 0,
+    "records": [
+      {
+        "type": "heartbeat",
+        "ms": 64802,
+        "rest_accel_g": 1.755814,
+        "rest_ax_g": 1.078,
+        "rest_ay_g": -1.372,
+        "rest_az_g": 0.196,
+        "gyro_dps": 0.464328,
+        "gyro_read_hz": 777.8,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": 0,
+        "shock_threshold_g": 6.24,
+        "calibration_min_peak_g": 3
+      },
+      {
+        "type": "heartbeat",
+        "ms": 69802,
+        "rest_accel_g": 1.872287,
+        "rest_ax_g": 0.98,
+        "rest_ay_g": -1.568,
+        "rest_az_g": 0.294,
+        "gyro_dps": 0.42,
+        "gyro_read_hz": 795.4,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": 0,
+        "shock_threshold_g": 6.24,
+        "calibration_min_peak_g": 3
+      },
+      {
+        "type": "heartbeat",
+        "ms": 74802,
+        "rest_accel_g": 1.69741,
+        "rest_ax_g": 0.98,
+        "rest_ay_g": -1.372,
+        "rest_az_g": 0.196,
+        "gyro_dps": 0.98,
+        "gyro_read_hz": 795.4,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": 0,
+        "shock_threshold_g": 6.24,
+        "calibration_min_peak_g": 3
+      },
+      {
+        "type": "heartbeat",
+        "ms": 79802,
+        "rest_accel_g": 1.76672,
+        "rest_ax_g": 0.98,
+        "rest_ay_g": -1.47,
+        "rest_az_g": 0,
+        "gyro_dps": 0.727461,
+        "gyro_read_hz": 795.4,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": 0,
+        "shock_threshold_g": 6.24,
+        "calibration_min_peak_g": 3
+      },
+      {
+        "type": "heartbeat",
+        "ms": 84802,
+        "rest_accel_g": 1.885068,
+        "rest_ax_g": 1.176,
+        "rest_ay_g": -1.47,
+        "rest_az_g": 0.098,
+        "gyro_dps": 1.162927,
+        "gyro_read_hz": 795.4,
+        "i2c_errors": 0,
+        "calibrated": false,
+        "armed": true,
+        "cal_step": 0,
+        "shock_threshold_g": 6.24,
+        "calibration_min_peak_g": 3
+      }
+    ]
+  },
+  "limits": [
+    "No false capture observed in this repeat window; long-term false-trigger rate is unmeasured",
+    "Four physical directions, top label and reboot persistence remain unverified",
+    "Mathematical self-tests do not replace physical validation"
+  ]
+}

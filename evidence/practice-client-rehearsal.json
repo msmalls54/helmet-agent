@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-17T22:27:28.909027+00:00",
+  "client": "ChatGPT / Helmet Agent Live Demo",
+  "chat_url": "https://chatgpt.com/c/6ad3e398-408c-83e8-b4ee-dbee1afca10f",
+  "connection_id": "plugin_asdk_app_6ad3e368cfc881919301d26c03f9be8a",
+  "initial_result": "Existing connection exposed only the original three tools; new practice tools unavailable.",
+  "repair": "Manage -> Refresh tools; reload existing chat; retry fresh read-only tool discovery.",
+  "private_url_changed": false,
+  "connection_readded": false,
+  "observed_tools_executed": [
+    "exposure_load",
+    "show_practice_week"
+  ],
+  "observed_investigation": {
+    "data_source": "simulated_week",
+    "player": "#72",
+    "day": "Thu",
+    "drill": "inside_run",
+    "count": 8,
+    "observed_minutes": 20,
+    "prior_count": 7,
+    "prior_observed_minutes": 60,
+    "rate_ratio": 3.43,
+    "largest_single_illustrative_reading": {
+      "player": "#21",
+      "peak_g": 76,
+      "period": "Friday game"
+    }
+  },
+  "widget_visual_verified": true,
+  "widget_label": "SIMULATED PRACTICE WEEK",
+  "widget_screenshot": "evidence/practice-chatgpt-rehearsal.png",
+  "initial_widget_sandbox_failed": true,
+  "sandbox_try_again_count": 1,
+  "retry_result": "practice Widget frame and full visible drill chart rendered in the actual ChatGPT chat.",
+  "client_development_mode": "Existing CSP off indicator; no security setting changed during this rehearsal.",
+  "messages_requested_by_rehearsal": 0,
+  "database_after_rehearsal": {
+    "impacts": 7,
+    "reviews": 3,
+    "counts_unchanged": true
+  },
+  "claude_practice_tools_verified": false,
+  "scope": "Fictional practice investigation and ChatGPT widget only; no new physical impact or phone-delivery test."
+}

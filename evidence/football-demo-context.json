@@ -1,0 +1,144 @@
+{
+  "checked_at_utc": "2026-10-17T22:08:20.860695+00:00",
+  "status": "implemented_and_verified_local_and_public_mcp",
+  "claude_context_read": "Hackathon project strategy; relevant Riddell/football research and latest demo priorities read through browser UI",
+  "features": [
+    "exposure_load read-only tool; default live source",
+    "show_practice_week simulated inline SVG widget",
+    "110-minute practice with stretches, position warm-ups, walkthrough, inside run, offensive/defensive unit, team and scout",
+    "3 fictional position/role profiles and separate reported concussion histories",
+    "143 fictional impacts and 87 fully observed periods, including zero-hit periods",
+    "Own-player same-drill rate comparisons using participation minutes",
+    "Quality exclusions and earlier-history-only personal magnitude comparison",
+    "Reviewable synthetic dataset export, never inserted into live SQLite"
+  ],
+  "research_basis": [
+    {
+      "title": "Asken et al., drill-specific collegiate practice exposure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29987539/",
+      "checked": "Primary research abstract: drill/position rates and participation minutes matter. No universal highest-contact drill established."
+    },
+    {
+      "title": "Urban et al., high-school exposure",
+      "url": "https://saveinjuredkids.org/wp-content/uploads/2015/03/Urban-et-al-Head-Impact-Exposure-in-Youth-Football.pdf",
+      "checked": "40 players, 16,502 impacts; 9.4/practice and 15.5/game are study averages, not fixture validation or device calibration."
+    },
+    {
+      "title": "Riddell sample reports",
+      "url": "https://content.riddell.com/wp-content/themes/riddell_2013/assets/img/insite/2023InsiteAnalyticsReportPacket.pdf",
+      "checked": "Practice plans, national norms by playing level/position, and personal history. Proprietary load metric not reproduced."
+    }
+  ],
+  "corrections_to_claude_proposal": [
+    "No claim that reducing ODR to 800 Hz would validate equivalence with HIT; firmware unchanged during this work.",
+    "No change from current 50 ms shock duration without physical waveform evidence.",
+    "Riddell uses proprietary metrics and national norms as well as personal history; our 2.5x rate and 2x median rules are explicit demo heuristics.",
+    "Synthetic history examples are authored, not representative concussion prevalence or clinical predictions.",
+    "No comparison of live inner-shell g readings with published head-acceleration thresholds."
+  ],
+  "scenario": {
+    "primary_player": "#72",
+    "position": "OL",
+    "role": "Second-team right guard / scout offense",
+    "reported_prior_concussions": 4,
+    "years_played": 8,
+    "thursday_inside_run_count": 8,
+    "thursday_inside_run_minutes": 20,
+    "earlier_inside_run_count": 7,
+    "earlier_inside_run_minutes": 60,
+    "rate_ratio": 3.43,
+    "thursday_all_period_counts": [
+      0,
+      0,
+      0,
+      8,
+      1,
+      3,
+      3
+    ],
+    "other_reported_histories": {
+      "#44": 0,
+      "#21": 5
+    },
+    "medical_history_affects_signal_score": false
+  },
+  "validation": {
+    "unit_tests_passed": 12,
+    "typescript_build_passed": true,
+    "local_and_public_mcp": "evidence/practice-mcp-check.json",
+    "public_boundaries": "evidence/gate-public-https.json",
+    "inspector_mcp_apps_visual_verified": true,
+    "themes_verified": [
+      "light",
+      "dark"
+    ],
+    "widget_height_px": 370.21875,
+    "inner_scroll_observed": false,
+    "screenshots": [
+      "evidence/practice-widget-light.png",
+      "evidence/practice-widget-dark.png",
+      "evidence/practice-widget-apps-sdk.png"
+    ],
+    "real_chatgpt_claude_new_tool_discovery_tested": false,
+    "real_client_refresh_may_be_needed": true,
+    "inspector_apps_sdk_visual_verified": true,
+    "iframe_scroll_dimensions": {
+      "client_height": 370,
+      "scroll_height": 370,
+      "client_width": 768,
+      "scroll_width": 768
+    }
+  },
+  "live_preservation": {
+    "before": {
+      "impacts": 7,
+      "reviews": 3
+    },
+    "after": {
+      "impacts": 7,
+      "reviews": 3
+    },
+    "private_connection_url_unchanged": true,
+    "same_helmet_boot": true,
+    "heartbeat_age_seconds": 1.85,
+    "heartbeat": {
+      "received_at": "2026-10-17T22:08:19.014Z",
+      "boot_id": "efca8567ce11151a",
+      "calibrated": true,
+      "diagnostic_mode": "normal",
+      "diagnostic_window_peak_g": 0.861379,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "impact_detection_paused": false,
+      "near_miss": {
+        "accel_clipped": false,
+        "age_ms": 1999083,
+        "hardware_shock_observed": false,
+        "id": 1,
+        "longest_raw_axis_above_shock_ms": 0,
+        "max_gap_ms": 2.161,
+        "ms": 237029,
+        "peak_g": 6.910004,
+        "sampled_estimate": true,
+        "samples": 6,
+        "span_above_5g_ms": 2.161
+      },
+      "near_miss_observation": "explicit_probe_only",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -33,
+      "type": "heartbeat",
+      "uptime_ms": 2236112
+    },
+    "new_text_messages_sent": 0,
+    "synthetic_live_database_writes": 0,
+    "firmware_changed": false,
+    "reconnect_note": "A heartbeat gap and HTTP failures were observed before/during server work; delivery recovered automatically after restart. Latest fresh heartbeat confirmed, same board boot, zero queue/drops. No uninterrupted-link claim is made."
+  },
+  "remaining": [
+    "Verify refreshed discovery of the two new read-only tools in actual ChatGPT and Claude chats.",
+    "Mount electronics and resolve battery impact exposure before controlled physical drop tests.",
+    "Confirm a new normal-mode physical hit after diagnostic firmware update.",
+    "Autonomous agent alert loop and video integration are not implemented."
+  ]
+}

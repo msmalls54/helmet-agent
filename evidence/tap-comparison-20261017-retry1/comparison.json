@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-10-18T06:04:14.886335+00:00",
+  "primary_metric": "raw peak_g",
+  "site": "back",
+  "verdict": "incomplete",
+  "all_nine_usable": false,
+  "group_medians_increase": false,
+  "groups_do_not_overlap": false,
+  "groups": {
+    "light": {
+      "usable": 3,
+      "raw_peak_g": [
+        3.916512,
+        7.904847,
+        16.98213
+      ],
+      "median_peak_g": 7.904847,
+      "median_peak_5ms_g": 3.717586,
+      "min_g": 3.916512,
+      "max_g": 16.98213
+    },
+    "medium": {
+      "usable": 2,
+      "raw_peak_g": [
+        6.967595,
+        5.974262
+      ],
+      "median_peak_g": 6.4709285,
+      "median_peak_5ms_g": 4.1994335,
+      "min_g": 5.974262,
+      "max_g": 6.967595
+    },
+    "firm": {
+      "usable": 2,
+      "raw_peak_g": [
+        16.1571,
+        41.51527
+      ],
+      "median_peak_g": 28.836185,
+      "median_peak_5ms_g": 12.3985655,
+      "min_g": 16.1571,
+      "max_g": 41.51527
+    }
+  },
+  "attempts": [
+    {
+      "level": "firm",
+      "repeat": 1,
+      "peak_g": 16.1571,
+      "peak_5ms_g": 8.130851,
+      "span_ms": 20,
+      "gyro_peak_dps": 95.02773,
+      "observed_window_peak_g": 16.1571,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "firm",
+      "repeat": 2,
+      "peak_g": 18.34523,
+      "peak_5ms_g": 15.11773,
+      "span_ms": 45,
+      "gyro_peak_dps": 153.5042,
+      "observed_window_peak_g": 18.34523,
+      "gyro_complete": true,
+      "problems": [
+        "incomplete acceleration capture",
+        "resting baseline shifted or unverified"
+      ]
+    },
+    {
+      "level": "firm",
+      "repeat": 3,
+      "peak_g": 41.51527,
+      "peak_5ms_g": 16.66628,
+      "span_ms": 27.5,
+      "gyro_peak_dps": 116.9365,
+      "observed_window_peak_g": 41.51527,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 1,
+      "peak_g": 3.916512,
+      "peak_5ms_g": 2.164703,
+      "span_ms": 3.75,
+      "gyro_peak_dps": 27.55049,
+      "observed_window_peak_g": 3.916512,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 2,
+      "peak_g": 7.904847,
+      "peak_5ms_g": 3.717586,
+      "span_ms": 5,
+      "gyro_peak_dps": 64.13437,
+      "observed_window_peak_g": 7.904847,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "light",
+      "repeat": 3,
+      "peak_g": 16.98213,
+      "peak_5ms_g": 8.66187,
+      "span_ms": 8.75,
+      "gyro_peak_dps": 119.5348,
+      "observed_window_peak_g": 16.98213,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "medium",
+      "repeat": 1,
+      "peak_g": 6.967595,
+      "peak_5ms_g": 3.627021,
+      "span_ms": 7.5,
+      "gyro_peak_dps": 41.85274,
+      "observed_window_peak_g": 6.967595,
+      "gyro_complete": true,
+      "problems": []
+    },
+    {
+      "level": "medium",
+      "repeat": 2,
+      "peak_g": 9.35275,
+      "peak_5ms_g": 7.111503,
+      "span_ms": 28.75,
+      "gyro_peak_dps": 51.82515,
+      "observed_window_peak_g": 9.35275,
+      "gyro_complete": true,
+      "problems": [
+        "incomplete acceleration capture",
+        "resting baseline shifted or unverified"
+      ]
+    },
+    {
+      "level": "medium",
+      "repeat": 3,
+      "peak_g": 5.974262,
+      "peak_5ms_g": 4.771846,
+      "span_ms": 7.5,
+      "gyro_peak_dps": 45.89908,
+      "observed_window_peak_g": 5.974262,
+      "gyro_complete": true,
+      "problems": []
+    }
+  ],
+  "problems": [
+    "('firm', 2): incomplete acceleration capture",
+    "('firm', 2): resting baseline shifted or unverified",
+    "('medium', 2): incomplete acceleration capture",
+    "('medium', 2): resting baseline shifted or unverified"
+  ],
+  "scope": "User-labeled hand taps, one empty helmet, fixed table/support and contact point. No force reference, injury score or calibration factor.",
+  "secondary_metrics": "5 ms mean peak, sampled duration and gyro are shown separately; never substituted to make the primary result pass.",
+  "normal_detection_restore_acknowledged": true,
+  "settling_flags_retained_and_sequence_continued": true,
+  "all_nine_attempts_recorded": true
+}

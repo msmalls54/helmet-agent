@@ -1,0 +1,137 @@
+{
+  "recorded_at_utc": "2026-10-18T05:20:11.307975+00:00",
+  "scope": "Software preparation only. User explicitly chose power bank and installation later.",
+  "firmware_revision": "tap-bench-v1",
+  "uploaded": false,
+  "bench_entered_on_device": false,
+  "physical_trials_run": 0,
+  "live_database_test_rows_created": 0,
+  "test_generated_trainer_sends": 0,
+  "hardware_or_mounting_changed": false,
+  "orientation_preferences_written": false,
+  "normal_capture_rate_or_alert_settings_changed": false,
+  "build": {
+    "passed": true,
+    "command": "tools/Build-TapComparison.ps1 (without -Upload)",
+    "fqbn": "esp32:esp32:adafruit_feather_esp32s3_nopsram:CDCOnBoot=cdc",
+    "sketch_program_bytes": 1051733,
+    "program_capacity_bytes": 2097152,
+    "static_ram_bytes": 101496,
+    "ram_capacity_bytes": 327680,
+    "binary_local_ignored_path": ".cache/tap-build/helmet_impact.ino.bin",
+    "binary_bytes": 1051888,
+    "binary_sha256": "03717608199507a01472b9696305f43447659adbf8d28f1cdcbcf80d91c05316"
+  },
+  "software_verification": [
+    {
+      "command": "python -m unittest discover -s tools -p test_tap_comparison.py -v",
+      "passed": true,
+      "tests": 18,
+      "scope": "Report ordering/quality, no overwrite, complete numbered Serial protocol, hidden feedback, no tap on rejected readiness, cleanup acknowledgement; fake Serial and temporary files."
+    },
+    {
+      "command": "zig c++ -std=c++17 -I firmware/helmet_impact firmware/tests/pulse_capture_test.cpp -o .cache/pulse_capture_test.exe; .cache/pulse_capture_test.exe",
+      "passed": true,
+      "scope": "Actual shared C++ header: long-pulse onset peak, increasing synthetic input, censoring, clipping, gap, timeout and timer rollover. No physical measurements."
+    },
+    {
+      "command": "node --import tsx --test tests/receiver.test.ts tests/impacts.test.ts tests/alert-policy.test.ts (server directory)",
+      "passed": true,
+      "tests": 8,
+      "scope": "Existing receiver/history/selective-policy compatibility in isolated tests. No new real texts."
+    }
+  ],
+  "acquisition": {
+    "bench_accel_hz": 800,
+    "bench_i2c_hz": 400000,
+    "prehistory_ms": 20,
+    "max_post_onset_ms": 200,
+    "quiet_tail_ms": 20,
+    "onset_g": 2,
+    "nominal_timing": true,
+    "serial_output": "paused FIFO while bulk printing; numbered waveform samples and end marker",
+    "primary_metric": "raw peak_g",
+    "secondary_metrics": [
+      "5 ms trailing mean peak",
+      "sampled duration above 2 g",
+      "acceleration magnitude area g*ms",
+      "gyro peak and window quality"
+    ],
+    "rejection": [
+      "missing/duplicate/out-of-order samples",
+      "FIFO full/possible overrun",
+      "I2C gap",
+      "clipping",
+      "censored window",
+      "timeout",
+      "shifted resting baseline"
+    ],
+    "normal_resume": "stop with acknowledgement, reset, or ten minutes without another trial",
+    "calibration": "Existing Preferences and normal baseline unchanged; bench baseline only in RAM.",
+    "live_queue": "Bench results do not call the impact delivery queue. Heartbeat marks impact detection paused."
+  },
+  "trial_plan": {
+    "trials": 9,
+    "order": [
+      "light 1",
+      "medium 1",
+      "firm 1",
+      "firm 2",
+      "light 2",
+      "medium 2",
+      "medium 3",
+      "firm 3",
+      "light 3"
+    ],
+    "input": "user-labeled hand taps",
+    "support": "empty helmet upright on same table",
+    "contact": "same back-shell point and knuckle",
+    "primary_pass": "all nine usable and median raw peak_g light < medium < firm; report overlap",
+    "on_invalid": "retain attempt and end session; do not keep requesting taps",
+    "instructions": "docs/TAP_COMPARISON.md"
+  },
+  "review": {
+    "source": "User-authorized Claude second opinion via browser",
+    "url": "https://claude.ai/chat/a56fe569-e079-4f28-9912-351e7bb1bf61",
+    "screenshot": "evidence/tap-comparison-claude-review.png",
+    "incorporated": [
+      "same-rate within-session comparison",
+      "check 400 kHz bus on installed chain before accepting captures",
+      "pause FIFO before Serial output",
+      "single Serial session",
+      "fixed primary metric and balanced hidden-feedback protocol",
+      "check gyro future window",
+      "local baseline and resting-pose check",
+      "RAM-only mode with normal restore"
+    ]
+  },
+  "previous_firmware_read_only_health": {
+    "checked_at_utc": "2026-10-18T05:18:20.759893+00:00",
+    "age_seconds": 9.2,
+    "received_at": "2026-10-18T05:18:11.518Z",
+    "calibrated": true,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "queued_hits": 0,
+    "dropped_hits": 0,
+    "firmware_revision": null,
+    "boot_id": "4dd35bf8b76fbfb9"
+  },
+  "remaining_unknowns": [
+    "Update not installed; 400 kHz operation on actual cable chain unverified.",
+    "No physical tap comparison has run; harder taps reading higher remains unproven.",
+    "800 Hz bench bandwidth differs from normal 1600 Hz; no direct comparison to historical 44.6 g.",
+    "Hand effort labels are not independently measured force.",
+    "No head-acceleration, injury-severity or drop-survival validation."
+  ],
+  "source_sha256": {
+    "firmware/helmet_impact/helmet_impact.ino": "ef8bdda115489610b2e99f64dab016b806e3870397eb67466dec49156f65a5ae",
+    "firmware/helmet_impact/PulseCapture.h": "17baef16178df0abf81d68fca6a1b6db067528a39ef3cb53cdc80a20c1169cfc",
+    "firmware/helmet_impact/WifiDelivery.cpp": "985a5b38a71f5029621b5ece662d268f836f105bd81b80ce6cbb6b1f17d0e7f6",
+    "firmware/helmet_impact/WifiDelivery.h": "237c27282db7b1cb4422dd4ba101bcd94a5ca4ea12821096ae8e9c5866d1c5d9",
+    "firmware/tests/pulse_capture_test.cpp": "b98b31e0b9f8d769829d5b103671f5dbdaf4bdd8f820b69cdff3f017071a26ad",
+    "tools/tap_comparison.py": "c4191395ba93324f7074cbdccf7fffe6fcb6b69ca084486e9339e3524d5e9d58",
+    "tools/test_tap_comparison.py": "b23c0464dfd9d5943afc1fa58586ce775f167b508245e48c3a886a072a07aacf",
+    "tools/Build-TapComparison.ps1": "0a531e902bb48d9ae29fbcfb9bc80addf72be86d33a4fefc3b5813654d8d6a0c"
+  }
+}

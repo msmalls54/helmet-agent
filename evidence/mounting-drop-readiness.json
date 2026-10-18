@@ -1,0 +1,134 @@
+{
+  "checked_at_utc": "2026-10-17T21:45:38.837226+00:00",
+  "status": "mounting_and_drop_survival_not_yet_verified",
+  "user_priority": "Electronics must stay attached and working when the empty helmet is dropped for the demo. User is away taking a walk; no physical steps requested now.",
+  "current_software_check": {
+    "heartbeat_age_seconds": 2.95,
+    "heartbeat": {
+      "received_at": "2026-10-17T21:45:35.883Z",
+      "boot_id": "efca8567ce11151a",
+      "calibrated": true,
+      "diagnostic_mode": "normal",
+      "diagnostic_window_peak_g": 0.861379,
+      "dropped_hits": 0,
+      "helmet_id": "helmet-1",
+      "impact_detection_paused": false,
+      "near_miss": {
+        "accel_clipped": false,
+        "age_ms": 635877,
+        "hardware_shock_observed": false,
+        "id": 1,
+        "longest_raw_axis_above_shock_ms": 0,
+        "max_gap_ms": 2.161,
+        "ms": 237029,
+        "peak_g": 6.910004,
+        "sampled_estimate": true,
+        "samples": 6,
+        "span_above_5g_ms": 2.161
+      },
+      "near_miss_observation": "explicit_probe_only",
+      "player": "#44",
+      "queued_hits": 0,
+      "rssi": -34,
+      "type": "heartbeat",
+      "uptime_ms": 872906
+    },
+    "tunnel_connected": true,
+    "normal_impact_count": 7,
+    "current_power_source": "Laptop USB, per user reconnection for firmware upload",
+    "live_normal_impact_after_update_verified": false
+  },
+  "confirmed_before_mounting": [
+    "Saved gravity mapping retained after firmware upload.",
+    "Diagnostic firmware has 50 ms maximum shock duration and passed 28 on-device math checks.",
+    "Timed probe restores normal mode automatically.",
+    "User-confirmed crown diagnostic pulse and near-miss heartbeat were captured.",
+    "Power bank previously ran the helmet continuously without laptop USB."
+  ],
+  "not_verified": [
+    "Current adhesive type and compatibility with helmet inner-panel material.",
+    "Mount retention under shock, including USB and STEMMA QT sockets.",
+    "Consumer power bank suitability for repeated impact exposure.",
+    "Normal impact delivery after diagnostic firmware update.",
+    "Contact-side accuracy after final mounting."
+  ],
+  "proposed_assembly_order": [
+    {
+      "step": 1,
+      "action": "Choose the target demonstration drop height and landing surface before qualifying the assembly. Begin with short controlled releases of the empty helmet; no throwing during initial tests.",
+      "reason": "A working tap test does not qualify the assembly for an arbitrary drop."
+    },
+    {
+      "step": 2,
+      "action": "Plan a rigid sensor mounting on the existing inner panel. Keep both sensor boards from rocking or flexing; use their existing mounting holes for a nonconductive carrier or retainer where practical. Do not drill the helmet or alter its struts.",
+      "reason": "Sensor board vibration can contaminate readings; final geometry and retention need physical inspection."
+    },
+    {
+      "step": 3,
+      "action": "Support and insulate the Feather separately, keep the USB plug straight and clear of the helmet rim, and anchor each cable to the support with a small slack loop before its board socket.",
+      "reason": "The connector must not carry the weight of a loose board or the pull of a cable."
+    },
+    {
+      "step": 4,
+      "action": "Select adhesive only after checking its label and compatibility with the actual helmet mounting material. Do not assume superglue or hot glue is compatible or provides sufficient shock retention. Leave connectors and removable parts accessible.",
+      "reason": "Compatibility and retention have not been established; irreversible bonding now would make repair and repositioning harder."
+    },
+    {
+      "step": 5,
+      "action": "Resolve the power arrangement before untethered drops. Do not drop-test the consumer INIU bank merely because it powers the board. For initial low releases, keep the bank stationary outside the landing zone only if the cable can remain slack without snagging or pulling its socket; otherwise change the test arrangement first. A battery assembly carried in the helmet needs its own protection, retention and impact suitability established.",
+      "reason": "The bank manufacturer advises against dropping it; padding or glue alone is not proof of impact suitability."
+    },
+    {
+      "step": 6,
+      "action": "After assembly, inspect retention and cable slack, power up, and confirm both sensors and saved calibration. Recalibrate if either sensor angle changed. Run a normal-mode tap through the server before any release.",
+      "reason": "Establish a known working baseline after the physical changes."
+    },
+    {
+      "step": 7,
+      "action": "Run one short controlled release, inspect the boards, mounts, connectors and power source, then check the received event and heartbeat. Increase height only after the previous height passes; finish with repeat tests at the actual demo height and surface.",
+      "reason": "Progressive checks expose weak points before a full demo drop."
+    }
+  ],
+  "drop_trial_record_fields": [
+    "height_cm",
+    "landing_surface",
+    "contact_side_user_report",
+    "power_arrangement",
+    "mount_unchanged_after_inspection",
+    "all_connectors_seated",
+    "fresh_heartbeat",
+    "boot_id_before",
+    "boot_id_after",
+    "new_impact_id",
+    "fifo_samples",
+    "gyro_window_complete",
+    "clipping_flags",
+    "accel_window_left_censored",
+    "location_and_confidence",
+    "queued_hits",
+    "dropped_hits",
+    "pass_or_repair_reason"
+  ],
+  "acceptance_before_increasing_height": [
+    "Nothing detached, shifted or became loose.",
+    "No connector took cable strain or hit the floor/rim.",
+    "Power source undamaged; heartbeat remains fresh and no unplanned reboot is observed.",
+    "A new normal impact reaches SQLite and its capture-quality flags are inspected.",
+    "If a capture is clipped, onset-censored or direction-mismatched, retain that result and resolve or explicitly constrain the demo claim."
+  ],
+  "qualification_limit": "No finite demonstration proves indefinite survival. A tested height, surface, power arrangement and number of drops can be reported; this document does not certify a modified helmet for use by a wearer.",
+  "sources": [
+    {
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/adxl375.pdf",
+      "supports": "Mechanical mounting near rigid support; unsupported PCB vibration can create large apparent measurement errors."
+    },
+    {
+      "url": "https://vicis.com/pages/warranty",
+      "supports": "Unapproved modifications/accessories and incompatible shell substances may affect protection and certification; no approval of a particular glue was found."
+    },
+    {
+      "url": "https://uk-main.iniushop.com/pt-pt/blogs/blog/power-bank-safety-use-guide",
+      "supports": "Manufacturer advises against dropping the power bank and against using damaged banks."
+    }
+  ]
+}

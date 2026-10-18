@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-10-17T20:44:22.951616+00:00",
+  "change": "Palette only; helmet geometry, labels, active red and sizing unchanged",
+  "palette": {
+    "light": {
+      "surface": "#e6e2db",
+      "text": "#1e2b35",
+      "muted": "#596773",
+      "zone": "#b8c2c8"
+    },
+    "dark": {
+      "surface": "#17232e",
+      "text": "#f2f2ed",
+      "muted": "#b0bdc5",
+      "zone": "#354857"
+    },
+    "active": "#E5484D"
+  },
+  "latest_real_impact_id": 3,
+  "player": "#44",
+  "peak_g": 30.34116,
+  "only_active_zone": "back",
+  "inspector": {
+    "themes_verified": [
+      "light",
+      "dark"
+    ],
+    "width_px": 720,
+    "height_px": 397.890625,
+    "viewport_height_px": 400,
+    "scroll_height_px": 400,
+    "screenshots": [
+      "evidence/widget-inspector-light.png",
+      "evidence/widget-inspector-dark.png"
+    ]
+  },
+  "public_origin": "https://penn-lisa-taking-note.trycloudflare.com",
+  "chatgpt": {
+    "name": "Helmet Agent Live Demo",
+    "plugin_id": "plugin_asdk_app_6ad3dd0ff7948191b385f50a93d9fa01",
+    "chat_url": "https://chatgpt.com/c/6ad3dd4e-a4b8-83e8-aec8-c3dbfd56b65e",
+    "show_last_hit_verified": true,
+    "widget_visual_verified": true,
+    "theme": "dark",
+    "width_px": 720,
+    "height_px": 397.890625,
+    "initial_sandbox_retry_required": true,
+    "screenshot": "evidence/widget-chatgpt-final.png"
+  },
+  "claude": {
+    "name": "Helmet Agent Live Demo",
+    "connector_id": "7319caa1-3427-41f8-ab2b-9d6089b4b19a",
+    "chat_url": "https://claude.ai/chat/d53d61df-240a-4445-8206-cf3816218ab5",
+    "connected": true,
+    "get_impacts_verified": true,
+    "latest_impact_id": 3
+  },
+  "public_route_checks": "evidence/gate-public-https.json",
+  "local_preview_checks": "evidence/widget-preview-check.json",
+  "messages_sent_for_palette_check": 0,
+  "prior_phone_gate": "evidence/gate-live-agents.json"
+}

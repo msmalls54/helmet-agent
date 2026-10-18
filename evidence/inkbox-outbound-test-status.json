@@ -1,0 +1,23 @@
+{
+  "agent_handle": "your-helmet-agent",
+  "scoped_identity_id": "5f9720d4-a819-4865-b8c0-b1aedb8a4261",
+  "message_id": "846a9739-13ba-4a2f-8ab9-3828f7718a05",
+  "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+  "direction": "outbound",
+  "service": "imessage",
+  "status": "delivered",
+  "error_code": null,
+  "error_reason": null,
+  "created_at": "2026-10-17T02:28:48.822019Z",
+  "sent_at": "2026-10-17T02:28:58.116Z",
+  "delivered_at": "2026-10-17T02:28:59.91Z",
+  "checked_at_utc": "2026-10-17T02:29:00.5222841Z",
+  "verification_source": "authenticated GET of this specific message and its recipient delivery status",
+  "recipient_delivery_status": "delivered",
+  "handset_receipt_confirmed_by_user": false,
+  "logical_messages_sent": 1,
+  "post_attempts": 1,
+  "calls_placed": 0,
+  "initial_combined_preparation_blocked_before_execution": true,
+  "safe_completion": "Read-only verification, nonsecret intent file, and authorized send performed separately."
+}

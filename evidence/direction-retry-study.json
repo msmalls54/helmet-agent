@@ -1,0 +1,1614 @@
+{
+  "recorded_at_utc": "2026-10-18T01:16:21.501759+00:00",
+  "status": "fresh_front_label_matched_normal_mode_restored_physical_testing_stopped_for_round",
+  "boot_id": "cd27f60a49a39679",
+  "all_user_reported_taps": 7,
+  "all_received_events": 6,
+  "traces": 5,
+  "existing_classifier_trace_matches": 4,
+  "existing_classifier_all_event_matches": 4,
+  "existing_classifier_all_event_unknowns": 2,
+  "development_replay_16_sample_matches": 5,
+  "development_replay_is_independent_validation": false,
+  "left_note": "Two reported left taps produced one event; timing unmeasured, cause unconfirmed.",
+  "back_note": "User confirmed both back events were deliberate accidental double tap; second lacks a trace and stays unknown.",
+  "attempts": [
+    {
+      "requested_side": "front",
+      "user_reported_taps": 1,
+      "received_events": 1,
+      "events": [
+        {
+          "impact_id": 20,
+          "received_at": "2026-10-18T01:08:14.702Z",
+          "serial": {
+            "type": "impact",
+            "id": 1,
+            "ms": 245877,
+            "peak_g": 16.86522,
+            "peak_rot_rads": 3.662396,
+            "peak_rot_dps": 209.8399,
+            "location": "unknown",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 4,
+            "initial_ax_g": 0,
+            "initial_ay_g": 0,
+            "initial_az_g": 0,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": -29.26,
+              "y": -207.62,
+              "z": 8.4
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": 15.06903,
+            "ay": -1.146906,
+            "az": -7.486281,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 17.3756,
+            "fifo_samples": 32,
+            "gyro_samples": 40,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.718,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        }
+      ],
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 1,
+        "location": "unknown",
+        "reason": "diagonal_initial_pulse",
+        "initial_samples": 4,
+        "coherence": 0.989412,
+        "initial_mean_x": 6.714531,
+        "initial_mean_y": -1.024406,
+        "initial_mean_z": 8.071218,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            -0.414969,
+            -0.166906,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            -0.362906,
+            -0.234281
+          ],
+          [
+            -0.610969,
+            0.029094,
+            -0.430281
+          ],
+          [
+            -0.708969,
+            0.029094,
+            -0.626281
+          ],
+          [
+            -0.904969,
+            0.029094,
+            -0.332281
+          ],
+          [
+            -0.806969,
+            0.127094,
+            -0.136281
+          ],
+          [
+            -0.610969,
+            -0.166906,
+            -0.136281
+          ],
+          [
+            -0.610969,
+            -0.264906,
+            -0.332281
+          ],
+          [
+            -0.316969,
+            0.029094,
+            -0.038281
+          ],
+          [
+            -0.610969,
+            -0.264906,
+            -0.234281
+          ],
+          [
+            -0.610969,
+            -0.068906,
+            -0.332281
+          ],
+          [
+            -0.610969,
+            -0.166906,
+            -0.234281
+          ],
+          [
+            -0.218969,
+            -0.460906,
+            -0.528281
+          ],
+          [
+            0.957031,
+            -0.362906,
+            -0.724281
+          ],
+          [
+            2.231031,
+            -0.264906,
+            0.255719
+          ],
+          [
+            3.603031,
+            -0.264906,
+            2.803719
+          ],
+          [
+            4.387031,
+            0.323094,
+            6.625719
+          ],
+          [
+            5.661031,
+            -2.224906,
+            8.683718
+          ],
+          [
+            7.817031,
+            -1.636906,
+            9.271719
+          ],
+          [
+            8.993032,
+            -0.558906,
+            7.703718
+          ],
+          [
+            8.111032,
+            0.127094,
+            7.213718
+          ],
+          [
+            9.679031,
+            0.617094,
+            4.861718
+          ],
+          [
+            8.503032,
+            -1.342906,
+            6.625719
+          ],
+          [
+            10.75703,
+            1.499094,
+            2.019719
+          ],
+          [
+            12.81503,
+            3.361094,
+            4.371718
+          ],
+          [
+            11.54103,
+            -0.362906,
+            2.705719
+          ],
+          [
+            10.85503,
+            2.381094,
+            -2.390281
+          ],
+          [
+            13.79503,
+            1.695094,
+            -5.722281
+          ],
+          [
+            15.06903,
+            -1.146906,
+            -7.486281
+          ],
+          [
+            13.99103,
+            3.067094,
+            1.725718
+          ],
+          [
+            6.739031,
+            -2.714906,
+            -4.252281
+          ],
+          [
+            6.249031,
+            0.225094,
+            1.039719
+          ]
+        ]
+      },
+      "replay_4_samples": {
+        "location": "unknown",
+        "samples": 4,
+        "coherence": 0.989411833311227,
+        "mean": [
+          6.71453125,
+          -1.024406,
+          8.0712185
+        ]
+      },
+      "development_replay_16_samples": {
+        "location": "front",
+        "samples": 16,
+        "coherence": 0.8717292665134696,
+        "mean": [
+          9.68515575,
+          0.206719,
+          2.687343625
+        ]
+      }
+    },
+    {
+      "requested_side": "back",
+      "user_reported_taps": 2,
+      "received_events": 2,
+      "events": [
+        {
+          "impact_id": 21,
+          "received_at": "2026-10-18T01:09:36.104Z",
+          "serial": {
+            "type": "impact",
+            "id": 2,
+            "ms": 327326,
+            "peak_g": 14.64035,
+            "peak_rot_rads": 1.231432,
+            "peak_rot_dps": 70.55584,
+            "location": "back",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0.573989,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 4,
+            "initial_ax_g": -6.858469,
+            "initial_ay_g": 2.160594,
+            "initial_az_g": 2.411719,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": 9.52,
+              "y": -69.86,
+              "z": 2.66
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": -14.23297,
+            "ay": -1.244906,
+            "az": 3.195719,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 14.50764,
+            "fifo_samples": 32,
+            "gyro_samples": 40,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.711,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        },
+        {
+          "impact_id": 22,
+          "received_at": "2026-10-18T01:09:44.727Z",
+          "serial": {
+            "type": "impact",
+            "id": 3,
+            "ms": 334579,
+            "peak_g": 18.16306,
+            "peak_rot_rads": 0.835664,
+            "peak_rot_dps": 47.88,
+            "location": "unknown",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 3,
+            "initial_ax_g": 0,
+            "initial_ay_g": 0,
+            "initial_az_g": 0,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": 1.96,
+              "y": 43.12,
+              "z": 20.72
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": -12.76297,
+            "ay": 2.381094,
+            "az": 12.70172,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 17.42747,
+            "fifo_samples": 32,
+            "gyro_samples": 40,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.745,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        }
+      ],
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 2,
+        "location": "back",
+        "reason": "accepted",
+        "initial_samples": 4,
+        "coherence": 0.885295,
+        "initial_mean_x": -6.858469,
+        "initial_mean_y": 2.160594,
+        "initial_mean_z": 2.411719,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            0.467031,
+            0.225094,
+            -0.038281
+          ],
+          [
+            0.565031,
+            0.225094,
+            -0.136281
+          ],
+          [
+            0.271031,
+            0.029094,
+            -0.136281
+          ],
+          [
+            0.369031,
+            0.127094,
+            -0.234281
+          ],
+          [
+            0.565031,
+            -0.068906,
+            0.059719
+          ],
+          [
+            0.663031,
+            0.127094,
+            -0.038281
+          ],
+          [
+            0.467031,
+            -0.166906,
+            -0.332281
+          ],
+          [
+            0.663031,
+            -0.264906,
+            0.157719
+          ],
+          [
+            0.369031,
+            0.225094,
+            -0.136281
+          ],
+          [
+            0.467031,
+            0.225094,
+            -0.234281
+          ],
+          [
+            0.467031,
+            0.225094,
+            0.059719
+          ],
+          [
+            0.565031,
+            0.029094,
+            0.059719
+          ],
+          [
+            0.565031,
+            0.127094,
+            -0.136281
+          ],
+          [
+            0.369031,
+            0.323094,
+            -0.234281
+          ],
+          [
+            0.467031,
+            0.225094,
+            -0.038281
+          ],
+          [
+            0.369031,
+            0.029094,
+            -0.234281
+          ],
+          [
+            0.663031,
+            0.323094,
+            -0.332281
+          ],
+          [
+            0.761031,
+            0.029094,
+            -0.136281
+          ],
+          [
+            0.467031,
+            0.127094,
+            -0.038281
+          ],
+          [
+            0.467031,
+            0.029094,
+            -0.136281
+          ],
+          [
+            0.369031,
+            0.029094,
+            -0.038281
+          ],
+          [
+            0.467031,
+            0.127094,
+            -0.038281
+          ],
+          [
+            -4.726969,
+            0.029094,
+            -2.978281
+          ],
+          [
+            -6.882968,
+            -0.068906,
+            3.979718
+          ],
+          [
+            -5.314969,
+            0.225094,
+            2.999718
+          ],
+          [
+            -10.50897,
+            8.457093,
+            5.645719
+          ],
+          [
+            -11.58697,
+            3.753094,
+            7.507719
+          ],
+          [
+            -9.528968,
+            1.401094,
+            0.941719
+          ],
+          [
+            -14.23297,
+            -1.244906,
+            3.195719
+          ],
+          [
+            -10.70497,
+            1.107094,
+            8.095718
+          ],
+          [
+            -7.078969,
+            -2.322906,
+            -2.194281
+          ],
+          [
+            -8.156968,
+            0.029094,
+            8.291718
+          ]
+        ]
+      },
+      "replay_4_samples": {
+        "location": "back",
+        "samples": 4,
+        "coherence": 0.8852954480500707,
+        "mean": [
+          -6.8584689999999995,
+          2.1605937500000003,
+          2.4117185
+        ]
+      },
+      "development_replay_16_samples": {
+        "location": "back",
+        "samples": 10,
+        "coherence": 0.9099011454228976,
+        "mean": [
+          -8.8723691,
+          1.1364939,
+          3.5485186
+        ]
+      }
+    },
+    {
+      "requested_side": "left",
+      "user_reported_taps": 2,
+      "received_events": 1,
+      "events": [
+        {
+          "impact_id": 23,
+          "received_at": "2026-10-18T01:11:01.103Z",
+          "serial": {
+            "type": "impact",
+            "id": 4,
+            "ms": 412325,
+            "peak_g": 14.00553,
+            "peak_rot_rads": 3.501827,
+            "peak_rot_dps": 200.6399,
+            "location": "left",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0.605868,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 4,
+            "initial_ax_g": 1.300031,
+            "initial_ay_g": -7.541406,
+            "initial_az_g": 2.632218,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": -189.56,
+              "y": -28.28,
+              "z": -59.36
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": 4.583031,
+            "ay": -13.20091,
+            "az": 0.941719,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 14.56545,
+            "fifo_samples": 32,
+            "gyro_samples": 41,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.68,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        }
+      ],
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 4,
+        "location": "left",
+        "reason": "accepted",
+        "initial_samples": 4,
+        "coherence": 0.930723,
+        "initial_mean_x": 1.300031,
+        "initial_mean_y": -7.541406,
+        "initial_mean_z": 2.632218,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            -0.022969,
+            0.421094,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            0.059719
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.234281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.430281
+          ],
+          [
+            -0.218969,
+            0.715094,
+            -0.430281
+          ],
+          [
+            -0.218969,
+            0.617094,
+            -0.136281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.332281
+          ],
+          [
+            0.173031,
+            0.421094,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.528281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            0.323094,
+            -0.136281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.136281
+          ],
+          [
+            -0.022969,
+            0.617094,
+            -0.234281
+          ],
+          [
+            0.369031,
+            -0.852906,
+            -0.822281
+          ],
+          [
+            -0.414969,
+            -5.752906,
+            2.509718
+          ],
+          [
+            -0.708969,
+            -7.222906,
+            5.547719
+          ],
+          [
+            3.211031,
+            -8.104906,
+            -1.704281
+          ],
+          [
+            3.113031,
+            -9.084906,
+            4.175718
+          ],
+          [
+            3.113031,
+            -12.31891,
+            0.941719
+          ],
+          [
+            2.035031,
+            -10.06491,
+            1.529719
+          ],
+          [
+            4.583031,
+            -10.35891,
+            4.763719
+          ],
+          [
+            4.583031,
+            -13.20091,
+            0.941719
+          ],
+          [
+            4.289031,
+            -11.43691,
+            3.293719
+          ],
+          [
+            2.917031,
+            -10.75091,
+            3.195719
+          ],
+          [
+            3.505031,
+            -11.43691,
+            1.725718
+          ],
+          [
+            3.995031,
+            -11.04491,
+            2.215719
+          ],
+          [
+            2.917031,
+            -10.06491,
+            2.019719
+          ],
+          [
+            0.761031,
+            -8.790906,
+            1.235719
+          ],
+          [
+            0.271031,
+            -7.614905,
+            3.783719
+          ]
+        ]
+      },
+      "replay_4_samples": {
+        "location": "left",
+        "samples": 4,
+        "coherence": 0.9307232355108302,
+        "mean": [
+          1.300031,
+          -7.541406,
+          2.6322185
+        ]
+      },
+      "development_replay_16_samples": {
+        "location": "left",
+        "samples": 15,
+        "coherence": 0.9738067690859916,
+        "mean": [
+          2.5446310000000003,
+          -9.816641666666667,
+          2.4117188
+        ]
+      }
+    },
+    {
+      "requested_side": "right",
+      "user_reported_taps": 1,
+      "received_events": 1,
+      "events": [
+        {
+          "impact_id": 24,
+          "received_at": "2026-10-18T01:11:56.384Z",
+          "serial": {
+            "type": "impact",
+            "id": 5,
+            "ms": 467625,
+            "peak_g": 11.77387,
+            "peak_rot_rads": 3.076689,
+            "peak_rot_dps": 176.2813,
+            "location": "right",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0.789968,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 4,
+            "initial_ax_g": -0.243469,
+            "initial_ay_g": 7.942594,
+            "initial_az_g": -0.528281,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": 159.32,
+              "y": 54.32,
+              "z": 52.36
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": 0.467031,
+            "ay": 10.80909,
+            "az": -4.644281,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 11.63273,
+            "fifo_samples": 32,
+            "gyro_samples": 41,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.693,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        }
+      ],
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 5,
+        "location": "right",
+        "reason": "accepted",
+        "initial_samples": 4,
+        "coherence": 0.846254,
+        "initial_mean_x": -0.243469,
+        "initial_mean_y": 7.942594,
+        "initial_mean_z": -0.528281,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            0.075031,
+            -0.754906,
+            -0.038281
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            0.157719
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            -0.558906,
+            -0.430281
+          ],
+          [
+            0.075031,
+            -0.656906,
+            0.157719
+          ],
+          [
+            -0.022969,
+            -0.656906,
+            -0.038281
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            0.157719
+          ],
+          [
+            0.271031,
+            -0.950906,
+            0.549719
+          ],
+          [
+            0.075031,
+            -0.656906,
+            0.255719
+          ],
+          [
+            -0.022969,
+            -0.656906,
+            -0.038281
+          ],
+          [
+            -0.218969,
+            -0.656906,
+            -0.234281
+          ],
+          [
+            -0.022969,
+            -0.950906,
+            0.157719
+          ],
+          [
+            -0.022969,
+            -0.558906,
+            0.059719
+          ],
+          [
+            -0.218969,
+            -0.460906,
+            -0.038281
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            -0.234281
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            -0.136281
+          ],
+          [
+            -0.218969,
+            -0.558906,
+            -0.136281
+          ],
+          [
+            -0.218969,
+            -0.558906,
+            0.157719
+          ],
+          [
+            -0.022969,
+            -0.460906,
+            0.255719
+          ],
+          [
+            -0.022969,
+            -0.558906,
+            0.549719
+          ],
+          [
+            -0.022969,
+            -0.754906,
+            0.157719
+          ],
+          [
+            -0.022969,
+            -0.950906,
+            -0.038281
+          ],
+          [
+            -0.022969,
+            -0.852906,
+            0.059719
+          ],
+          [
+            -0.022969,
+            -0.852906,
+            0.353719
+          ],
+          [
+            0.173031,
+            -0.950906,
+            -0.038281
+          ],
+          [
+            0.075031,
+            -0.754906,
+            -0.136281
+          ],
+          [
+            -0.610969,
+            3.753094,
+            -1.900281
+          ],
+          [
+            -2.864969,
+            6.791094,
+            1.039719
+          ],
+          [
+            5.857031,
+            4.145094,
+            -0.822281
+          ],
+          [
+            0.467031,
+            10.80909,
+            -4.644281
+          ],
+          [
+            -4.432969,
+            10.02509,
+            2.313719
+          ],
+          [
+            -0.904969,
+            7.967094,
+            -2.390281
+          ]
+        ]
+      },
+      "replay_4_samples": {
+        "location": "right",
+        "samples": 4,
+        "coherence": 0.8462542682485256,
+        "mean": [
+          -0.24346899999999994,
+          7.942592,
+          -0.5282810000000001
+        ]
+      },
+      "development_replay_16_samples": {
+        "location": "right",
+        "samples": 5,
+        "coherence": 0.870159147696087,
+        "mean": [
+          -0.3757689999999999,
+          7.9474924,
+          -0.9006810000000002
+        ]
+      }
+    },
+    {
+      "requested_side": "top",
+      "user_reported_taps": 1,
+      "received_events": 1,
+      "events": [
+        {
+          "impact_id": 25,
+          "received_at": "2026-10-18T01:12:45.241Z",
+          "serial": {
+            "type": "impact",
+            "id": 6,
+            "ms": 516491,
+            "peak_g": 16.37819,
+            "peak_rot_rads": 4.335537,
+            "peak_rot_dps": 248.408,
+            "location": "top",
+            "location_method": "opposite_initial_pulse_axis",
+            "location_confidence": 0.728916,
+            "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+            "initial_pulse_samples": 4,
+            "initial_ax_g": 2.990531,
+            "initial_ay_g": -0.117906,
+            "initial_az_g": 11.57472,
+            "accel_window_left_censored": false,
+            "peak_g_scope": "captured_20ms_window",
+            "gyro_peak_sensor_dps": {
+              "x": -56,
+              "y": -241.64,
+              "z": 13.44
+            },
+            "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+            "location_validated": false,
+            "ax": 1.055031,
+            "ay": -1.930906,
+            "az": 16.22972,
+            "accel_basis": "rest_baseline_subtracted_g",
+            "raw_peak_sample_g": 15.53632,
+            "fifo_samples": 32,
+            "gyro_samples": 41,
+            "gyro_window_complete": true,
+            "gyro_max_gap_ms": 2.693,
+            "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+            "timing_estimated": true,
+            "accel_clipped": false,
+            "gyro_clipped": false,
+            "calibration_capture": false
+          },
+          "serial_matches_received_payload": true
+        }
+      ],
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 6,
+        "location": "top",
+        "reason": "accepted",
+        "initial_samples": 4,
+        "coherence": 0.982853,
+        "initial_mean_x": 2.990531,
+        "initial_mean_y": -0.117906,
+        "initial_mean_z": 11.57472,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            -0.022969,
+            0.225094,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            -0.068906,
+            -0.528281
+          ],
+          [
+            -0.022969,
+            -0.264906,
+            -0.332281
+          ],
+          [
+            -0.316969,
+            -0.068906,
+            -0.724281
+          ],
+          [
+            -0.022969,
+            -0.166906,
+            -0.626281
+          ],
+          [
+            -0.022969,
+            -0.068906,
+            -0.528281
+          ],
+          [
+            -0.218969,
+            -0.166906,
+            -0.332281
+          ],
+          [
+            -0.316969,
+            0.029094,
+            -0.332281
+          ],
+          [
+            -0.316969,
+            -0.166906,
+            -0.822281
+          ],
+          [
+            -0.218969,
+            -0.068906,
+            -0.528281
+          ],
+          [
+            -0.316969,
+            0.127094,
+            -0.332281
+          ],
+          [
+            -0.218969,
+            -0.166906,
+            -0.430281
+          ],
+          [
+            -0.316969,
+            -0.166906,
+            -0.234281
+          ],
+          [
+            -0.218969,
+            -0.068906,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            -0.166906,
+            -0.430281
+          ],
+          [
+            -0.022969,
+            0.029094,
+            -0.528281
+          ],
+          [
+            -0.218969,
+            0.127094,
+            -0.234281
+          ],
+          [
+            -0.414969,
+            0.029094,
+            -0.332281
+          ],
+          [
+            -0.022969,
+            -0.166906,
+            -0.822281
+          ],
+          [
+            -0.022969,
+            -0.166906,
+            -0.136281
+          ],
+          [
+            -0.316969,
+            -0.068906,
+            -0.724281
+          ],
+          [
+            -0.414969,
+            -0.166906,
+            -0.528281
+          ],
+          [
+            -0.316969,
+            -0.166906,
+            -0.430281
+          ],
+          [
+            -0.218969,
+            -0.068906,
+            -0.430281
+          ],
+          [
+            -0.414969,
+            0.225094,
+            -0.626281
+          ],
+          [
+            -0.022969,
+            -0.166906,
+            -0.724281
+          ],
+          [
+            1.839031,
+            -0.656906,
+            -0.528281
+          ],
+          [
+            0.271031,
+            -0.362906,
+            4.371718
+          ],
+          [
+            3.407031,
+            -0.068906,
+            5.547719
+          ],
+          [
+            5.269031,
+            0.715094,
+            13.87772
+          ],
+          [
+            2.231031,
+            0.813094,
+            10.64372
+          ],
+          [
+            1.055031,
+            -1.930906,
+            16.22972
+          ]
+        ]
+      },
+      "replay_4_samples": {
+        "location": "top",
+        "samples": 4,
+        "coherence": 0.9828529788641888,
+        "mean": [
+          2.990531,
+          -0.11790600000000001,
+          11.57471975
+        ]
+      },
+      "development_replay_16_samples": {
+        "location": "top",
+        "samples": 4,
+        "coherence": 0.9828529788641888,
+        "mean": [
+          2.990531,
+          -0.11790600000000001,
+          11.57471975
+        ]
+      }
+    }
+  ],
+  "candidate_change": "First contiguous above-5g pulse: max 16 samples instead of 4, same minimum sample, quiet-onset, coherence and axis-dominance guards.",
+  "independent_new_firmware_physical_validation": [
+    {
+      "requested_side": "front",
+      "user_reported_taps": 2,
+      "received_events": 1,
+      "impact_id": 26,
+      "received_at": "2026-10-18T01:24:38.334Z",
+      "matched": true,
+      "serial_matches_wifi_payload": true,
+      "capture_complete": true,
+      "unclipped": true,
+      "payload": {
+        "type": "impact",
+        "id": 1,
+        "ms": 555837,
+        "peak_g": 22.36718,
+        "peak_rot_rads": 8.017027,
+        "peak_rot_dps": 459.3418,
+        "location": "front",
+        "location_method": "opposite_initial_pulse_axis",
+        "location_confidence": 0.301789,
+        "location_confidence_basis": "initial_pulse_signal_consistency_not_probability",
+        "initial_pulse_samples": 16,
+        "initial_ax_g": 12.11448,
+        "initial_ay_g": 0.486172,
+        "initial_az_g": 7.730515,
+        "accel_window_left_censored": false,
+        "peak_g_scope": "captured_20ms_window",
+        "gyro_peak_sensor_dps": {
+          "x": 10.08,
+          "y": -455.7,
+          "z": -56.84
+        },
+        "gyro_axis_frame": "sensor_axes_not_aligned_to_helmet",
+        "location_validated": false,
+        "ax": 3.998859,
+        "ay": -2.582453,
+        "az": 21.85476,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "raw_peak_sample_g": 21.58248,
+        "fifo_samples": 32,
+        "gyro_samples": 42,
+        "gyro_window_complete": true,
+        "gyro_max_gap_ms": 2.693,
+        "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+        "timing_estimated": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "calibration_capture": false
+      },
+      "trace": {
+        "type": "impact_direction_trace",
+        "impact_id": 1,
+        "location": "front",
+        "reason": "accepted",
+        "initial_samples": 16,
+        "coherence": 0.833952,
+        "initial_mean_x": 12.11448,
+        "initial_mean_y": 0.486172,
+        "initial_mean_z": 7.730515,
+        "sample_period_us": 625,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "map_front_back_left_right_top": [
+          -1,
+          1,
+          2,
+          -2,
+          -3
+        ],
+        "samples_xyz": [
+          [
+            0.078859,
+            -0.034453,
+            0.000766
+          ],
+          [
+            0.078859,
+            0.161547,
+            -0.097234
+          ],
+          [
+            0.078859,
+            -0.132453,
+            -0.293234
+          ],
+          [
+            -0.019141,
+            0.161547,
+            0.098766
+          ],
+          [
+            0.176859,
+            -0.034453,
+            -0.097234
+          ],
+          [
+            0.078859,
+            0.161547,
+            -0.293234
+          ],
+          [
+            -0.019141,
+            -0.034453,
+            -0.587234
+          ],
+          [
+            0.176859,
+            0.063547,
+            0.098766
+          ],
+          [
+            0.078859,
+            0.161547,
+            -0.391234
+          ],
+          [
+            -0.019141,
+            0.063547,
+            -0.391234
+          ],
+          [
+            -0.019141,
+            0.259547,
+            -0.293234
+          ],
+          [
+            -0.019141,
+            0.063547,
+            -0.489234
+          ],
+          [
+            -0.019141,
+            -0.034453,
+            -0.195234
+          ],
+          [
+            0.078859,
+            0.749547,
+            -0.489234
+          ],
+          [
+            2.038859,
+            0.357547,
+            4.214766
+          ],
+          [
+            2.038859,
+            1.729547,
+            9.898766
+          ],
+          [
+            4.194859,
+            -0.132453,
+            9.898766
+          ],
+          [
+            4.684859,
+            2.905547,
+            21.36477
+          ],
+          [
+            3.998859,
+            -2.582453,
+            21.85476
+          ],
+          [
+            8.01686,
+            -4.248453,
+            20.28676
+          ],
+          [
+            16.44486,
+            3.297547,
+            10.09477
+          ],
+          [
+            16.44486,
+            0.651547,
+            11.85877
+          ],
+          [
+            18.01286,
+            -1.798453,
+            12.64277
+          ],
+          [
+            15.36686,
+            2.905547,
+            9.996765
+          ],
+          [
+            15.85686,
+            0.553547,
+            2.842765
+          ],
+          [
+            14.77886,
+            2.121547,
+            3.822765
+          ],
+          [
+            16.83686,
+            4.767547,
+            -3.037234
+          ],
+          [
+            15.95486,
+            -1.994453,
+            -0.979234
+          ],
+          [
+            18.01286,
+            1.925547,
+            -1.567235
+          ],
+          [
+            13.21086,
+            -1.700453,
+            -1.371234
+          ],
+          [
+            9.976859,
+            -0.622453,
+            -3.919235
+          ],
+          [
+            11.25086,
+            0.259547,
+            -4.605234
+          ]
+        ]
+      }
+    }
+  ],
+  "new_firmware_uploaded": true,
+  "diagnosis_scope": "The front trace specifically failed diagonal axis dominance, not missing calibration or opposite samples. No general side accuracy or equal-input magnitude accuracy established.",
+  "new_firmware_selftest": {
+    "type": "selftest",
+    "passed": 36,
+    "failed": 0,
+    "synthetic_math_only": true
+  },
+  "new_firmware_boot_id": "38886c45cf560502",
+  "new_firmware_map_readback": {
+    "type": "calibration",
+    "saved": true,
+    "method": "five_static_gravity_positions",
+    "impact_location_validated": false,
+    "front": -1,
+    "back": 1,
+    "left": 2,
+    "right": -2,
+    "top": -3,
+    "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+  },
+  "program_storage_bytes": 1044425,
+  "static_ram_bytes": 98336,
+  "source_sha256": {
+    "firmware\\helmet_impact\\ImpactMath.h": "74ec371564d4923eb5e0891025690e7bf600eaf39843d6d767a1bb410f6c8682",
+    "firmware\\helmet_impact\\helmet_impact.ino": "e5a35241003c406b819000bb61eff8b73fc6b6df84dd6a3f2b83cc2debc6e7a4"
+  },
+  "fresh_front_spot_check_passed": true,
+  "all_sides_independently_retested_after_update": false,
+  "individual_detection_of_both_final_front_taps_established": false,
+  "post_test_normal_heartbeat": {
+    "type": "heartbeat",
+    "ms": 595390,
+    "rest_accel_g": 1.208225,
+    "rest_ax_g": -0.196,
+    "rest_ay_g": -0.196,
+    "rest_az_g": -1.176,
+    "gyro_dps": 1.267754,
+    "gyro_read_hz": 786.8,
+    "i2c_errors": 0,
+    "calibrated": true,
+    "armed": true,
+    "cal_step": -1,
+    "shock_threshold_g": 10.14,
+    "shock_max_duration_ms": 50,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "calibration_method": "five_static_gravity_positions"
+  },
+  "trace_cancelled": true,
+  "serial_reader_closed": true,
+  "user_physical_test_limit": "User authorized one final test round, reported two accidental taps; no more physical test requests this round. Continue software/visual/alert work autonomously.",
+  "updated_at_utc": "2026-10-18T01:27:33.611095+00:00"
+}

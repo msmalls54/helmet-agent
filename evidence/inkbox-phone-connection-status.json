@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-10-17T02:25:12.969453Z",
+  "timestamp_meaning": "provider timestamp of the inbound START message, verified by a subsequent read-only API check",
+  "agent_handle": "your-helmet-agent",
+  "active_recipient_connections": 1,
+  "active_conversations": 1,
+  "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+  "inbound_start_received": true,
+  "inbound_message_count": 1,
+  "demo_recipient_saved_encrypted": false,
+  "settings_update_blocked_by_automatic_approval_review": true,
+  "settings_update_block_reason": "generic policy block; no specific reason provided",
+  "outbound_delivery_tested": false,
+  "messages_sent_by_check": 0,
+  "calls_placed_by_check": 0
+}

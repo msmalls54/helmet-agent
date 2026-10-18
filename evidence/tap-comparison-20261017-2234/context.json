@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-18T05:39:14.685678+00:00",
+  "user_report": "User reported one light tap for the first attempt. Exact contact time was not measured.",
+  "original_recording": "light-1.json",
+  "original_outcome": "60-second window timed out; no settled pulse above 2 g and no waveform.",
+  "interpretation": "Not a zero-g hit or a valid light reading. Cannot distinguish a late tap from a below-threshold tap from this record.",
+  "orchestration_error": "Assistant consumed much of the armed window before its final instruction.",
+  "normal_restore_after_timeout_confirmed": true,
+  "retry_authorization": "User replied Ready to retry the light tap after the failed attempt was disclosed.",
+  "replacement_session": "../tap-comparison-20261017-retry1",
+  "retain_original_attempt": true
+}

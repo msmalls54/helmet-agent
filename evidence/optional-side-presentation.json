@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-10-18T04:11:03.445079+00:00",
+  "scope": "Presentation only: latest live event 32 and isolated known-side fixture; no new physical test.",
+  "live_impact_id": 32,
+  "live_peak_g": 44.64918,
+  "raw_location": "unknown",
+  "raw_location_confidence": 0,
+  "missing_direction_omitted_from": [
+    "card label",
+    "helmet diagram",
+    "screen-reader label",
+    "history summary",
+    "show_last_hit plain-text message",
+    "future trainer text"
+  ],
+  "known_direction_rendered_as_secondary": true,
+  "raw_records_and_saved_review_bodies_keys_unchanged": true,
+  "unit_tests_passed": 32,
+  "final_history_summary_focused_tests_passed": 2,
+  "typecheck_and_build_passed": true,
+  "read_only_preflight_checks_passed": 6,
+  "new_ui_test_phone_messages": 0,
+  "new_ui_test_live_rows": 0,
+  "inspector_live_render_verified": true,
+  "chatgpt_live_render_verified": true,
+  "chatgpt_preview_retry_required": true,
+  "chatgpt_chat": "https://chatgpt.com/c/6ad445a0-f740-83e8-bf76-fdd04d873381",
+  "claude_tools_refreshed_in_place": true,
+  "claude_live_retrieval_verified": true,
+  "claude_live_render_verified": true,
+  "claude_preview_retry_required": true,
+  "claude_chat": "https://claude.ai/chat/757f34e9-1c0a-4a9d-88c4-1be830c9eda3",
+  "light_dark_and_known_side_fixture_verified": true,
+  "screenshots": [
+    "evidence/optional-side-inspector.jpg",
+    "evidence/optional-side-chatgpt.jpg",
+    "evidence/optional-side-claude.jpg",
+    "evidence/optional-side-themes.png"
+  ],
+  "claude_review_chat": "https://claude.ai/chat/fb867b64-7123-4828-b27c-e5f178ff714b",
+  "client_caveat": "Initial widget previews can need Retry; changing the UI does not fix that host behavior.",
+  "firmware_thresholds_calibration_changed": false
+}

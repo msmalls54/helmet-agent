@@ -1,0 +1,10 @@
+﻿{
+    "interface":  "Local Area Connection* 4",
+    "program":  "C:\\Program Files\\nodejs\\node.exe",
+    "checked_at_utc":  "2026-10-17T19:11:30.2946392Z",
+    "rule_name":  "HelmetAgent-Node-3000",
+    "port":  3000,
+    "local_ip":  "192.168.137.1",
+    "success":  true,
+    "remote_address":  "LocalSubnet"
+}

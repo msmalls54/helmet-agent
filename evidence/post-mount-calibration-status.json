@@ -1,0 +1,219 @@
+{
+  "checked_at_utc": "2026-10-18T00:44:56.571106+00:00",
+  "status": "new_mapping_saved_and_read_back_normal_detection_restored",
+  "mounting_report": "User reports all three boards glued, glue cool and boards fixed without rocking.",
+  "independently_verified": [
+    "COM3 sensor readings after remounting",
+    "zero I2C errors in observed serial captures",
+    "both heartbeat HTTP 200 deliveries and earlier transient connection/read timeouts"
+  ],
+  "boot_id": "e17af7b838647f8f",
+  "new_mapping_saved": true,
+  "physical_hit_after_remount_verified": false,
+  "drop_retention_verified": false,
+  "poses": [
+    {
+      "type": "calibration_pose",
+      "pose": "crown_up",
+      "samples": 1031,
+      "mean_ax_g": 0.044485,
+      "mean_ay_g": -0.596745,
+      "mean_az_g": -0.941979,
+      "accel_spread_g": 0.284095,
+      "gyro_rms_dps": 0.881144,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "front_down",
+      "samples": 1031,
+      "mean_ax_g": 1.631686,
+      "mean_ay_g": -0.34647,
+      "mean_az_g": -0.223376,
+      "accel_spread_g": 0.324749,
+      "gyro_rms_dps": 2.392118,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "back_down",
+      "samples": 1028,
+      "mean_ax_g": -0.078743,
+      "mean_ay_g": -0.430324,
+      "mean_az_g": 0.363021,
+      "accel_spread_g": 0.29405,
+      "gyro_rms_dps": 2.272248,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "left_down",
+      "samples": 1031,
+      "mean_ax_g": 0.472986,
+      "mean_ay_g": -1.519802,
+      "mean_az_g": -0.274514,
+      "accel_spread_g": 0.315876,
+      "gyro_rms_dps": 0.889775,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "right_down",
+      "samples": 1031,
+      "mean_ax_g": 0.382686,
+      "mean_ay_g": 0.334969,
+      "mean_az_g": -0.298373,
+      "accel_spread_g": 0.313092,
+      "gyro_rms_dps": 0.92045,
+      "accepted": true,
+      "i2c_errors": 0
+    }
+  ],
+  "scope": "Static gravity orientation only; not contact-side accuracy or head/skull acceleration.",
+  "all_five_pose_stillness_checks_passed": true,
+  "geometry_accepted": true,
+  "device_state": "Normal detection armed; calibration step -1; zero I2C errors.",
+  "wifi_observation": "Hotspot restored; initial HTTP -1/-11 timeouts followed by multiple HTTP 200 deliveries; occasional timeouts persisted in final capture.",
+  "retry_pose_records": [
+    {
+      "type": "calibration_pose",
+      "pose": "crown_up",
+      "samples": 1031,
+      "mean_ax_g": 0.046101,
+      "mean_ay_g": -0.597981,
+      "mean_az_g": -0.933424,
+      "accel_spread_g": 0.283901,
+      "gyro_rms_dps": 0.863899,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "front_down",
+      "samples": 1028,
+      "mean_ax_g": 1.633397,
+      "mean_ay_g": -0.409827,
+      "mean_az_g": -0.187897,
+      "accel_spread_g": 0.316584,
+      "gyro_rms_dps": 0.97694,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "back_down",
+      "samples": 1031,
+      "mean_ax_g": -0.07091,
+      "mean_ay_g": -0.463291,
+      "mean_az_g": 0.409586,
+      "accel_spread_g": 0.286481,
+      "gyro_rms_dps": 1.755517,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "left_down",
+      "samples": 1028,
+      "mean_ax_g": 0.381324,
+      "mean_ay_g": -1.516229,
+      "mean_az_g": -0.136132,
+      "accel_spread_g": 0.310051,
+      "gyro_rms_dps": 0.937076,
+      "accepted": true,
+      "i2c_errors": 0
+    },
+    {
+      "type": "calibration_pose",
+      "pose": "right_down",
+      "samples": 1031,
+      "mean_ax_g": 0.993023,
+      "mean_ay_g": 0.264154,
+      "mean_az_g": 0.093437,
+      "accel_spread_g": 0.274235,
+      "gyro_rms_dps": 0.880421,
+      "accepted": true,
+      "i2c_errors": 0
+    }
+  ],
+  "retry_geometry_accepted": true,
+  "pending_preview": {
+    "type": "calibration_preview",
+    "saved": false,
+    "method": "five_static_gravity_positions",
+    "front": -1,
+    "back": 1,
+    "left": 2,
+    "right": -2,
+    "top": -3,
+    "axis_encoding": "signed helmet direction: 1=X,2=Y,3=Z",
+    "impact_location_validated": false
+  },
+  "first_attempt_geometry_accepted": false,
+  "saved_and_read_back": {
+    "type": "calibration",
+    "saved": true,
+    "method": "five_static_gravity_positions",
+    "impact_location_validated": false,
+    "front": -1,
+    "back": 1,
+    "left": 2,
+    "right": -2,
+    "top": -3,
+    "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+  },
+  "post_save_usb_heartbeat": {
+    "type": "heartbeat",
+    "ms": 1365507,
+    "rest_accel_g": 1.227936,
+    "rest_ax_g": 0,
+    "rest_ay_g": -0.588,
+    "rest_az_g": -1.078,
+    "gyro_dps": 0.523832,
+    "gyro_read_hz": 792.2,
+    "i2c_errors": 0,
+    "calibrated": true,
+    "armed": true,
+    "cal_step": -1,
+    "shock_threshold_g": 10.14,
+    "shock_max_duration_ms": 50,
+    "diagnostic_mode": "normal",
+    "impact_detection_paused": false,
+    "calibration_method": "five_static_gravity_positions"
+  },
+  "power_cycle_verified": true,
+  "first_attempt_geometry_rejection": {
+    "condition": "opposed-pair midpoint disagreement",
+    "observed_g": 0.5386057287074655,
+    "allowed_max_g": 0.35,
+    "front_back_midpoint": [
+      0.7764715,
+      -0.388397,
+      0.0698225
+    ],
+    "left_right_midpoint": [
+      0.427836,
+      -0.5924165,
+      -0.28644349999999996
+    ],
+    "cause": "Physical cause unconfirmed; repeat orientations before changing code or remounting."
+  },
+  "power_cycle_verification_scope": "Bank boot reports calibrated true over Wi-Fi; exact new mapping subsequently read back over USB after return from bank.",
+  "post_bank_usb_mapping": {
+    "type": "calibration",
+    "saved": true,
+    "method": "five_static_gravity_positions",
+    "impact_location_validated": false,
+    "front": -1,
+    "back": 1,
+    "left": 2,
+    "right": -2,
+    "top": -3,
+    "axis_encoding": "signed incoming direction: 1=X,2=Y,3=Z"
+  },
+  "power_bank_receipt": "evidence/post-mount-power-bank-check.json"
+}

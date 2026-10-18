@@ -1,0 +1,63 @@
+{
+  "checked_at_utc": "2026-10-17T22:37:34.071Z",
+  "input_source": "invented software fixture in an isolated temporary database",
+  "physical_hit_test": false,
+  "production_database_written": false,
+  "real_inkbox_send_requested": true,
+  "passed": true,
+  "mode": "real xAI + real Inkbox",
+  "model": "grok-4.20-0309-non-reasoning",
+  "tool_sequence": [
+    {
+      "tool": "get_impacts",
+      "args": {
+        "player": "#TEST",
+        "since_minutes": 60
+      },
+      "result_count": 2,
+      "response_id": "56f8cab0-512e-930a-8744-4fd2ed73e385"
+    },
+    {
+      "tool": "flag_for_review",
+      "args": {
+        "impact_id": 2,
+        "reason": "repeated_impacts",
+        "evidence_ids": [
+          1,
+          2
+        ],
+        "observation": "Two identical demo impacts received ~20 min apart (both 42g / 286.5 dps, right side, complete non-clipped capture)."
+      },
+      "response_id": "f21682e5-6e0e-9db8-acc9-b7a81bd02158"
+    }
+  ],
+  "model_usage": {
+    "input_tokens": 1947,
+    "output_tokens": 161
+  },
+  "history_count": 2,
+  "review_basis": "repeated_impacts",
+  "provider_receipt": {
+    "ok": true,
+    "impact_id": 2,
+    "already_flagged": false,
+    "note": "AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 2 recorded hits for #TEST in the preceding 60 minutes. Repeated contact recorded; please check the player.",
+    "status": "delivered",
+    "delivery": {
+      "message_id": "da4e0ac0-454e-4fc9-9270-f3ddc1d4415a",
+      "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+      "status": "delivered",
+      "service": "imessage",
+      "recipient_delivery_status": "delivered",
+      "delivered_at": "2026-10-17T22:37:51.270Z"
+    },
+    "message": "Review requested in the connected Inkbox conversation.",
+    "handset_receipt_confirmed": false,
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides."
+  },
+  "text": "AUTOMATIC LOOP TEST — SIMULATED DATA\nCheck #TEST.\nHelmet impact recorded at 3:37 PM.\nReading: 42 g. Sensor direction: RIGHT.\nReason: AUTOMATIC LOOP TEST: invented empty-helmet input; no player was hit. 2 recorded hits for #TEST in the preceding 60 minutes. Repeated contact recorded; please check the player.\nRelative helmet-impact telemetry.",
+  "message_send_attempts": 1,
+  "model_investigations": 1,
+  "duplicate_ingest_and_worker_restart_no_resend": true,
+  "live_impact_count_unchanged_by_test": true
+}

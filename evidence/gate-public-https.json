@@ -1,0 +1,152 @@
+{
+  "checked_at_utc": "2026-10-17T22:05:39.502Z",
+  "provider": "ngrok static domain",
+  "public_origin": "https://doornail-crudeness-hemlock.ngrok-free.dev",
+  "mcp_path": "/mcp",
+  "private_access_key_required": true,
+  "blocked_paths": [
+    {
+      "path": "/impact",
+      "status": 404
+    },
+    {
+      "path": "/heartbeat",
+      "status": 404
+    },
+    {
+      "path": "/inspector",
+      "status": 404
+    },
+    {
+      "path": "/sse",
+      "status": 404
+    },
+    {
+      "path": "/mcp-use/widgets/helmet",
+      "status": 404
+    },
+    {
+      "path": "/mcp-use/widgets/practice",
+      "status": 404
+    },
+    {
+      "path": "/mcp/../impact",
+      "status": 404
+    },
+    {
+      "path": "/health",
+      "status": 404
+    }
+  ],
+  "no_key_status": 401,
+  "foreign_origin_status": 403,
+  "browser_gets_blocked_at_gateway": [
+    {
+      "path": "/",
+      "status": 404
+    },
+    {
+      "path": "/impact",
+      "status": 404
+    },
+    {
+      "path": "/heartbeat",
+      "status": 404
+    },
+    {
+      "path": "/health",
+      "status": 404
+    },
+    {
+      "path": "/inspector",
+      "status": 404
+    }
+  ],
+  "provider_browser_warning": {
+    "status": 200,
+    "provider_error_code": "ERR_NGROK_6024",
+    "application_data_exposed": false
+  },
+  "provider_owned_health": null,
+  "tools": [
+    "get_impacts",
+    "flag_for_review",
+    "show_last_hit",
+    "exposure_load",
+    "show_practice_week"
+  ],
+  "history": {
+    "summary": "0 hits in last 10 min.",
+    "count": 0,
+    "hits": [],
+    "truncated": false,
+    "time_basis": "server_received_at; buffered delivery can arrive later than the hit",
+    "last_heartbeats": [
+      {
+        "received_at": "2026-10-17T22:05:38.929Z",
+        "boot_id": "efca8567ce11151a",
+        "calibrated": true,
+        "diagnostic_mode": "normal",
+        "diagnostic_window_peak_g": 0.861379,
+        "dropped_hits": 0,
+        "helmet_id": "helmet-1",
+        "impact_detection_paused": false,
+        "near_miss": {
+          "accel_clipped": false,
+          "age_ms": 1838940,
+          "hardware_shock_observed": false,
+          "id": 1,
+          "longest_raw_axis_above_shock_ms": 0,
+          "max_gap_ms": 2.161,
+          "ms": 237029,
+          "peak_g": 6.910004,
+          "sampled_estimate": true,
+          "samples": 6,
+          "span_above_5g_ms": 2.161
+        },
+        "near_miss_observation": "explicit_probe_only",
+        "player": "#44",
+        "queued_hits": 0,
+        "rssi": -34,
+        "type": "heartbeat",
+        "uptime_ms": 2075969
+      }
+    ],
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides.",
+    "interpretation_rule": "Report recorded helmet telemetry and capture quality only. Do not compare these inner-shell sensor readings with published head-impact thresholds, score injury risk, label a hit safe/light/severe, or recommend return to play. Route review requests to the human trainer."
+  },
+  "widget": {
+    "hit": {
+      "impact_id": 7,
+      "received_at": "2026-10-17T20:53:20.431Z",
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "peak_g": 13.38256,
+      "peak_rot_rads": 3.858879,
+      "peak_rot_dps": 221.0975,
+      "location": "right",
+      "location_validated": false,
+      "location_method": "opposite_peak_acceleration_axis",
+      "location_confidence": null,
+      "location_confidence_basis": null,
+      "gyro_peak_sensor_dps": null,
+      "gyro_axis_frame": null,
+      "quality": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "accel_window_left_censored": false,
+        "initial_pulse_samples": null,
+        "calibration_capture": false
+      }
+    },
+    "notice": "Relative helmet-impact telemetry, not a diagnosis; a human trainer decides.",
+    "interpretation_rule": "Report recorded helmet telemetry and capture quality only. Do not compare these inner-shell sensor readings with published head-impact thresholds, score injury risk, label a hit safe/light/severe, or recommend return to play. Route review requests to the human trainer."
+  },
+  "widget_resource_bytes": 1279499,
+  "widget_assets_inline": true,
+  "stateless_stream_status": 405,
+  "concurrent_history_calls": 3,
+  "messages_sent_by_check": 0
+}

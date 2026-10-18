@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-17T19:16:21.486Z",
+  "read_only": true,
+  "messages_sent": 0,
+  "previous_test_receipt": {
+    "message_id": "846a9739-13ba-4a2f-8ab9-3828f7718a05",
+    "conversation_id": "83f4af3d-1ae6-41db-96d7-10a90ae8236b",
+    "status": "delivered",
+    "service": "imessage",
+    "recipient_delivery_status": "delivered",
+    "delivered_at": "2026-10-17T02:28:59.910Z"
+  }
+}

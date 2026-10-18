@@ -1,0 +1,307 @@
+{
+  "checked_at_utc": "2026-10-17T19:01:43.247997+00:00",
+  "verified_date_local": "2026-10-17",
+  "stage": "Wi-Fi transport to temporary listener verified; no database, MCP or agent added",
+  "topology": {
+    "interface_alias": "Local Area Connection* 4",
+    "state": "On",
+    "helmet_ssid": "Helmet-Agent",
+    "success": true,
+    "checked_at_utc": "2026-10-17T18:59:29.7071860Z",
+    "laptop_listener_ip": "192.168.137.1",
+    "upstream_profile": "Y Combinator",
+    "band": "TwoPointFourGigahertz"
+  },
+  "server": {
+    "bind": "0.0.0.0",
+    "port": 3000,
+    "host_for_firmware": "192.168.137.1",
+    "listener_running_at_closeout": true
+  },
+  "direct_venue_check": {
+    "ssid": "Y Combinator",
+    "feather_2_4_ghz_target_matches": 0,
+    "scan_network_count": 7,
+    "observed_disconnect_reason": 201,
+    "password_matched_laptop_saved_profile": true,
+    "result": "Target SSID not visible to Feather in that scan; Windows radio advertisement was insufficient evidence"
+  },
+  "firmware": {
+    "compile_succeeded": true,
+    "upload_succeeded_hash_verified": true,
+    "program_bytes": 1032457,
+    "globals_bytes": 84136,
+    "application_port": "COM3",
+    "source_sha256": {
+      "firmware/helmet_impact/helmet_impact.ino": "5592c6aedd277eebed4c67db6db7241b36ac09e213f9d9513e11fb6d0b1c84db",
+      "firmware/helmet_impact/WifiDelivery.cpp": "fe5c57b85a1cbc99cef16dea6e1e1f88f65142a4d0f4e41d1adfb4d53d77b55b",
+      "firmware/helmet_impact/WifiDelivery.h": "13428cfc03398f8da861879dc30d09b147c5ba2422e4c3fb894ba5e1b78868be",
+      "firmware/helmet_impact/ImpactMath.h": "35d07e55420d4b4b73a0031470daf4b1eb65365375ab36c149ae26710d2e8929"
+    }
+  },
+  "tests": {
+    "listener_http_contract_tests_passed": 4,
+    "on_device_math_selftest": {
+      "type": "selftest",
+      "passed": 18,
+      "failed": 0,
+      "synthetic_math_only": true
+    }
+  },
+  "calibration": {
+    "unchanged_from_pre_upload": true,
+    "saved": true,
+    "mapping": {
+      "front": 3,
+      "back": -3,
+      "left": -1,
+      "right": 1,
+      "top": -2
+    },
+    "impact_location_validated": false
+  },
+  "real_impact_receipts": [
+    {
+      "received_at": "2026-10-17T11:57:41.027-07:00",
+      "path": "/impact",
+      "source_ip": "192.168.137.226",
+      "duplicate": false,
+      "payload": {
+        "type": "impact",
+        "id": 1,
+        "ms": 111302,
+        "peak_g": 27.14017,
+        "peak_rot_rads": 6.312221,
+        "peak_rot_dps": 361.6636,
+        "location": "back",
+        "location_method": "opposite_peak_acceleration_axis",
+        "location_validated": false,
+        "ax": -1.274,
+        "ay": 3.63825,
+        "az": 26.86502,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "raw_peak_sample_g": 26.78844,
+        "fifo_samples": 32,
+        "gyro_samples": 40,
+        "gyro_window_complete": true,
+        "gyro_max_gap_ms": 2.707,
+        "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+        "timing_estimated": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "calibration_capture": false,
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "boot_id": "674e023dcffb64a0"
+      }
+    },
+    {
+      "received_at": "2026-10-17T11:59:40.121-07:00",
+      "path": "/impact",
+      "source_ip": "192.168.137.80",
+      "duplicate": false,
+      "payload": {
+        "type": "impact",
+        "id": 2,
+        "ms": 202044,
+        "peak_g": 35.32343,
+        "peak_rot_rads": 7.153055,
+        "peak_rot_dps": 409.8399,
+        "location": "back",
+        "location_method": "opposite_peak_acceleration_axis",
+        "location_validated": false,
+        "ax": -9.170656,
+        "ay": 9.620844,
+        "az": 32.72741,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "raw_peak_sample_g": 34.81001,
+        "fifo_samples": 32,
+        "gyro_samples": 41,
+        "gyro_window_complete": true,
+        "gyro_max_gap_ms": 2.698,
+        "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+        "timing_estimated": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "calibration_capture": false,
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "boot_id": "674e023dcffb64a0"
+      }
+    }
+  ],
+  "matching_serial_impacts": [
+    {
+      "type": "impact",
+      "id": 1,
+      "ms": 111302,
+      "peak_g": 27.14017,
+      "peak_rot_rads": 6.312221,
+      "peak_rot_dps": 361.6636,
+      "location": "back",
+      "location_method": "opposite_peak_acceleration_axis",
+      "location_validated": false,
+      "ax": -1.274,
+      "ay": 3.63825,
+      "az": 26.86502,
+      "accel_basis": "rest_baseline_subtracted_g",
+      "raw_peak_sample_g": 26.78844,
+      "fifo_samples": 32,
+      "gyro_samples": 40,
+      "gyro_window_complete": true,
+      "gyro_max_gap_ms": 2.707,
+      "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+      "timing_estimated": true,
+      "accel_clipped": false,
+      "gyro_clipped": false,
+      "calibration_capture": false
+    },
+    {
+      "type": "impact",
+      "id": 2,
+      "ms": 202044,
+      "peak_g": 35.32343,
+      "peak_rot_rads": 7.153055,
+      "peak_rot_dps": 409.8399,
+      "location": "back",
+      "location_method": "opposite_peak_acceleration_axis",
+      "location_validated": false,
+      "ax": -9.170656,
+      "ay": 9.620844,
+      "az": 32.72741,
+      "accel_basis": "rest_baseline_subtracted_g",
+      "raw_peak_sample_g": 34.81001,
+      "fifo_samples": 32,
+      "gyro_samples": 41,
+      "gyro_window_complete": true,
+      "gyro_max_gap_ms": 2.698,
+      "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+      "timing_estimated": true,
+      "accel_clipped": false,
+      "gyro_clipped": false,
+      "calibration_capture": false
+    }
+  ],
+  "serial_payload_preserved_in_network_payload": true,
+  "network_heartbeat_count_at_check": 30,
+  "first_network_heartbeat": {
+    "received_at": "2026-10-17T11:56:03.997-07:00",
+    "path": "/heartbeat",
+    "source_ip": "192.168.137.226",
+    "duplicate": false,
+    "payload": {
+      "type": "heartbeat",
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "boot_id": "674e023dcffb64a0",
+      "uptime_ms": 14281,
+      "rssi": -34,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0
+    }
+  },
+  "latest_network_heartbeat": {
+    "received_at": "2026-10-17T12:01:39.825-07:00",
+    "path": "/heartbeat",
+    "source_ip": "192.168.137.80",
+    "duplicate": false,
+    "payload": {
+      "type": "heartbeat",
+      "helmet_id": "helmet-1",
+      "player": "#44",
+      "boot_id": "674e023dcffb64a0",
+      "uptime_ms": 350181,
+      "rssi": -49,
+      "calibrated": true,
+      "queued_hits": 0,
+      "dropped_hits": 0
+    }
+  },
+  "disconnect_test": {
+    "private_helmet_link_stopped_at_utc": "2026-10-17T18:58:54.9945313Z",
+    "venue_uplink_preserved": true,
+    "captured_while_disconnected_impact_id": 2,
+    "queued_heartbeat_after_reconnect": {
+      "received_at": "2026-10-17T11:59:40.018-07:00",
+      "path": "/heartbeat",
+      "source_ip": "192.168.137.80",
+      "duplicate": false,
+      "payload": {
+        "type": "heartbeat",
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "boot_id": "674e023dcffb64a0",
+        "uptime_ms": 230047,
+        "rssi": -40,
+        "calibrated": true,
+        "queued_hits": 1,
+        "dropped_hits": 0
+      }
+    },
+    "delivery": {
+      "received_at": "2026-10-17T11:59:40.121-07:00",
+      "path": "/impact",
+      "source_ip": "192.168.137.80",
+      "duplicate": false,
+      "payload": {
+        "type": "impact",
+        "id": 2,
+        "ms": 202044,
+        "peak_g": 35.32343,
+        "peak_rot_rads": 7.153055,
+        "peak_rot_dps": 409.8399,
+        "location": "back",
+        "location_method": "opposite_peak_acceleration_axis",
+        "location_validated": false,
+        "ax": -9.170656,
+        "ay": 9.620844,
+        "az": 32.72741,
+        "accel_basis": "rest_baseline_subtracted_g",
+        "raw_peak_sample_g": 34.81001,
+        "fifo_samples": 32,
+        "gyro_samples": 41,
+        "gyro_window_complete": true,
+        "gyro_max_gap_ms": 2.698,
+        "gyro_window_basis": "estimated_fifo_peak_plus_minus_30ms",
+        "timing_estimated": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "calibration_capture": false,
+        "helmet_id": "helmet-1",
+        "player": "#44",
+        "boot_id": "674e023dcffb64a0"
+      }
+    },
+    "same_boot_id_across_disconnect": true,
+    "queue_retention_observed_ms_at_least": 28003,
+    "reported_dropped_hits": 0
+  },
+  "sensor_i2c_errors_after_upload": 0,
+  "observed_gyro_read_hz": [
+    776,
+    798.4
+  ],
+  "firewall": {
+    "checked_at_utc": "2026-10-17T18:54:36.4457920Z",
+    "interface": "Local Area Connection* 4",
+    "local_ip": "192.168.137.1",
+    "program": "C:\\Users\\Small\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "rule_name": "HelmetAgent-Temporary-3000",
+    "remote_address": "LocalSubnet",
+    "port": 3000,
+    "success": true
+  },
+  "secret_file_ignored": true,
+  "serial_monitor_closed": true,
+  "limits": [
+    "Queue is RAM-only and retains at most 50 impacts; the 50-hit capacity was not physically stress-tested",
+    "Two back taps were observed; general hit-location accuracy remains unverified",
+    "NeoPixel behavior is implemented but was not separately visually confirmed by the user",
+    "No SQLite, MCP, Claude, notification loop or cloud deployment was added"
+  ],
+  "next_action": "Transport-only checkpoint complete. Keep the Windows Helmet-Agent 2.4 GHz link and Python listener running. Wait for the user's next stage request. Before a future Node server binds port 3000, stop the temporary Python listener.",
+  "physical_tap_attempts_in_test": 3,
+  "initial_tap_produced_no_serial_impact": true,
+  "impact_detector_threshold_g": 10.14
+}
