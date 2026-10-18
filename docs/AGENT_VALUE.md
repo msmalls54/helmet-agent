@@ -1,10 +1,10 @@
-# Helmet Agent: the demo story
+# Thump: the demo story
 
 **Give an agent a physical event to investigate.**
 
 The agent consumes the sensor records through MCP. The trainer receives a
 specific player and a reason to check them; the coach gets a practice period to
-review. Helmet Agent supplies recorded contact, time and history so the agent
+review. Thump supplies recorded contact, time and history so the agent
 can investigate a question and request attention.
 
 ## Say it in 30 seconds

@@ -1,6 +1,15 @@
 # Current state
 
-Last reconciled: **October 17, 2026**. Start here before changing hardware or
+**Display name: Thump.** The founder selected Thump on October 18. The README
+now features the filmed 99.6 g event (saved event 42), its confirmed phone receipt
+and the authentic matching Claude view. The two-minute video has been restyled
+using Scout Team's black/white palette and the official Inkbox squid/wordmark.
+The source repository URL and existing **Helmet Agent Live Demo** connector label
+remain unchanged. This update changes presentation and documentation; it does
+not establish a fresh live connection or create any impacts/messages. The video
+file is local and has not been publicly uploaded.
+
+Last reconciled: **October 18, 2026** (presentation update). Start here before changing hardware or
 adding demo features. [setup.json](setup.json) is the machine-readable companion;
 dated receipts are snapshots, not a claim that a device is connected now.
 
@@ -15,8 +24,8 @@ See [publication receipt](evidence/github-publication.json) and
 [release maintenance](docs/GITHUB_RELEASE.md) before updating GitHub.
 
 **Product documentation:** the user requested the product README skill. The
-README now leads with the trainer's player/reason/evidence handoff, the real
-44.65 g held-tap receipt and confirmed phone arrival, then the #72 practice
+README now leads with the trainer's player/reason/evidence handoff, the filmed
+99.6 g drop receipt and confirmed phone arrival, then the #72 practice
 pattern. The physical-input hook stays near the opening. Actual current helmet
 and practice screenshots support the story; setup and detailed engineering
 notes follow. Claude reviewed the proposed positioning in a new conversation

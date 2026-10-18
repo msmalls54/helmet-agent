@@ -1,8 +1,8 @@
-# Helmet Agent
+# Thump
 
 **Give the trainer a player to check and the records behind it.**
 
-*Give agents a sense of touch.* Helmet Agent connects a real football helmet
+*Give agents a sense of touch.* Thump connects a real football helmet
 to an agent that checks recent history when review rules flag a reading or a
 short cluster, then sends a specific request to the trainer's phone. ChatGPT
 and Claude can retrieve the same events, show the helmet map and answer
@@ -12,18 +12,18 @@ follow-up questions. Smaller isolated events stay in history without a text.
 **[Open the inspector on the demo laptop](http://localhost:3000/inspector)** ·
 **[Two-minute walkthrough](docs/AGENT_VALUE.md)**
 
-**Demonstrated on the assembled helmet:** one held empty-helmet tap recorded
-**44.65 g at the shell sensor**, started an agent history check and sent a
-**“Check #44”** text. Provider delivery was recorded **9.1 seconds after
-ingestion**, and the user confirmed the message arrived.
-[Inspect the receipt](evidence/controlled-held-rehearsal.json).
+**Demonstrated on the assembled helmet:** a filmed empty-helmet drop recorded
+**99.6 g at the shell sensor** as saved event **42**, started an agent history
+check and sent a **“Check #44”** text. The user confirmed the message arrived;
+Claude retrieved the same event and displayed its matching helmet map.
+[Inspect the receipt](evidence/filmed-demo-event-check.json).
 
-![Real helmet reading and delivery status displayed in Claude](evidence/cumulative-map-claude.jpg)
+![Recorded 99.6 g helmet reading and delivery status displayed in Claude](evidence/demo-helmet-selected-99-6.jpg)
 
 ## From contact to follow-up
 
 A trainer needs to know which player to check, what happened recently and what
-triggered the request. Helmet Agent connects those steps:
+triggered the request. Thump connects those steps:
 
 1. **Record the event.** The helmet sends its sensor reading over Wi-Fi. The
    server saves the player, time, motion data and capture quality under a stable

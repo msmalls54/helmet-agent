@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-10-18T07:18:03.125567+00:00",
+  "data_source": "physical empty-helmet demo",
+  "physical_action": "Filmed empty-helmet drop. The actual phone message and matching saved event were inspected.",
+  "events": [
+    {
+      "impact_id": 42,
+      "received_at": "2026-10-18T07:16:27.057Z",
+      "peak_g": 99.6022,
+      "location": "unknown",
+      "capture": {
+        "fifo_samples": 32,
+        "gyro_window_complete": true,
+        "accel_clipped": false,
+        "gyro_clipped": false,
+        "calibration_capture": false
+      },
+      "alert": {
+        "state": "delivered",
+        "detail": "provider status: delivered",
+        "policy": {
+          "eligible": true,
+          "reason": "large_reading",
+          "thresholds": {
+            "singleG": 40,
+            "clusterCount": 3,
+            "clusterWindowMs": 90000,
+            "clusterMinG": 10,
+            "clusterCooldownMs": 300000
+          },
+          "recent_usable_count": 1,
+          "evidence_ids": [
+            42
+          ],
+          "summary": "99.6 g meets the configured 40 g demo review setting.",
+          "time_basis": "same-boot device milliseconds, through this event; no inferred drill participation",
+          "peer_comparison": "unavailable: this live helmet has no team observation/drill schedule",
+          "interpretation": "Configurable empty-helmet demo review rules, not injury thresholds or a diagnosis. A human trainer decides."
+        }
+      },
+      "agent_trace": [
+        {
+          "tool": "get_impacts",
+          "args": {
+            "player": "#44",
+            "since_minutes": 60
+          }
+        },
+        {
+          "tool": "flag_for_review",
+          "args": {
+            "impact_id": 42,
+            "reason": "large_reading",
+            "evidence_ids": [
+              42
+            ],
+            "observation": "Solitary high-g empty-helmet demo hit on helmet-1 / #44; quality complete, no clipping/censoring; location unknown; no peer or drill context available. Trainer to evaluate."
+          }
+        }
+      ],
+      "text": {
+        "status": "delivered",
+        "delivered_at": "2026-10-18T07:16:35.963Z",
+        "message_text": "Check #44.\nHelmet impact recorded at 12:16 AM.\nReading: 99.6 g.\nReason: Empty-helmet demo. Relative helmet reading reached the 40 g review setting. 9 recorded hits in the past hour. Please check #44.\nRelative helmet-impact telemetry.",
+        "handset_receipt_confirmed": true,
+        "receipt_to_provider_delivery_seconds": 8.906
+      }
+    }
+  ],
+  "handset_receipt_confirmed": true,
+  "new_hits_created_by_publication": 0,
+  "new_texts_sent_by_publication": 0
+}
